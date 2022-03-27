@@ -1,6 +1,6 @@
-# MAC0219/5742 - Programação Concorrente e Paralela (2022)
+# MAC5742 - Programação Concorrente e Paralela (2022)
 
-## EP1
+### EP1
 
 *Problema:* Calcular pi através do método de Monte Carlo em duas linguagens de programação, utilizando pseudo-código fornecido.
 
@@ -17,16 +17,11 @@
 |----------|------|------|------|--------|---------------|
 | Go       | 2000 | 156  | 263  | 158    | 160 ± 5       |
 | CPython  | 100  | 3593 | 4713 | 3649   | 3673 ± 118    |
+
 Conforme o esperado, Go é ~23 vezes mais rápido.
 
-*Fig 1.* Histograma para Go
-[go_hist.png](EP1/out/go_hist.png)
-
-*Fig 2.* Progressão para Go
-[go_prog.png](EP1/out/go_prog.png)
-
-*Fig 3.* Histograma para CPython
-[py_hist.png](EP1/out/py_hist.png)
-
-*Fig 4.* Progressão para CPython
-[py_prog.png](EP1/out/py_prog.png)
+*Gráficos:*
+| Language | Histogram                | Progression              |
+|----------|--------------------------|--------------------------|
+| Go       | ![](EP1/out/go_hist.png) | ![](EP1/out/go_prog.png) |
+| CPython  | ![](EP1/out/py_hist.png) | ![](EP1/out/py_prog.png) |
