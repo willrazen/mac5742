@@ -25,6 +25,7 @@ Conforme o esperado, Go é ~23 vezes mais rápido.
 - Código em Go foi compilado de antemão, já em Python foi executado com interpretador (ver [aqui](EP1/run.sh))
 - Mensuração realizada pelo [Hyperfine](https://github.com/sharkdp/hyperfine), ferramenta própria para benchmarking, trazendo maior confiança nos dados gerados
 - Execução de cada programa por pelo menos 5 minutos
+- Todos os data points estão disponíveis em json [aqui](EP1/out)
 
 *Gráficos:*
 | Language | Histogram                | Progression              |
