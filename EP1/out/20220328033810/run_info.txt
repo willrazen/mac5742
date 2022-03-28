@@ -1,0 +1,10 @@
+go version go1.15.14 linux/amd64
+Benchmark 1: bin/pi
+  Time (mean ± σ):     113.6 ms ±   8.5 ms    [User: 112.2 ms, System: 1.3 ms]
+  Range (min … max):   109.4 ms … 320.9 ms    3000 runs
+ 
+Python 3.7.10
+Benchmark 1: python3 src/main.py
+  Time (mean ± σ):      2.892 s ±  0.052 s    [User: 2.880 s, System: 0.005 s]
+  Range (min … max):    2.843 s …  3.188 s    100 runs
+ 

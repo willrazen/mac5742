@@ -9,18 +9,16 @@ OUT=out/$(date +"%Y%m%d%H%M%S")
 mkdir -p ${OUT}
 INFO=${OUT}/run_info.txt
 
-# prepare go
+# go
 go version > ${INFO}
 go build -o bin/pi src/main.go
+$HF --runs 3000 --export-json ${OUT}/go.json "bin/pi" >> ${INFO}
 
-# prepare python
+# python
 python --version >> ${INFO}
 pip install numpy matplotlib scipy
-
-# run
-$HF --runs 2000 --export-json ${OUT}/go.json "bin/pi"
-$HF --runs 100 --export-json ${OUT}/py.json "python3 src/main.py"
-#$HF --runs 10 --export-json ${OUT}/py_np.json "python3 src/main_np.py"
+$HF --runs 100 --export-json ${OUT}/py.json "python3 src/main.py" >> ${INFO}
+#$HF --runs 10 --export-json ${OUT}/py_np.json "python3 src/main_np.py" >> ${INFO}
 
 # analyze results
 analyze () {

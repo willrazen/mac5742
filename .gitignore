@@ -1,2 +1,3 @@
 hyperfine/*
-!hyperfine/.gitkeep
+EP1/bin/*
+!/**/.gitkeep
