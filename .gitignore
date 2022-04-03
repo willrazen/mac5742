@@ -1,3 +1,4 @@
 hyperfine/*
-EP1/bin/*
+MiniEP1/bin/*
+FlameGraph
 !/**/.gitkeep

@@ -1,0 +1,12 @@
+Command 'python3 src/main.py'
+  runs:        100
+  mean:      2.905 s
+  stddev:    0.134 s
+  median:    2.878 s
+  min:       2.847 s
+  max:       4.085 s
+
+  percentiles:
+     P_05 .. P_95:    2.851 s .. 2.995 s
+     P_25 .. P_75:    2.858 s .. 2.909 s  (IQR = 0.051 s)
+
