@@ -4,8 +4,8 @@ Para melhor visualização e acessar todos os arquivos, visite https://github.co
 
 
 ## Índice
-[Mini EP1](#mini-ep1)
-[Mini EP2](#mini-ep2)
+- [Mini EP1](#mini-ep1)
+- [Mini EP2](#mini-ep2)
 
 
 ## Mini EP1
@@ -57,17 +57,17 @@ Para melhor visualização e acessar todos os arquivos, visite https://github.co
 | 1000 | 44 ± 1             | 43       | 44          | 52            |
 
 *Abordagem:*
-- Através de profiling com ferramentas nativas `go test -bench` e `go tool pprof`, foi identificado que ~72% do tempo foi gasto com a geração de números aleatórios (ver [call-graph](miniep2/out/20220404051435/cpu_graph.svg) e [flame-graph](miniep2/out/20220404051435/cpu_flame.html))
+- Através de profiling com ferramentas nativas `go test -bench` e `go tool pprof`, foi identificado que ~72% do tempo foi gasto com a geração de números aleatórios (ver [call-graph](https://raw.githubusercontent.com/willrazen/mac5742/main/miniep2/out/20220404051435/cpu_graph.svg) e [flame-graph](http://htmlpreview.github.io/?https://github.com/willrazen/mac5742/blob/main/miniep2/out/20220404051435/cpu_flame.html))
 - O módulo nativo `math/rand` já é especialmente [rápido](https://github.com/lukechampine/frand#benchmarks) para 1 thread, porém [outros algoritmos](https://qqq.ninja/blog/post/fast-threadsafe-randomness-in-go/) podem ser ainda mais rápidos
-- Utilizando `github.com/vpxyz/xorshift` foi possível [reduzir ~61%](miniep2/out/20220404051435/stats.txt) do tempo de processamento
-  - Para discussão sobre o algoritmo ver [aqui](https://prng.di.unimi.it/))
+- Utilizando [github.com/vpxyz/xorshift](https://github.com/vpxyz/xorshift) foi possível [reduzir ~61%](miniep2/out/20220404051435/stats.txt) do tempo de processamento
+  - Para discussão sobre o algoritmo ver [aqui](https://prng.di.unimi.it/)
 - Outras otimizações implementadas com pequenos ganhos (~2%) foram:
   - Unroll de iterações
   - Compilação com static-linking
 - No algoritmo vencedor foram combinados [splitmix.go](miniep2/pi/splitmix.go) e [unroll4.go](miniep2/pi/unroll4.go)
 - Foram testados e não trouxeram ganhos:
-  - Remoção de boilerplate e inlining da `math/rand.Float64()`
-  - Compilação e otimização com [gccgo](https://meltware.com/2019/01/16/gccgo-benchmarks-2019.html) (~3x mais devagar)
+  - Remoção de boilerplate e inlining manuais da `math/rand.Float64()`
+  - Compilação e otimização com gccgo (~3x mais devagar, ver [discussão](https://meltware.com/2019/01/16/gccgo-benchmarks-2019.html))
 
 *Gráficos:*
 | Histogram                                     | Progression                             |
