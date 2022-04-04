@@ -1,0 +1,12 @@
+Command 'out/20220404051435/pi_exe'
+  runs:       1000
+  mean:      0.044 s
+  stddev:    0.001 s
+  median:    0.044 s
+  min:       0.043 s
+  max:       0.052 s
+
+  percentiles:
+     P_05 .. P_95:    0.043 s .. 0.047 s
+     P_25 .. P_75:    0.044 s .. 0.044 s  (IQR = 0.000 s)
+

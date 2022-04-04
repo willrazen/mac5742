@@ -1,0 +1,7 @@
+goos: linux
+goarch: amd64
+pkg: miniep2/pi
+BenchmarkOriginal
+BenchmarkOriginal-2   	     609	 109708323 ns/op	    5385 B/op	       1 allocs/op
+PASS
+ok  	miniep2/pi	78.880s

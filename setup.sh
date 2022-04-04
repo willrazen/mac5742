@@ -24,7 +24,10 @@ git clone https://github.com/sharkdp/hyperfine.git tmp/repo
 mv tmp/repo/scripts/ hyperfine/
 rm -rf tmp
 
-# install libs
+# install misc
 pip3 install numpy matplotlib scipy
 sudo yum install -y graphviz
-git clone https://github.com/brendangregg/FlameGraph.git
+#git clone https://github.com/brendangregg/FlameGraph.git
+go get github.com/vpxyz/xorshift
+go get golang.org/x/perf/cmd/benchstat
+go get golang.org/x/tools/cmd/benchcmp

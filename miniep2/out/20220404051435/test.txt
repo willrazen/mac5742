@@ -1,0 +1,14 @@
+=== RUN   TestOriginal
+--- PASS: TestOriginal (0.12s)
+=== RUN   TestUnroll4
+--- PASS: TestUnroll4 (0.11s)
+=== RUN   TestUnroll10
+--- PASS: TestUnroll10 (0.11s)
+=== RUN   TestXoroshiro
+--- PASS: TestXoroshiro (0.05s)
+=== RUN   TestSplitmix
+--- PASS: TestSplitmix (0.05s)
+=== RUN   TestBest
+--- PASS: TestBest (0.05s)
+PASS
+ok  	miniep2/pi	0.479s

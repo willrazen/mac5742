@@ -1,8 +1,0 @@
-=== RUN   TestPi
---- PASS: TestPi (0.14s)
-goos: linux
-goarch: amd64
-BenchmarkPi
-BenchmarkPi-4   	      91	 112079024 ns/op	    5423 B/op	       1 allocs/op
-PASS
-ok  	_/home/ec2-user/environment/mac5742/MiniEP2/src	10.635s

@@ -1,0 +1,23 @@
+name         time/op
+Original-2    108ms ± 2%
+Unroll4-2     107ms ± 1%
+Unroll10-2    106ms ± 1%
+Xoroshiro-2  50.2ms ± 1%
+Splitmix-2   44.1ms ± 1%
+Best-2       42.1ms ± 1%
+
+name         alloc/op
+Original-2   5.38kB ± 0%
+Unroll4-2    5.38kB ± 0%
+Unroll10-2   5.38kB ± 0%
+Xoroshiro-2   0.00B     
+Splitmix-2    0.00B     
+Best-2        0.00B     
+
+name         allocs/op
+Original-2     1.00 ± 0%
+Unroll4-2      1.00 ± 0%
+Unroll10-2     1.00 ± 0%
+Xoroshiro-2    0.00     
+Splitmix-2     0.00     
+Best-2         0.00     

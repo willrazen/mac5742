@@ -2,7 +2,7 @@
 ENV=/home/ec2-user/environment/mac5742
 HF=${ENV}/hyperfine/hyperfine
 SCR=${ENV}/hyperfine/scripts
-cd ${ENV}/MiniEP1
+cd ${ENV}/miniep1
 
 # prepare out
 OUT=out/$(date +"%Y%m%d%H%M%S")

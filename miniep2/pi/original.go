@@ -1,12 +1,9 @@
-package main
+package pi
 
-import (
-	"fmt"
-	"math/rand"
-)
+import "math/rand"
 
 // Estimates pi through monte carlo
-func pi(seed int, runs int) float64 {
+func Original(seed int, runs int) float64 {
 
 	rng := rand.New(rand.NewSource(int64(seed)))
 	hits := 0
@@ -19,8 +16,4 @@ func pi(seed int, runs int) float64 {
 	}
 
 	return float64(4*hits) / float64(runs)
-}
-
-func main() {
-	fmt.Println(pi(2022, 1e7))
 }
