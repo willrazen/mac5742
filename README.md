@@ -73,3 +73,87 @@ Para melhor visualização e acessar todos os arquivos, visite https://github.co
 | Histogram                                     | Progression                             |
 |-----------------------------------------------|-----------------------------------------|
 | ![](miniep2/out/20220404051435/best_hist.png) | ![](miniep2/out/20220404051435/best_prog.png) |
+
+
+## Mini EP3
+
+
+## Mini EP4
+
+*Problema:* Em uma linguagem da sua escolha, escreva um código que faça false 
+sharing e descubra o tamanho de bloco do seu cache.
+
+*Algoritmo implementado:*
+- Go: [miniep4/fs/counters.go](miniep4/fs/counters.go)
+
+*Resultados:*
+- *Gráfico*
+- *Análise do gráfico*
+- Para efeito de comparação, a lib [sys/cpu](https://github.com/golang/sys/blob/master/cpu/cpu.go) 
+fornece um padding **CacheLinePad**, cujo tamanho é hardcoded por arquitetura
+- Para amd64 o CacheLinePad é de 64 bytes, porém vemos no teste que paddings a 
+partir de X bytes já fizeram efeito
+
+*Abordagem:*
+- Baseado em [False Sharing — An example with Go](https://dariodip.medium.com/false-sharing-an-example-with-go-bc7e90594f3f), por Dario Di Pasquale
+- Criamos um tipo com dois uint64 e um método que incrementa esses uints
+- O increment de cada variável é atômico, implementado pela lib sync/atomic
+- Criamos um segundo tipo baseado no primeiro, porém que possui arrays de bytes 
+para padding
+- Para detectar false sharing, criamos uma função **ParrallelInc** que cria
+múltiplas coroutines e executa os incrementos em múltiplas repetições
+- Medimos e comparamos o tempo de execução de cada versão (com e sem padding) 
+enquanto variamos o tamanho dos arrays de padding, para detectar quando acontece
+uma descontinuidade, que marca o ponto em que o caching começa a fazer efeito
+pois o padding excedeu o blocksize
+
+
+## Mini EP5
+
+*Problema*: Experimentar com thread contentions no caso de competição para 
+entrar em seção crítica, com o [código](miniep5/src) em C fornecido, e
+empregar técnicas para reduzir o problema.
+
+1. Faça testes variando o tamanho do vetor, a quantidade de threads e a 
+quantidade de ifs encadeados, mostrando medias e intervalos de confiança dos 
+tempos impressos na saída.
+
+*Resultados:*
+*Abordagem:*
+
+2. Dê um parecer do que você observou nos testes do item anterior. Porque você 
+acha que ocorreu o observado?
+
+*Resultados:*
+*Abordagem:*
+
+3. Explique porque não podemos eliminar o if de dentro da seção crítica quando adicionamos o if de fora.
+
+*Resultados:*
+*Abordagem:*
+
+
+## Mini EP6
+
+*Problema:* Aproveitar o cache para otimizar [código](miniep6/src) fornecido de multiplicação de matrizes.
+
+**Sem blocagem**
+1. Mostre, com embasamento estatístico, a variação de tempo entre matrix_dgemm_1 
+e sua implementação de matrix_dgemm_0. Houve melhora no tempo de execução? 
+Explique porque.
+
+*Resultados:*
+*Abordagem:*
+
+**Com blocagem**
+2. Mostre, com embasamento estatístico, a variação de tempo entre matrix_dgemm_2 
+e sua implementação de matrix_dgemm_1. Houve melhora no tempo de execução? 
+Explique porque.
+
+*Resultados:*
+*Abordagem:*
+
+3. Como você usou a blocagem para melhorar a velocidade da multiplicação de 
+matrizes?
+
+*Abordagem:*
