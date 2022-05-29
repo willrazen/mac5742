@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 )
 
-const padBytes = 5
+const padBytes = 137
 
 type Counter interface {
 	Increment()

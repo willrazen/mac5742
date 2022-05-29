@@ -3,7 +3,7 @@ package fs
 import "testing"
 
 const nThreads = 4
-const reps = 1000000
+const reps = 100000
 
 func BenchmarkNoPad(b *testing.B) {
 	counter := &NotPaddedCounter{}
