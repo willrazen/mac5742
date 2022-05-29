@@ -2,3 +2,4 @@ hyperfine/*
 MiniEP1/bin/*
 FlameGraph
 !/**/.gitkeep
+/**/.DS_Store
