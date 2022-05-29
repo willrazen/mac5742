@@ -89,13 +89,20 @@ sharing e descubra o tamanho de bloco do seu cache.
 *Resultados:*
 - *Gráfico*
 - *Análise do gráfico*
+- Vamos que temos alta variância nas medidas, possivelmente causada por 
+estarmos rodando num sistema bare metal com muitos outros processos rodando ao 
+mesmo tempo
 - Para efeito de comparação, a lib [sys/cpu](https://github.com/golang/sys/blob/master/cpu/cpu.go) 
 fornece um padding **CacheLinePad**, cujo tamanho é hardcoded por arquitetura
-- Para amd64 o CacheLinePad é de 64 bytes, porém vemos no teste que paddings a 
-partir de X bytes já fizeram efeito
+- Para amd64 o cpu.CacheLinePad padrão é de 64 bytes, porém vemos no teste que 
+o tamanho real é menor
 
 *Abordagem:*
-- Baseado em [False Sharing — An example with Go](https://dariodip.medium.com/false-sharing-an-example-with-go-bc7e90594f3f), por Dario Di Pasquale
+- Precisamos de uma máquina bare metal, pois a instância t3.micro que estávamos 
+utilizando nos EPs anteriores é virtualizada e não apresentou efeitos de cache
+- Utilizaremos um processador Intel i7 com 2.5 GHz, 4 cores (8 hyperthreads), 
+e L1 de 32KB
+- Código baseado em [False Sharing — An example with Go](https://dariodip.medium.com/false-sharing-an-example-with-go-bc7e90594f3f), por Dario Di Pasquale
 - Criamos um tipo com dois uint64 e um método que incrementa esses uints
 - O increment de cada variável é atômico, implementado pela lib sync/atomic
 - Criamos um segundo tipo baseado no primeiro, porém que possui arrays de bytes 
@@ -106,6 +113,8 @@ múltiplas coroutines e executa os incrementos em múltiplas repetições
 enquanto variamos o tamanho dos arrays de padding, para detectar quando acontece
 uma descontinuidade, que marca o ponto em que o caching começa a fazer efeito
 pois o padding excedeu o blocksize
+- Nos testes utilizamos 4 coroutines, 100k increments, padding entre 1 e 
+137 bytes e 100 runs por padding
 
 
 ## Mini EP5
