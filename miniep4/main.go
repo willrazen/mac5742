@@ -1,7 +1,17 @@
 package main
 
-import "miniep4/fs"
+import (
+	"flag"
+	"miniep4/fs"
+)
 
 func main() {
-	fs.Info()
+	var showOffset bool
+	flag.BoolVar(&showOffset, "off", false, "Shows offset.")
+	flag.Parse()
+	if showOffset {
+		fs.ShowOffset()
+	} else {
+		fs.SysInfo()
+	}
 }

@@ -1,6 +1,8 @@
 package fs
 
-import "testing"
+import (
+	"testing"
+)
 
 const nThreads = 4
 const reps = 100000

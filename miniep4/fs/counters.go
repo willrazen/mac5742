@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 )
 
-const padBytes = 137
+const padBytes = 1
 
 type Counter interface {
 	Increment()
@@ -14,24 +14,22 @@ type Counter interface {
 type NotPaddedCounter struct {
 	v1 uint64
 	v2 uint64
-	_  [256]byte
 }
 
 type PaddedCounter struct {
 	v1 uint64
-	p1 [padBytes]byte
+	_  [padBytes]byte
 	v2 uint64
-	p2 [padBytes]byte
 }
 
-func (pc *NotPaddedCounter) Increment() {
-	atomic.AddUint64(&pc.v1, 1)
-	atomic.AddUint64(&pc.v2, 1)
+func (c *NotPaddedCounter) Increment() {
+	atomic.AddUint64(&c.v1, 1)
+	atomic.AddUint64(&c.v2, 1)
 }
 
-func (pc *PaddedCounter) Increment() {
-	atomic.AddUint64(&pc.v1, 1)
-	atomic.AddUint64(&pc.v2, 1)
+func (c *PaddedCounter) Increment() {
+	atomic.AddUint64(&c.v1, 1)
+	atomic.AddUint64(&c.v2, 1)
 }
 
 func ParallelInc(c Counter, nThreads int, reps int) {
