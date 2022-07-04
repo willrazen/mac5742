@@ -166,3 +166,14 @@ Explique porque.
 matrizes?
 
 *Abordagem:*
+
+
+## Mini EP7
+
+
+## EP1
+
+
+## DeepSpeed & ZeRO
+
+https://pitch.com/public/6eb2013a-ee70-4792-a912-cb43e0ca196b
