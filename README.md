@@ -382,3 +382,8 @@ Mandelbrot, utilizando diferentes parâmetros, e analisar resultados.
 *Abordagem:*
 - Não utilizar O2, para ver efeitos mais puros da paralelização
 - Opções de compilação Wall e pedantic para eliminar qualquer problema
+
+
+## DeepSpeed & ZeRO
+
+https://pitch.com/public/6eb2013a-ee70-4792-a912-cb43e0ca196b
