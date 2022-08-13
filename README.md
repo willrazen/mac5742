@@ -163,17 +163,17 @@ empregar técnicas para reduzir o problema.
 quantidade de ifs encadeados, mostrando medias e intervalos de confiança dos 
 tempos impressos na saída.
 
->*Abordagem:*
->- Testamos todas as combinações dos valores abaixo para cada parâmetro:
->  - num_ifs=(0 1 2 4 8 16 32 64 128 256 512 1024)
->  - num_threads=(1 2 4 8 16 32 64 128 256 512 1024)
->  - array_size=(1 10 100 1000 10000 100000)
->- Para cada combinação, rodamos o programa 100 vezes para obter os dados que 
+*Abordagem:*
+- Testamos todas as combinações dos valores abaixo para cada parâmetro:
+  - num_ifs=(0 1 2 4 8 16 32 64 128 256 512 1024)
+  - num_threads=(1 2 4 8 16 32 64 128 256 512 1024)
+  - array_size=(1 10 100 1000 10000 100000)
+- Para cada combinação, rodamos o programa 100 vezes para obter os dados que 
 constam nos gráficos abaixo, gerados com [miniep5/analysis.ipynb](miniep5/analysis.ipynb)
->- Vale notar que `seq 1 0` tem comportamento diferente em Linux e em MacOS, 
+- Vale notar que `seq 1 0` tem comportamento diferente em Linux e em MacOS, 
 então tivemos que corrigir um bug no Makefile original
->
->*Resultados (análise após gráficos):*
+
+*Resultados (análise após gráficos):*
 ![](miniep5/out/20220731101132/1.png)
 ![](miniep5/out/20220731101132/10.png)
 ![](miniep5/out/20220731101132/100.png)
@@ -181,35 +181,35 @@ então tivemos que corrigir um bug no Makefile original
 ![](miniep5/out/20220731101132/10000.png)
 ![](miniep5/out/20220731101132/100000.png)
 ![](miniep5/out/20220731101132/1000000.png)
->- Cada gráfico possui as seguintes características:
->  - Array size fixo, conforme o título
->  - Número de ifs no eixo x (escala ordinal)
->  - Média do tempo de execução em segundos no eixo y (escala logarítmica)
->  - Uma linha para cada número de threads, sendo que as mais claras 
->  representam números de threads menores
->  - Faixa ao redor de cada linha é o intervalo de confiança para nível de 
->  confiança de 95%
+- Cada gráfico possui as seguintes características:
+  - Array size fixo, conforme o título
+  - Número de ifs no eixo x (escala ordinal)
+  - Média do tempo de execução em segundos no eixo y (escala logarítmica)
+  - Uma linha para cada número de threads, sendo que as mais claras 
+  representam números de threads menores
+  - Faixa ao redor de cada linha é o intervalo de confiança para nível de 
+  confiança de 95%
 
 2. Dê um parecer do que você observou nos testes do item anterior. Porque você 
 acha que ocorreu o observado?
 
->- Para tamanhos de array pequenos, utilizar muitas threads não é vantajoso 
+- Para tamanhos de array pequenos, utilizar muitas threads não é vantajoso 
 por causa do overhead do multithreading
->- Para tamanhos de array grandes, quando não temos ifs notamos uma grande perda 
+- Para tamanhos de array grandes, quando não temos ifs notamos uma grande perda 
 de performance devido a lock contention
->- Em geral 1 if já é suficiente para eliminar o problema de lock contention, 
+- Em geral 1 if já é suficiente para eliminar o problema de lock contention, 
 e muito mais do que isso praticamente não faz diferença (e pode até piorar a 
 performance)
->- Em geral 8 threads é a melhor escolha, o que faz sentido pois nossa CPU 
+- Em geral 8 threads é a melhor escolha, o que faz sentido pois nossa CPU 
 possui 8 hyperthreads, exceto nos casos com arrays extremamente pequenos, em 
 que menos threads já podem ser suficientes
 
 3. Explique porque não podemos eliminar o if de dentro da seção crítica quando 
 adicionamos o if de fora.
 
->- Pois apenas dentro da seção crítica garantimos que o teste da condição dará 
+- Pois apenas dentro da seção crítica garantimos que o teste da condição dará 
 o resultado mais atualizado possível
->- Por exemplo, pode ser que, depois do if de fora mas antes de obter o lock, 
+- Por exemplo, pode ser que, depois do if de fora mas antes de obter o lock, 
 alguma outra thread atualize a condição e invalide o resultado anterior 
 (também conhecido como race condition)
 
@@ -228,15 +228,15 @@ multiplicação de matrizes.
 - *Obs:* O código fornecido originalmente utilizava aligned_alloc, porém não a 
 temos disponível em nossa stdlib, então modificamos para posix_memalign
 
-
 **Sem blocagem**
+
 1. Mostre, com embasamento estatístico, a variação de tempo entre matrix_dgemm_1 
 e sua implementação de matrix_dgemm_0. Houve melhora no tempo de execução? 
 Explique porque.
 
 - Testamos todas as permutações dos cursores i, j e k para alterar a ordem de 
 execução
-- A permutação ikj apresentou 9.4 de speedup em relação à ordem tradicional
+- A permutação ikj apresentou 9.358 de speedup em relação à ordem original
 - Isso ocorre pois, por iterar em k antes de j, estamos carregando valores 
 adjacentes no cache
 
@@ -252,6 +252,7 @@ adjacentes no cache
 ![](miniep6/out/20220725014352/order.png)
 
 **Com blocagem**
+
 2. Mostre, com embasamento estatístico, a variação de tempo entre matrix_dgemm_2 
 e sua implementação de matrix_dgemm_1. Houve melhora no tempo de execução? 
 Explique porque.
@@ -266,8 +267,9 @@ são múltiplas das dimensões das matrizes
 - Devido ao grande número de combinações possíveis, realizamos os experimentos 
 iniciais com N=1024 e testamos combinações de dimensões de blocagem para 
 potências de 2
-- Identificamos que blocos de 256x4 para a matriz A e 4x512 para a matriz B 
-obteve speedup de 1.221 em relação à versão sem blocagem
+- Identificamos que a melhor performance foi obtida com dimensões de 256x4 para 
+blocos da matriz A e de 4x512 para blocos da matriz B, com speedup de 1.221 em 
+relação à versão sem blocagem
 
 |   Ah |   Aw |   Bh |   Bw |   obs |   min[s] |  mean[s] |    ±stddev |        ±ci |   speedup |
 |-----:|-----:|-----:|-----:|------:|---------:|---------:|-----------:|-----------:|----------:|
