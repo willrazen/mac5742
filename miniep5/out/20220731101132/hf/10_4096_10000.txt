@@ -1,0 +1,4 @@
+Benchmark 1: out/20220731101132/contention 4096 10000
+  Time (mean ± σ):     197.9 ms ±   3.4 ms    [User: 35.4 ms, System: 324.1 ms]
+  Range (min … max):   189.1 ms … 212.3 ms    100 runs
+ 

@@ -1,0 +1,42 @@
+-------------
+ORDER = ijk
+
+Benchmark 1: out/20220725014352/alg1
+  Time (mean ± σ):      7.271 s ±  0.034 s    [User: 7.189 s, System: 0.041 s]
+  Range (min … max):    7.247 s …  7.361 s    10 runs
+ 
+-------------
+ORDER = ikj
+
+Benchmark 1: out/20220725014352/alg1
+  Time (mean ± σ):     777.0 ms ±  20.9 ms    [User: 758.5 ms, System: 12.4 ms]
+  Range (min … max):   760.2 ms … 824.1 ms    10 runs
+ 
+-------------
+ORDER = jik
+
+Benchmark 1: out/20220725014352/alg1
+  Time (mean ± σ):      7.320 s ±  0.047 s    [User: 7.232 s, System: 0.041 s]
+  Range (min … max):    7.272 s …  7.404 s    10 runs
+ 
+-------------
+ORDER = jki
+
+Benchmark 1: out/20220725014352/alg1
+  Time (mean ± σ):     16.357 s ±  0.089 s    [User: 16.179 s, System: 0.082 s]
+  Range (min … max):   16.210 s … 16.465 s    10 runs
+ 
+-------------
+ORDER = kij
+
+Benchmark 1: out/20220725014352/alg1
+  Time (mean ± σ):     872.7 ms ±  29.9 ms    [User: 851.4 ms, System: 13.7 ms]
+  Range (min … max):   812.6 ms … 910.8 ms    10 runs
+ 
+-------------
+ORDER = kji
+
+Benchmark 1: out/20220725014352/alg1
+  Time (mean ± σ):     16.684 s ±  0.355 s    [User: 16.502 s, System: 0.084 s]
+  Range (min … max):   16.324 s … 17.389 s    10 runs
+ 

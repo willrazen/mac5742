@@ -1,0 +1,8 @@
+CPU = 8 threads
+GOMAXPROCS = 8 threads
+CacheLinePad = 64 bytes
+hw.cachelinesize: 64
+hw.l1icachesize: 32768
+hw.l1dcachesize: 32768
+hw.l2cachesize: 262144
+hw.l3cachesize: 6291456
