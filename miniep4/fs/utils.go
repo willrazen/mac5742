@@ -14,7 +14,7 @@ func SysInfo() {
 	fmt.Println("CacheLinePad =", unsafe.Sizeof(*x), "bytes")
 }
 
-func ShowOffset() {
-	c := &PaddedCounter{}
-	fmt.Println(unsafe.Offsetof(c.v2))
+func StructInfo() {
+	c := &Counter{}
+	fmt.Printf("%d,%d", unsafe.Offsetof(c.v2), unsafe.Sizeof(*c))
 }

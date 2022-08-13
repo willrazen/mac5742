@@ -2,7 +2,7 @@ sudo yum -y update
 
 # paths
 ENV=/home/ec2-user/environment/mac5742
-cd ${ENV}
+cd ${ENV}/miniep1
 
 # get info
 INFO=env_info.txt
@@ -19,6 +19,7 @@ ARQ=x86_64-unknown-linux-musl
 mkdir -p tmp
 wget https://github.com/sharkdp/hyperfine/releases/download/${VER}/hyperfine-${VER}-${ARQ}.tar.gz -O tmp/hyperfine.tar.gz
 tar -xzvf tmp/hyperfine.tar.gz -C tmp
+mkdir -p hyperfine
 mv tmp/hyperfine-${VER}-${ARQ}/* hyperfine/
 git clone https://github.com/sharkdp/hyperfine.git tmp/repo
 mv tmp/repo/scripts/ hyperfine/

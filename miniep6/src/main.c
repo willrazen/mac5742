@@ -74,9 +74,7 @@ int main(int argc, const char* argv[])
     /* Aqui, restrict quer dizer que o apontador não terá "aliasing".
      * Procure por "pointer aliasing" no google.
      */
-    double *restrict A; /* Matriz A */
-    double *restrict B;
-    double *restrict C;
+    double *restrict A, *restrict B, *restrict C = NULL;
 
 	struct timeval t1, t2, t3;
 
@@ -90,9 +88,10 @@ int main(int argc, const char* argv[])
 
     n = args->matrix_size;
 
-    A = aligned_alloc(8, n*n*sizeof(*A)); /* Aloque memória com alinhamento de 8 bytes */
-    B = aligned_alloc(8, n*n*sizeof(*B));
-    C = aligned_alloc(8, n*n*sizeof(*C));
+    /* Aloque memória com alinhamento de 8 bytes */
+    posix_memalign((void **)&A, 8, n*n*sizeof(*A));
+    posix_memalign((void **)&B, 8, n*n*sizeof(*B));
+    posix_memalign((void **)&C, 8, n*n*sizeof(*C));
 
     if (!(A && B && C))
     {

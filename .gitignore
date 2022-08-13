@@ -1,4 +1,5 @@
-hyperfine/*
+/**/hyperfine
+/**/venv
 MiniEP1/bin/*
 FlameGraph
 !/**/.gitkeep

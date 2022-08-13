@@ -6,12 +6,13 @@ import (
 )
 
 func main() {
-	var showOffset bool
-	flag.BoolVar(&showOffset, "off", false, "Shows offset.")
+	var info string
+	flag.StringVar(&info, "info", "", "Print info. Options: sys, struct")
 	flag.Parse()
-	if showOffset {
-		fs.ShowOffset()
-	} else {
+	switch info {
+	case "sys":
 		fs.SysInfo()
+	case "struct":
+		fs.StructInfo()
 	}
 }

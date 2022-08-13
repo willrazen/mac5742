@@ -46,9 +46,11 @@ void matrix_dgemm_1(int n, double *restrict _C, double *restrict _A, double *res
     #define B(i, j) _B[n*(i) + (j)]
     #define C(i, j) _C[n*(i) + (j)]
 
-    /* Aqui você não deve usar blocagem. Seu código deve ser BEM mais rápido
-     * que o anterior (cerca de 10x). */
-    /* Seu código aqui. */
+    for (int i = 0; i < n; ++i)
+    for (int k = 0; k < n; ++k)
+    for (int j = 0; j < n; ++j) {
+        C(i, j) += A(i, k)*B(k, j);
+    }
 
     #undef A
     #undef B
@@ -67,6 +69,19 @@ void matrix_dgemm_2(int n, double *restrict _C, double *restrict _A, double *res
      * apenas 1 segundo ou 2.
      */
     /* Seu código aqui. */
+
+    int i, j, k, ii, jj, kk;
+    int Ah = 160, Aw = 4, Bw = 512;
+
+    for(ii = 0; ii < n; ii += Ah) {
+    for(kk = 0; kk < n; kk += Aw) {
+    for(jj = 0; jj < n; jj += Bw) {
+    for(i = ii; (i < ii + Ah) && (i < n); ++i)
+    for(k = kk; (k < kk + Aw) && (k < n); ++k)
+    for(j = jj; (j < jj + Bw) && (j < n); ++j)
+    {
+        C(i, j) += A(i, k)*B(k, j);
+    }}}}
 
     #undef A
     #undef B

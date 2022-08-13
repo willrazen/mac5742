@@ -1,3 +1,0 @@
-CPU = 8 threads
-GOMAXPROCS = 8 threads
-CacheLinePad = 64 bytes

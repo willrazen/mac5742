@@ -1,7 +1,7 @@
 # paths
 ENV=/home/ec2-user/environment/mac5742
-HF=${ENV}/hyperfine/hyperfine
-SCR=${ENV}/hyperfine/scripts
+HF=${ENV}/miniep1/hyperfine/hyperfine
+SCR=${ENV}/miniep1/hyperfine/scripts
 cd ${ENV}/miniep2
 
 # prepare out
