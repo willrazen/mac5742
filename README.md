@@ -14,6 +14,9 @@ Para melhor visualização e acessar todos os arquivos, visite https://github.co
 - [Mini EP4](#mini-ep4)
 - [Mini EP5](#mini-ep5)
 - [Mini EP6](#mini-ep6)
+- [Mini EP7](#mini-ep7) (WIP)
+- [EP1](#ep1) (WIP)
+- [Seminário](#seminário)
 
 
 ## Mini EP1
@@ -50,6 +53,9 @@ Para melhor visualização e acessar todos os arquivos, visite https://github.co
 | Go       | ![](miniep1/out/20220328033810/go_hist.png) | ![](miniep1/out/20220328033810/go_prog.png) |
 | CPython  | ![](miniep1/out/20220328033810/py_hist.png) | ![](miniep1/out/20220328033810/py_prog.png) |
 
+*Voltar ao [índice](#índice)*
+
+---
 
 ## Mini EP2
 
@@ -82,6 +88,9 @@ Para melhor visualização e acessar todos os arquivos, visite https://github.co
 |-----------------------------------------------|-----------------------------------------|
 | ![](miniep2/out/20220404051435/best_hist.png) | ![](miniep2/out/20220404051435/best_prog.png) |
 
+*Voltar ao [índice](#índice)*
+
+---
 
 ## Mini EP3
 
@@ -111,6 +120,10 @@ licenciadas
 - Sua governança é realizada pela instituição sem fins lucrativos RISC-V 
 International, incorporada na Suíça, sendo que a comunidade acadêmica pode se 
 tornar membro sem taxas (empresas com fins lucrativos realizam contribuição)
+
+*Voltar ao [índice](#índice)*
+
+---
 
 ## Mini EP4
 
@@ -152,6 +165,9 @@ experimento
   - Gerado com [miniep4/analysis.ipynb](miniep4/analysis.ipynb)
   - A faixa azul é o intervalo de confiança para nível de confiança de 95%
 
+*Voltar ao [índice](#índice)*
+
+---
 
 ## Mini EP5
 
@@ -213,6 +229,9 @@ o resultado mais atualizado possível
 alguma outra thread atualize a condição e invalide o resultado anterior 
 (também conhecido como race condition)
 
+*Voltar ao [índice](#índice)*
+
+---
 
 ## Mini EP6
 
@@ -362,6 +381,9 @@ tamanho de bloco para A 256x4x8B=8Kib
 
 ![](miniep6/out/20220725014352/lstopo.svg)
 
+*Voltar ao [índice](#índice)*
+
+---
 
 ## Mini EP7
 
@@ -374,6 +396,9 @@ resultados.
 
 A entrega é um relatório sobre os resultados encontrados com até duas páginas
 
+*Voltar ao [índice](#índice)*
+
+---
 
 ## EP1
 
@@ -385,7 +410,17 @@ Mandelbrot, utilizando diferentes parâmetros, e analisar resultados.
 - Não utilizar O2, para ver efeitos mais puros da paralelização
 - Opções de compilação Wall e pedantic para eliminar qualquer problema
 
+*Voltar ao [índice](#índice)*
 
-## DeepSpeed & ZeRO
+---
 
-https://pitch.com/public/6eb2013a-ee70-4792-a912-cb43e0ca196b
+## Seminário
+
+**DeepSpeed & ZeRO:** Treino distribuído eficiente de redes neurais com bilhões de parâmetros em GPUs
+- Apresentação: https://pitch.com/public/6eb2013a-ee70-4792-a912-cb43e0ca196b
+- PDF: [DeepSpeed & ZeRO.pdf](DeepSpeed%20&%20ZeRO.pdf)
+
+*Voltar ao [índice](#índice)*
+
+---
+
