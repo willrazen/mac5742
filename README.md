@@ -406,9 +406,132 @@ A entrega é um relatório sobre os resultados encontrados com até duas página
 [código](ep1/src/mandelbrot_seq.c) fornecido que calcula o Conjunto de 
 Mandelbrot, utilizando diferentes parâmetros, e analisar resultados.
 
+*Algoritmos implementados:*
+- [Sequencial](ep1/src/mandelbrot_seq.c) (apenas modificações para facilitar 
+experimentos)
+- [Pthreads](ep1/src/mandelbrot_pth.c)
+- [OpenMP](ep1/src/mandelbrot_omp.c)
+
 *Abordagem:*
-- Não utilizar O2, para ver efeitos mais puros da paralelização
-- Opções de compilação Wall e pedantic para eliminar qualquer problema
+- Como boa parte do código já nos foi fornecido, demarcamos nossas modificações 
+com comentários `START CHANGES` e `END CHANGES` em cada arquivo .c
+- Para facilitar os testes, realizamos as seguintes melhorias:
+  - Criamos código em [run.sh](ep1/run.sh) para validação automática das 
+  imagens geradas, para garantir resultados corretos
+  - No [Makefile](ep1/src/Makefile), adicionamos opções NUM_THREADS, para 
+  alterar o número de threads, e BENCH, para desabilitar I/O e alocações de 
+  memória
+  - Alteramos a função `init` em todos os arquivos .c para tornar possível 
+  escolher a região apenas pelo seu nome simplificado (full, seahorse, elephant, 
+  spiral), sem precisar escrever os intervalos, por exemplo 
+  `./mandelbrot_omp seahorse 1024`. Vale notar que chamar com valores númericos 
+  do jeito original ainda funciona
+- Na compilação:
+  - Utilizamos sempre as opções Wall e pedantic para detectar qualquer warning
+  - Não utilizamos a opção O2, para ver efeitos mais puros da paralelização
+- Nossa abordagem para paralelização em ambas as versões foi:
+  1. Cada thread escolhe um pedaço da imagem acordo com seu ID
+  1. Cada thread realiza os cálculos sequencialmente em seu pedaço
+  1. Cada thread atualiza a imagem final com seus resultados
+  1. Main espera todas as threads terminarem antes de escrever a imagem em 
+  disco
+  - *Obs:* não utilizamos locks, pois cada pixel só é atualizado uma vez
+- Para os experimentos, variamos os parâmetros de acordo com a seguinte tabela:
+
+| Parâmetro                 | Pthreads e OpenMP                       | Sequencial |
+|---------------------------|-----------------------------------------|------------|
+| Regiões                   | Full, Elephant, Seahorse, Triple Spiral | idem       |
+| I/O e Alocação de Memória | Sem                                     | Com, Sem   |
+| Threads                   | 2<sup>0</sup> a 2<sup>5</sup>           | 1          |
+| Tamanho da entrada        | 2<sup>4</sup> a 2<sup>13</sup>          | idem       |
+| Execuções                 | 10                                      | idem       |
+
+*Resultados:*
+- Dados estão em [dados.csv](ep1/out/20220718004929/dados.csv)
+- Análises constam após gráficos abaixo
+    - Faixa ao redor de cada linha é o intervalo de confiança para nível de 
+confiança de 95%
+    - Tempos em segundos (note a escala logarítmica)
+
+**Full Picture**
+
+![](ep1/out/20220718004929/plot_full.png)
+![](ep1/out/20220718004929/plot_full_seq.png)
+![](ep1/out/20220718004929/plot_full_pth.png)
+![](ep1/out/20220718004929/plot_full_ope.png)
+![](ep1/out/20220718004929/plot_full_speedups.png)
+
+**Seahorse Valley**
+
+![](ep1/out/20220718004929/plot_seahorse.png)
+![](ep1/out/20220718004929/plot_seahorse_seq.png)
+![](ep1/out/20220718004929/plot_seahorse_pth.png)
+![](ep1/out/20220718004929/plot_seahorse_ope.png)
+![](ep1/out/20220718004929/plot_seahorse_speedups.png)
+
+**Elephant Valley**
+
+![](ep1/out/20220718004929/plot_elephant.png)
+![](ep1/out/20220718004929/plot_elephant_seq.png)
+![](ep1/out/20220718004929/plot_elephant_pth.png)
+![](ep1/out/20220718004929/plot_elephant_ope.png)
+![](ep1/out/20220718004929/plot_elephant_speedups.png)
+
+**Triple Spiral Valley**
+
+![](ep1/out/20220718004929/plot_spiral.png)
+![](ep1/out/20220718004929/plot_spiral_seq.png)
+![](ep1/out/20220718004929/plot_spiral_pth.png)
+![](ep1/out/20220718004929/plot_spiral_ope.png)
+![](ep1/out/20220718004929/plot_spiral_speedups.png)
+
+
+1. Como e por que as três versões do programa se comportam com a variação:
+
+- *Do tamanho da entrada?*
+>- O tempo médio de execução aumenta quadraticamente com o tamanho de entrada, 
+proporcionalmente ao o número de pixels da imagem
+>- Podemos observar empiricamente esse efeito nos gráficos:
+>   - A partir de 256 de tamanho, ao dobrá-lo a média de tempo de execução 
+aproximadamente quadruplica
+>   - Abaixo desse tamanho outros efeitos se tornam preponderantes, como a 
+dificuldade do OS de medir operações tão rápidas
+>- Considerando o número máximo de threads (32), a partir de 2048 de tamanho 
+os speedups das versões paralelas se estabilizam ao redor de 5 (a depender da 
+região), possivelmente por demorarem tempo o suficiente para que 
+overheads se tornem menos relevantes
+>- Outra observação interessante é que até ao redor de 1024 de comprimento 
+Pthreads é mais eficiente do que OpenMP, porém para entradas maiores OpenMP 
+ganha. Isso mostra que não existe ferramenta perfeita, e que a melhor solução 
+depende do problema
+
+- *Das regiões do Conjunto de Mandelbrot?*
+>- Como a full picture possui uma grande área em que não é necessário realizar 
+iterações (por estar fora do raio máximo), o tempo de execução consegue ser 
+aproximadamente 1/4 do das outras regiões
+
+- *Do número de threads?*
+>- Por mais que tenhamos 8 hyperthreads, temos apenas 4 CPUs, então é de
+se esperar que nossos speedups máximos fiquem entre 4 e 8, conforme o observado
+>- Nas regiões de vale, vemos que praticamente não obtemos mais benefícios ao 
+aumentar de 16 para 32 threads. Porém, para a full picture ainda há uma boa 
+margem, possivelmente por um desbalanceamento da dificuldade de cada chunk. 
+Isso sugere duas possibilidades de melhoria:
+>   - Aumentar ainda mais o número de threads
+>   - Escolher outra maneira de realizar o chunking, para que o esforço de cada 
+thread fique mais balanceado
+
+2. Qual o impacto das operações de I/O e alocação de memória no tempo de execução?
+>- Nos gráficos de barra acima, vemos que speedup do algoritmo sequencial com 
+essas operações fica entre 0.489, no caso da full picture para tamanho de 8192, e 
+0.993, no caso do elephant valley para tamanho 16
+>- Notamos que, exceto para a full picture, esse custo se estabiliza ao redor de 
+10% conforme o tamanho de entrada aumenta
+>- Porém, na full picture, o custo de estabiliza ao redor de 50%. Como a full 
+picture é mais fácil de calcular, por ter uma ampla região fora do raio máximo, 
+proporcionalmente as operações de I/O e alocação de memória tomam mais tempo, 
+diminuindo o speedup
+
 
 *Voltar ao [índice](#índice)*
 

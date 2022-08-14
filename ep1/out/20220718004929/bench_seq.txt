@@ -1,0 +1,401 @@
+Benchmark 1: ./mandelbrot_seq full 16
+  Time (mean ± σ):       2.9 ms ±   0.2 ms    [User: 0.9 ms, System: 0.9 ms]
+  Range (min … max):     2.7 ms …   3.1 ms    10 runs
+ 
+Benchmark 2: ./mandelbrot_seq seahorse 16
+  Time (mean ± σ):       3.1 ms ±   0.1 ms    [User: 1.2 ms, System: 0.9 ms]
+  Range (min … max):     2.9 ms …   3.2 ms    10 runs
+ 
+Benchmark 3: ./mandelbrot_seq elephant 16
+  Time (mean ± σ):       3.2 ms ±   0.2 ms    [User: 1.2 ms, System: 0.9 ms]
+  Range (min … max):     3.0 ms …   3.4 ms    10 runs
+ 
+Benchmark 4: ./mandelbrot_seq spiral 16
+  Time (mean ± σ):       3.2 ms ±   0.3 ms    [User: 1.2 ms, System: 1.0 ms]
+  Range (min … max):     2.8 ms …   3.6 ms    10 runs
+ 
+Benchmark 5: ./mandelbrot_seq full 16
+  Time (mean ± σ):       2.6 ms ±   0.1 ms    [User: 0.9 ms, System: 0.7 ms]
+  Range (min … max):     2.5 ms …   2.8 ms    10 runs
+ 
+Benchmark 6: ./mandelbrot_seq seahorse 16
+  Time (mean ± σ):       3.0 ms ±   0.2 ms    [User: 1.2 ms, System: 0.8 ms]
+  Range (min … max):     2.7 ms …   3.4 ms    10 runs
+ 
+Benchmark 7: ./mandelbrot_seq elephant 16
+  Time (mean ± σ):       3.2 ms ±   0.3 ms    [User: 1.2 ms, System: 0.8 ms]
+  Range (min … max):     2.6 ms …   3.6 ms    10 runs
+ 
+Benchmark 8: ./mandelbrot_seq spiral 16
+  Time (mean ± σ):       3.0 ms ±   0.4 ms    [User: 1.2 ms, System: 0.7 ms]
+  Range (min … max):     2.6 ms …   3.9 ms    10 runs
+ 
+Benchmark 9: ./mandelbrot_seq full 32
+  Time (mean ± σ):       3.2 ms ±   0.2 ms    [User: 1.1 ms, System: 1.0 ms]
+  Range (min … max):     2.7 ms …   3.5 ms    10 runs
+ 
+Benchmark 10: ./mandelbrot_seq seahorse 32
+  Time (mean ± σ):       4.1 ms ±   0.2 ms    [User: 2.1 ms, System: 0.9 ms]
+  Range (min … max):     3.8 ms …   4.3 ms    10 runs
+ 
+Benchmark 11: ./mandelbrot_seq elephant 32
+  Time (mean ± σ):       4.1 ms ±   0.3 ms    [User: 2.1 ms, System: 1.0 ms]
+  Range (min … max):     3.8 ms …   4.7 ms    10 runs
+ 
+Benchmark 12: ./mandelbrot_seq spiral 32
+  Time (mean ± σ):       4.4 ms ±   0.3 ms    [User: 2.3 ms, System: 1.0 ms]
+  Range (min … max):     4.0 ms …   4.8 ms    10 runs
+ 
+Benchmark 13: ./mandelbrot_seq full 32
+  Time (mean ± σ):       2.8 ms ±   0.3 ms    [User: 1.0 ms, System: 0.8 ms]
+  Range (min … max):     2.5 ms …   3.4 ms    10 runs
+ 
+Benchmark 14: ./mandelbrot_seq seahorse 32
+  Time (mean ± σ):       3.9 ms ±   0.3 ms    [User: 2.0 ms, System: 0.8 ms]
+  Range (min … max):     3.7 ms …   4.7 ms    10 runs
+ 
+Benchmark 15: ./mandelbrot_seq elephant 32
+  Time (mean ± σ):       3.8 ms ±   0.3 ms    [User: 2.0 ms, System: 0.8 ms]
+  Range (min … max):     3.4 ms …   4.5 ms    10 runs
+ 
+Benchmark 16: ./mandelbrot_seq spiral 32
+  Time (mean ± σ):       3.9 ms ±   0.3 ms    [User: 2.1 ms, System: 0.7 ms]
+  Range (min … max):     3.6 ms …   4.6 ms    10 runs
+ 
+Benchmark 17: ./mandelbrot_seq full 64
+  Time (mean ± σ):       4.2 ms ±   0.2 ms    [User: 2.0 ms, System: 1.1 ms]
+  Range (min … max):     3.8 ms …   4.6 ms    10 runs
+ 
+Benchmark 18: ./mandelbrot_seq seahorse 64
+  Time (mean ± σ):       8.3 ms ±   0.3 ms    [User: 6.0 ms, System: 1.2 ms]
+  Range (min … max):     8.0 ms …   8.9 ms    10 runs
+ 
+Benchmark 19: ./mandelbrot_seq elephant 64
+  Time (mean ± σ):      10.9 ms ±   7.0 ms    [User: 6.1 ms, System: 1.3 ms]
+  Range (min … max):     7.7 ms …  30.4 ms    10 runs
+ 
+Benchmark 20: ./mandelbrot_seq spiral 64
+  Time (mean ± σ):       8.7 ms ±   0.2 ms    [User: 6.5 ms, System: 1.1 ms]
+  Range (min … max):     8.5 ms …   9.2 ms    10 runs
+ 
+Benchmark 21: ./mandelbrot_seq full 64
+  Time (mean ± σ):       3.2 ms ±   0.1 ms    [User: 1.5 ms, System: 0.7 ms]
+  Range (min … max):     3.0 ms …   3.4 ms    10 runs
+ 
+Benchmark 22: ./mandelbrot_seq seahorse 64
+  Time (mean ± σ):       7.3 ms ±   0.3 ms    [User: 5.4 ms, System: 0.8 ms]
+  Range (min … max):     6.9 ms …   7.9 ms    10 runs
+ 
+Benchmark 23: ./mandelbrot_seq elephant 64
+  Time (mean ± σ):       7.8 ms ±   0.7 ms    [User: 5.5 ms, System: 1.0 ms]
+  Range (min … max):     6.9 ms …   8.5 ms    10 runs
+ 
+Benchmark 24: ./mandelbrot_seq spiral 64
+  Time (mean ± σ):       8.2 ms ±   0.2 ms    [User: 6.2 ms, System: 0.9 ms]
+  Range (min … max):     7.9 ms …   8.5 ms    10 runs
+ 
+Benchmark 25: ./mandelbrot_seq full 128
+  Time (mean ± σ):       7.7 ms ±   0.3 ms    [User: 5.3 ms, System: 1.3 ms]
+  Range (min … max):     7.1 ms …   8.0 ms    10 runs
+ 
+Benchmark 26: ./mandelbrot_seq seahorse 128
+  Time (mean ± σ):      23.5 ms ±   0.8 ms    [User: 21.0 ms, System: 1.4 ms]
+  Range (min … max):    22.7 ms …  25.5 ms    10 runs
+ 
+Benchmark 27: ./mandelbrot_seq elephant 128
+  Time (mean ± σ):      23.9 ms ±   0.8 ms    [User: 21.0 ms, System: 1.5 ms]
+  Range (min … max):    23.0 ms …  25.1 ms    10 runs
+ 
+Benchmark 28: ./mandelbrot_seq spiral 128
+  Time (mean ± σ):      25.5 ms ±   0.4 ms    [User: 23.1 ms, System: 1.2 ms]
+  Range (min … max):    25.0 ms …  26.0 ms    10 runs
+ 
+Benchmark 29: ./mandelbrot_seq full 128
+  Time (mean ± σ):       5.1 ms ±   0.2 ms    [User: 3.3 ms, System: 0.7 ms]
+  Range (min … max):     4.8 ms …   5.4 ms    10 runs
+ 
+Benchmark 30: ./mandelbrot_seq seahorse 128
+  Time (mean ± σ):      21.3 ms ±   0.4 ms    [User: 19.2 ms, System: 0.9 ms]
+  Range (min … max):    20.8 ms …  22.1 ms    10 runs
+ 
+Benchmark 31: ./mandelbrot_seq elephant 128
+  Time (mean ± σ):      20.0 ms ±   0.5 ms    [User: 18.1 ms, System: 0.8 ms]
+  Range (min … max):    19.3 ms …  21.1 ms    10 runs
+ 
+Benchmark 32: ./mandelbrot_seq spiral 128
+  Time (mean ± σ):      24.3 ms ±   1.4 ms    [User: 22.3 ms, System: 0.8 ms]
+  Range (min … max):    23.0 ms …  27.9 ms    10 runs
+ 
+Benchmark 33: ./mandelbrot_seq full 256
+  Time (mean ± σ):      22.0 ms ±   0.8 ms    [User: 18.5 ms, System: 2.1 ms]
+  Range (min … max):    21.0 ms …  23.4 ms    10 runs
+ 
+Benchmark 34: ./mandelbrot_seq seahorse 256
+  Time (mean ± σ):      83.9 ms ±   2.2 ms    [User: 79.7 ms, System: 2.3 ms]
+  Range (min … max):    81.0 ms …  87.1 ms    10 runs
+ 
+Benchmark 35: ./mandelbrot_seq elephant 256
+  Time (mean ± σ):      81.4 ms ±   2.3 ms    [User: 77.5 ms, System: 2.3 ms]
+  Range (min … max):    78.9 ms …  85.0 ms    10 runs
+ 
+Benchmark 36: ./mandelbrot_seq spiral 256
+  Time (mean ± σ):      94.1 ms ±   2.8 ms    [User: 90.0 ms, System: 2.4 ms]
+  Range (min … max):    90.6 ms …  99.0 ms    10 runs
+ 
+Benchmark 37: ./mandelbrot_seq full 256
+  Time (mean ± σ):      13.5 ms ±   0.4 ms    [User: 11.1 ms, System: 1.2 ms]
+  Range (min … max):    12.9 ms …  14.3 ms    10 runs
+ 
+Benchmark 38: ./mandelbrot_seq seahorse 256
+  Time (mean ± σ):      78.9 ms ±   1.9 ms    [User: 75.9 ms, System: 1.3 ms]
+  Range (min … max):    76.9 ms …  82.8 ms    10 runs
+ 
+Benchmark 39: ./mandelbrot_seq elephant 256
+  Time (mean ± σ):      73.6 ms ±   1.6 ms    [User: 71.2 ms, System: 1.0 ms]
+  Range (min … max):    71.6 ms …  76.5 ms    10 runs
+ 
+Benchmark 40: ./mandelbrot_seq spiral 256
+  Time (mean ± σ):      86.9 ms ±   1.6 ms    [User: 84.5 ms, System: 1.1 ms]
+  Range (min … max):    84.9 ms …  91.0 ms    10 runs
+ 
+Benchmark 41: ./mandelbrot_seq full 512
+  Time (mean ± σ):      95.5 ms ±  32.8 ms    [User: 78.5 ms, System: 7.7 ms]
+  Range (min … max):    77.9 ms … 182.4 ms    10 runs
+ 
+Benchmark 42: ./mandelbrot_seq seahorse 512
+  Time (mean ± σ):     343.7 ms ±  11.9 ms    [User: 330.1 ms, System: 8.0 ms]
+  Range (min … max):   326.0 ms … 365.8 ms    10 runs
+ 
+Benchmark 43: ./mandelbrot_seq elephant 512
+  Time (mean ± σ):     331.7 ms ±  24.5 ms    [User: 318.3 ms, System: 8.4 ms]
+  Range (min … max):   304.9 ms … 383.5 ms    10 runs
+ 
+Benchmark 44: ./mandelbrot_seq spiral 512
+  Time (mean ± σ):     379.9 ms ±   9.8 ms    [User: 368.1 ms, System: 7.8 ms]
+  Range (min … max):   369.0 ms … 401.4 ms    10 runs
+ 
+Benchmark 45: ./mandelbrot_seq full 512
+  Time (mean ± σ):      48.7 ms ±   4.1 ms    [User: 45.3 ms, System: 1.5 ms]
+  Range (min … max):    42.7 ms …  54.5 ms    10 runs
+ 
+Benchmark 46: ./mandelbrot_seq seahorse 512
+  Time (mean ± σ):     297.2 ms ±   6.7 ms    [User: 293.6 ms, System: 1.7 ms]
+  Range (min … max):   282.5 ms … 306.9 ms    10 runs
+ 
+Benchmark 47: ./mandelbrot_seq elephant 512
+  Time (mean ± σ):     281.7 ms ±   7.9 ms    [User: 277.9 ms, System: 1.7 ms]
+  Range (min … max):   263.9 ms … 289.0 ms    10 runs
+ 
+Benchmark 48: ./mandelbrot_seq spiral 512
+  Time (mean ± σ):     324.7 ms ±   6.0 ms    [User: 322.4 ms, System: 1.0 ms]
+  Range (min … max):   318.1 ms … 338.3 ms    10 runs
+ 
+Benchmark 49: ./mandelbrot_seq full 1024
+  Time (mean ± σ):     302.9 ms ±   5.3 ms    [User: 275.6 ms, System: 19.0 ms]
+  Range (min … max):   296.5 ms … 314.9 ms    10 runs
+ 
+Benchmark 50: ./mandelbrot_seq seahorse 1024
+  Time (mean ± σ):      1.303 s ±  0.030 s    [User: 1.270 s, System: 0.024 s]
+  Range (min … max):    1.255 s …  1.346 s    10 runs
+ 
+Benchmark 51: ./mandelbrot_seq elephant 1024
+  Time (mean ± σ):      1.243 s ±  0.024 s    [User: 1.211 s, System: 0.023 s]
+  Range (min … max):    1.208 s …  1.281 s    10 runs
+ 
+Benchmark 52: ./mandelbrot_seq spiral 1024
+  Time (mean ± σ):      1.560 s ±  0.084 s    [User: 1.516 s, System: 0.030 s]
+  Range (min … max):    1.456 s …  1.687 s    10 runs
+ 
+Benchmark 53: ./mandelbrot_seq full 1024
+  Time (mean ± σ):     177.4 ms ±   3.3 ms    [User: 174.3 ms, System: 1.3 ms]
+  Range (min … max):   174.0 ms … 184.7 ms    10 runs
+ 
+Benchmark 54: ./mandelbrot_seq seahorse 1024
+  Time (mean ± σ):      1.147 s ±  0.039 s    [User: 1.142 s, System: 0.002 s]
+  Range (min … max):    1.117 s …  1.248 s    10 runs
+ 
+Benchmark 55: ./mandelbrot_seq elephant 1024
+  Time (mean ± σ):      1.077 s ±  0.023 s    [User: 1.072 s, System: 0.002 s]
+  Range (min … max):    1.050 s …  1.118 s    10 runs
+ 
+Benchmark 56: ./mandelbrot_seq spiral 1024
+  Time (mean ± σ):      1.289 s ±  0.030 s    [User: 1.284 s, System: 0.002 s]
+  Range (min … max):    1.262 s …  1.345 s    10 runs
+ 
+Benchmark 57: ./mandelbrot_seq full 2048
+  Time (mean ± σ):      1.181 s ±  0.012 s    [User: 1.088 s, System: 0.072 s]
+  Range (min … max):    1.164 s …  1.198 s    10 runs
+ 
+Benchmark 58: ./mandelbrot_seq seahorse 2048
+  Time (mean ± σ):      5.075 s ±  0.041 s    [User: 4.955 s, System: 0.086 s]
+  Range (min … max):    5.014 s …  5.143 s    10 runs
+ 
+Benchmark 59: ./mandelbrot_seq elephant 2048
+  Time (mean ± σ):      4.822 s ±  0.052 s    [User: 4.717 s, System: 0.083 s]
+  Range (min … max):    4.739 s …  4.884 s    10 runs
+ 
+Benchmark 60: ./mandelbrot_seq spiral 2048
+  Time (mean ± σ):      5.717 s ±  0.077 s    [User: 5.607 s, System: 0.084 s]
+  Range (min … max):    5.622 s …  5.845 s    10 runs
+ 
+Benchmark 61: ./mandelbrot_seq full 2048
+  Time (mean ± σ):     623.2 ms ±  20.4 ms    [User: 616.4 ms, System: 1.9 ms]
+  Range (min … max):   600.3 ms … 659.3 ms    10 runs
+ 
+Benchmark 62: ./mandelbrot_seq seahorse 2048
+  Time (mean ± σ):      4.573 s ±  0.092 s    [User: 4.554 s, System: 0.006 s]
+  Range (min … max):    4.453 s …  4.793 s    10 runs
+ 
+Benchmark 63: ./mandelbrot_seq elephant 2048
+  Time (mean ± σ):      4.283 s ±  0.032 s    [User: 4.272 s, System: 0.005 s]
+  Range (min … max):    4.245 s …  4.346 s    10 runs
+ 
+Benchmark 64: ./mandelbrot_seq spiral 2048
+  Time (mean ± σ):      5.188 s ±  0.112 s    [User: 5.170 s, System: 0.008 s]
+  Range (min … max):    5.059 s …  5.427 s    10 runs
+ 
+Benchmark 65: ./mandelbrot_seq full 4096
+  Time (mean ± σ):      4.726 s ±  0.033 s    [User: 4.321 s, System: 0.310 s]
+  Range (min … max):    4.677 s …  4.772 s    10 runs
+ 
+Benchmark 66: ./mandelbrot_seq seahorse 4096
+  Time (mean ± σ):     20.281 s ±  0.605 s    [User: 19.858 s, System: 0.335 s]
+  Range (min … max):   20.001 s … 21.974 s    10 runs
+ 
+Benchmark 67: ./mandelbrot_seq elephant 4096
+  Time (mean ± σ):     19.085 s ±  0.161 s    [User: 18.682 s, System: 0.328 s]
+  Range (min … max):   18.970 s … 19.505 s    10 runs
+ 
+Benchmark 68: ./mandelbrot_seq spiral 4096
+  Time (mean ± σ):     22.584 s ±  0.195 s    [User: 22.197 s, System: 0.326 s]
+  Range (min … max):   22.454 s … 22.984 s    10 runs
+ 
+Benchmark 69: ./mandelbrot_seq full 4096
+  Time (mean ± σ):      2.403 s ±  0.037 s    [User: 2.398 s, System: 0.003 s]
+  Range (min … max):    2.375 s …  2.494 s    10 runs
+ 
+Benchmark 70: ./mandelbrot_seq seahorse 4096
+  Time (mean ± σ):     17.738 s ±  0.082 s    [User: 17.722 s, System: 0.007 s]
+  Range (min … max):   17.685 s … 17.959 s    10 runs
+ 
+Benchmark 71: ./mandelbrot_seq elephant 4096
+  Time (mean ± σ):     16.734 s ±  0.088 s    [User: 16.717 s, System: 0.008 s]
+  Range (min … max):   16.683 s … 16.978 s    10 runs
+ 
+Benchmark 72: ./mandelbrot_seq spiral 4096
+  Time (mean ± σ):     20.259 s ±  0.127 s    [User: 20.235 s, System: 0.011 s]
+  Range (min … max):   20.169 s … 20.555 s    10 runs
+ 
+Benchmark 73: ./mandelbrot_seq full 8192
+  Time (mean ± σ):     19.400 s ±  0.209 s    [User: 17.737 s, System: 1.341 s]
+  Range (min … max):   19.153 s … 19.765 s    10 runs
+ 
+Benchmark 74: ./mandelbrot_seq seahorse 8192
+  Time (mean ± σ):     80.510 s ±  0.558 s    [User: 78.921 s, System: 1.343 s]
+  Range (min … max):   80.140 s … 81.917 s    10 runs
+ 
+Benchmark 75: ./mandelbrot_seq elephant 8192
+  Time (mean ± σ):     76.236 s ±  0.555 s    [User: 74.708 s, System: 1.314 s]
+  Range (min … max):   75.924 s … 77.799 s    10 runs
+ 
+Benchmark 76: ./mandelbrot_seq spiral 8192
+  Time (mean ± σ):     90.199 s ±  0.623 s    [User: 88.654 s, System: 1.321 s]
+  Range (min … max):   89.868 s … 91.947 s    10 runs
+ 
+Benchmark 77: ./mandelbrot_seq full 8192
+  Time (mean ± σ):      9.484 s ±  0.038 s    [User: 9.474 s, System: 0.005 s]
+  Range (min … max):    9.453 s …  9.587 s    10 runs
+ 
+Benchmark 78: ./mandelbrot_seq seahorse 8192
+  Time (mean ± σ):     70.824 s ±  0.101 s    [User: 70.762 s, System: 0.030 s]
+  Range (min … max):   70.751 s … 71.106 s    10 runs
+ 
+Benchmark 79: ./mandelbrot_seq elephant 8192
+  Time (mean ± σ):     66.737 s ±  0.062 s    [User: 66.678 s, System: 0.028 s]
+  Range (min … max):   66.662 s … 66.823 s    10 runs
+ 
+Benchmark 80: ./mandelbrot_seq spiral 8192
+  Time (mean ± σ):     80.712 s ±  0.099 s    [User: 80.643 s, System: 0.034 s]
+  Range (min … max):   80.628 s … 80.973 s    10 runs
+ 
+Summary
+  './mandelbrot_seq full 16' ran
+    1.08 ± 0.14 times faster than './mandelbrot_seq full 32'
+    1.09 ± 0.08 times faster than './mandelbrot_seq full 16'
+    1.14 ± 0.09 times faster than './mandelbrot_seq seahorse 16'
+    1.14 ± 0.15 times faster than './mandelbrot_seq spiral 16'
+    1.17 ± 0.06 times faster than './mandelbrot_seq seahorse 16'
+    1.20 ± 0.13 times faster than './mandelbrot_seq elephant 16'
+    1.21 ± 0.11 times faster than './mandelbrot_seq spiral 16'
+    1.21 ± 0.08 times faster than './mandelbrot_seq elephant 16'
+    1.22 ± 0.09 times faster than './mandelbrot_seq full 32'
+    1.23 ± 0.07 times faster than './mandelbrot_seq full 64'
+    1.45 ± 0.13 times faster than './mandelbrot_seq elephant 32'
+    1.49 ± 0.13 times faster than './mandelbrot_seq seahorse 32'
+    1.49 ± 0.13 times faster than './mandelbrot_seq spiral 32'
+    1.56 ± 0.09 times faster than './mandelbrot_seq seahorse 32'
+    1.58 ± 0.12 times faster than './mandelbrot_seq elephant 32'
+    1.61 ± 0.11 times faster than './mandelbrot_seq full 64'
+    1.68 ± 0.12 times faster than './mandelbrot_seq spiral 32'
+    1.95 ± 0.10 times faster than './mandelbrot_seq full 128'
+    2.79 ± 0.17 times faster than './mandelbrot_seq seahorse 64'
+    2.92 ± 0.15 times faster than './mandelbrot_seq full 128'
+    2.97 ± 0.29 times faster than './mandelbrot_seq elephant 64'
+    3.13 ± 0.14 times faster than './mandelbrot_seq spiral 64'
+    3.16 ± 0.16 times faster than './mandelbrot_seq seahorse 64'
+    3.32 ± 0.15 times faster than './mandelbrot_seq spiral 64'
+    4.14 ± 2.66 times faster than './mandelbrot_seq elephant 64'
+    5.13 ± 0.24 times faster than './mandelbrot_seq full 256'
+    7.61 ± 0.35 times faster than './mandelbrot_seq elephant 128'
+    8.10 ± 0.34 times faster than './mandelbrot_seq seahorse 128'
+    8.37 ± 0.43 times faster than './mandelbrot_seq full 256'
+    8.97 ± 0.46 times faster than './mandelbrot_seq seahorse 128'
+    9.09 ± 0.46 times faster than './mandelbrot_seq elephant 128'
+    9.26 ± 0.64 times faster than './mandelbrot_seq spiral 128'
+    9.72 ± 0.39 times faster than './mandelbrot_seq spiral 128'
+   18.58 ± 1.72 times faster than './mandelbrot_seq full 512'
+   28.04 ± 1.22 times faster than './mandelbrot_seq elephant 256'
+   30.05 ± 1.35 times faster than './mandelbrot_seq seahorse 256'
+   31.03 ± 1.45 times faster than './mandelbrot_seq elephant 256'
+   31.97 ± 1.48 times faster than './mandelbrot_seq seahorse 256'
+   33.13 ± 1.38 times faster than './mandelbrot_seq spiral 256'
+   35.85 ± 1.72 times faster than './mandelbrot_seq spiral 256'
+   36.39 ± 12.59 times faster than './mandelbrot_seq full 512'
+   67.63 ± 2.84 times faster than './mandelbrot_seq full 1024'
+  107.36 ± 5.04 times faster than './mandelbrot_seq elephant 512'
+  113.28 ± 4.96 times faster than './mandelbrot_seq seahorse 512'
+  115.46 ± 4.78 times faster than './mandelbrot_seq full 1024'
+  123.77 ± 5.18 times faster than './mandelbrot_seq spiral 512'
+  126.43 ± 10.46 times faster than './mandelbrot_seq elephant 512'
+  130.98 ± 6.70 times faster than './mandelbrot_seq seahorse 512'
+  144.80 ± 6.61 times faster than './mandelbrot_seq spiral 512'
+  237.54 ± 11.84 times faster than './mandelbrot_seq full 2048'
+  410.50 ± 17.76 times faster than './mandelbrot_seq elephant 1024'
+  437.09 ± 22.10 times faster than './mandelbrot_seq seahorse 1024'
+  449.95 ± 17.50 times faster than './mandelbrot_seq full 2048'
+  473.85 ± 19.94 times faster than './mandelbrot_seq elephant 1024'
+  491.30 ± 21.67 times faster than './mandelbrot_seq spiral 1024'
+  496.66 ± 21.89 times faster than './mandelbrot_seq seahorse 1024'
+  594.40 ± 39.00 times faster than './mandelbrot_seq spiral 1024'
+  915.97 ± 37.20 times faster than './mandelbrot_seq full 4096'
+ 1632.18 ± 62.51 times faster than './mandelbrot_seq elephant 2048'
+ 1742.77 ± 74.21 times faster than './mandelbrot_seq seahorse 2048'
+ 1801.25 ± 68.85 times faster than './mandelbrot_seq full 4096'
+ 1837.97 ± 71.84 times faster than './mandelbrot_seq elephant 2048'
+ 1934.23 ± 74.31 times faster than './mandelbrot_seq seahorse 2048'
+ 1977.24 ± 85.67 times faster than './mandelbrot_seq spiral 2048'
+ 2178.81 ± 86.96 times faster than './mandelbrot_seq spiral 2048'
+ 3614.75 ± 136.56 times faster than './mandelbrot_seq full 8192'
+ 6377.60 ± 241.89 times faster than './mandelbrot_seq elephant 4096'
+ 6760.49 ± 255.87 times faster than './mandelbrot_seq seahorse 4096'
+ 7273.69 ± 280.07 times faster than './mandelbrot_seq elephant 4096'
+ 7393.81 ± 288.96 times faster than './mandelbrot_seq full 8192'
+ 7721.20 ± 294.04 times faster than './mandelbrot_seq spiral 4096'
+ 7729.63 ± 370.70 times faster than './mandelbrot_seq seahorse 4096'
+ 8607.40 ± 331.78 times faster than './mandelbrot_seq spiral 4096'
+25434.99 ± 955.78 times faster than './mandelbrot_seq elephant 8192'
+26992.95 ± 1014.75 times faster than './mandelbrot_seq seahorse 8192'
+29055.31 ± 1111.82 times faster than './mandelbrot_seq elephant 8192'
+30684.42 ± 1172.14 times faster than './mandelbrot_seq seahorse 8192'
+30761.41 ± 1156.20 times faster than './mandelbrot_seq spiral 8192'
+34377.19 ± 1313.09 times faster than './mandelbrot_seq spiral 8192'

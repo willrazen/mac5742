@@ -1,0 +1,2401 @@
+Benchmark 1: ./mandelbrot_pth full 16
+  Time (mean ± σ):       2.7 ms ±   0.4 ms    [User: 0.9 ms, System: 0.8 ms]
+  Range (min … max):     2.3 ms …   3.3 ms    10 runs
+ 
+Benchmark 2: ./mandelbrot_omp full 16
+  Time (mean ± σ):       3.0 ms ±   0.6 ms    [User: 1.1 ms, System: 0.8 ms]
+  Range (min … max):     2.5 ms …   4.4 ms    10 runs
+ 
+Benchmark 3: ./mandelbrot_pth seahorse 16
+  Time (mean ± σ):       2.8 ms ±   0.2 ms    [User: 1.1 ms, System: 0.7 ms]
+  Range (min … max):     2.5 ms …   3.3 ms    10 runs
+ 
+Benchmark 4: ./mandelbrot_omp seahorse 16
+  Time (mean ± σ):       3.2 ms ±   0.2 ms    [User: 1.3 ms, System: 0.8 ms]
+  Range (min … max):     2.9 ms …   3.5 ms    10 runs
+ 
+Benchmark 5: ./mandelbrot_pth elephant 16
+  Time (mean ± σ):       3.0 ms ±   0.3 ms    [User: 1.2 ms, System: 0.8 ms]
+  Range (min … max):     2.7 ms …   3.5 ms    10 runs
+ 
+Benchmark 6: ./mandelbrot_omp elephant 16
+  Time (mean ± σ):       3.1 ms ±   0.3 ms    [User: 1.3 ms, System: 0.8 ms]
+  Range (min … max):     2.9 ms …   3.6 ms    10 runs
+ 
+Benchmark 7: ./mandelbrot_pth spiral 16
+  Time (mean ± σ):       4.3 ms ±   3.3 ms    [User: 1.3 ms, System: 0.9 ms]
+  Range (min … max):     2.7 ms …  13.3 ms    10 runs
+ 
+Benchmark 8: ./mandelbrot_omp spiral 16
+  Time (mean ± σ):       3.3 ms ±   0.1 ms    [User: 1.4 ms, System: 0.8 ms]
+  Range (min … max):     3.2 ms …   3.5 ms    10 runs
+ 
+Benchmark 9: ./mandelbrot_pth full 16
+  Time (mean ± σ):       2.8 ms ±   0.2 ms    [User: 0.9 ms, System: 0.9 ms]
+  Range (min … max):     2.4 ms …   3.1 ms    10 runs
+ 
+Benchmark 10: ./mandelbrot_omp full 16
+  Time (mean ± σ):       3.1 ms ±   0.2 ms    [User: 1.2 ms, System: 0.9 ms]
+  Range (min … max):     2.9 ms …   3.5 ms    10 runs
+ 
+Benchmark 11: ./mandelbrot_pth seahorse 16
+  Time (mean ± σ):       2.9 ms ±   0.3 ms    [User: 1.2 ms, System: 0.8 ms]
+  Range (min … max):     2.5 ms …   3.3 ms    10 runs
+ 
+Benchmark 12: ./mandelbrot_omp seahorse 16
+  Time (mean ± σ):       3.2 ms ±   0.3 ms    [User: 1.4 ms, System: 0.9 ms]
+  Range (min … max):     2.9 ms …   3.9 ms    10 runs
+ 
+Benchmark 13: ./mandelbrot_pth elephant 16
+  Time (mean ± σ):       2.9 ms ±   0.2 ms    [User: 1.2 ms, System: 0.8 ms]
+  Range (min … max):     2.6 ms …   3.4 ms    10 runs
+ 
+Benchmark 14: ./mandelbrot_omp elephant 16
+  Time (mean ± σ):       3.1 ms ±   0.3 ms    [User: 1.4 ms, System: 0.8 ms]
+  Range (min … max):     2.8 ms …   3.8 ms    10 runs
+ 
+Benchmark 15: ./mandelbrot_pth spiral 16
+  Time (mean ± σ):       2.9 ms ±   0.2 ms    [User: 1.3 ms, System: 0.8 ms]
+  Range (min … max):     2.5 ms …   3.2 ms    10 runs
+ 
+Benchmark 16: ./mandelbrot_omp spiral 16
+  Time (mean ± σ):       3.2 ms ±   0.3 ms    [User: 1.4 ms, System: 0.9 ms]
+  Range (min … max):     2.7 ms …   3.7 ms    10 runs
+ 
+Benchmark 17: ./mandelbrot_pth full 16
+  Time (mean ± σ):       2.8 ms ±   0.3 ms    [User: 1.0 ms, System: 0.9 ms]
+  Range (min … max):     2.5 ms …   3.3 ms    10 runs
+ 
+Benchmark 18: ./mandelbrot_omp full 16
+  Time (mean ± σ):       3.2 ms ±   0.3 ms    [User: 1.3 ms, System: 1.0 ms]
+  Range (min … max):     3.0 ms …   3.9 ms    10 runs
+ 
+Benchmark 19: ./mandelbrot_pth seahorse 16
+  Time (mean ± σ):       2.9 ms ±   0.2 ms    [User: 1.3 ms, System: 0.9 ms]
+  Range (min … max):     2.7 ms …   3.2 ms    10 runs
+ 
+Benchmark 20: ./mandelbrot_omp seahorse 16
+  Time (mean ± σ):       3.2 ms ±   0.2 ms    [User: 1.5 ms, System: 1.0 ms]
+  Range (min … max):     3.1 ms …   3.7 ms    10 runs
+ 
+Benchmark 21: ./mandelbrot_pth elephant 16
+  Time (mean ± σ):       2.9 ms ±   0.3 ms    [User: 1.3 ms, System: 0.9 ms]
+  Range (min … max):     2.8 ms …   3.8 ms    10 runs
+ 
+Benchmark 22: ./mandelbrot_omp elephant 16
+  Time (mean ± σ):       3.2 ms ±   0.2 ms    [User: 1.4 ms, System: 1.0 ms]
+  Range (min … max):     2.7 ms …   3.4 ms    10 runs
+ 
+Benchmark 23: ./mandelbrot_pth spiral 16
+  Time (mean ± σ):       2.9 ms ±   0.3 ms    [User: 1.3 ms, System: 0.9 ms]
+  Range (min … max):     2.7 ms …   3.6 ms    10 runs
+ 
+Benchmark 24: ./mandelbrot_omp spiral 16
+  Time (mean ± σ):       3.3 ms ±   0.3 ms    [User: 1.5 ms, System: 1.0 ms]
+  Range (min … max):     2.8 ms …   3.7 ms    10 runs
+ 
+Benchmark 25: ./mandelbrot_pth full 16
+  Time (mean ± σ):       2.8 ms ±   0.2 ms    [User: 1.0 ms, System: 1.0 ms]
+  Range (min … max):     2.4 ms …   3.1 ms    10 runs
+ 
+Benchmark 26: ./mandelbrot_omp full 16
+  Time (mean ± σ):       3.1 ms ±   0.3 ms    [User: 1.3 ms, System: 1.2 ms]
+  Range (min … max):     2.8 ms …   3.7 ms    10 runs
+ 
+Benchmark 27: ./mandelbrot_pth seahorse 16
+  Time (mean ± σ):       2.8 ms ±   0.1 ms    [User: 1.3 ms, System: 1.1 ms]
+  Range (min … max):     2.7 ms …   3.1 ms    10 runs
+ 
+Benchmark 28: ./mandelbrot_omp seahorse 16
+  Time (mean ± σ):       3.2 ms ±   0.2 ms    [User: 1.5 ms, System: 1.2 ms]
+  Range (min … max):     2.8 ms …   3.6 ms    10 runs
+ 
+Benchmark 29: ./mandelbrot_pth elephant 16
+  Time (mean ± σ):       3.0 ms ±   0.3 ms    [User: 1.4 ms, System: 1.2 ms]
+  Range (min … max):     2.4 ms …   3.5 ms    10 runs
+ 
+Benchmark 30: ./mandelbrot_omp elephant 16
+  Time (mean ± σ):       3.2 ms ±   0.2 ms    [User: 1.5 ms, System: 1.2 ms]
+  Range (min … max):     2.8 ms …   3.5 ms    10 runs
+ 
+Benchmark 31: ./mandelbrot_pth spiral 16
+  Time (mean ± σ):       2.9 ms ±   0.5 ms    [User: 1.4 ms, System: 1.1 ms]
+  Range (min … max):     2.5 ms …   4.1 ms    10 runs
+ 
+Benchmark 32: ./mandelbrot_omp spiral 16
+  Time (mean ± σ):       3.3 ms ±   0.1 ms    [User: 1.6 ms, System: 1.2 ms]
+  Range (min … max):     3.1 ms …   3.5 ms    10 runs
+ 
+Benchmark 33: ./mandelbrot_pth full 16
+  Time (mean ± σ):       2.9 ms ±   0.1 ms    [User: 1.1 ms, System: 1.2 ms]
+  Range (min … max):     2.7 ms …   3.1 ms    10 runs
+ 
+Benchmark 34: ./mandelbrot_omp full 16
+  Time (mean ± σ):       3.2 ms ±   0.3 ms    [User: 1.3 ms, System: 1.4 ms]
+  Range (min … max):     2.7 ms …   3.5 ms    10 runs
+ 
+Benchmark 35: ./mandelbrot_pth seahorse 16
+  Time (mean ± σ):       3.1 ms ±   0.2 ms    [User: 1.4 ms, System: 1.4 ms]
+  Range (min … max):     2.8 ms …   3.6 ms    10 runs
+ 
+Benchmark 36: ./mandelbrot_omp seahorse 16
+  Time (mean ± σ):       3.4 ms ±   0.2 ms    [User: 1.6 ms, System: 1.4 ms]
+  Range (min … max):     2.9 ms …   3.6 ms    10 runs
+ 
+Benchmark 37: ./mandelbrot_pth elephant 16
+  Time (mean ± σ):       4.4 ms ±   0.6 ms    [User: 1.8 ms, System: 1.9 ms]
+  Range (min … max):     3.6 ms …   5.1 ms    10 runs
+ 
+Benchmark 38: ./mandelbrot_omp elephant 16
+  Time (mean ± σ):       3.4 ms ±   0.2 ms    [User: 1.6 ms, System: 1.4 ms]
+  Range (min … max):     3.2 ms …   3.8 ms    10 runs
+ 
+Benchmark 39: ./mandelbrot_pth spiral 16
+  Time (mean ± σ):       3.0 ms ±   0.2 ms    [User: 1.5 ms, System: 1.3 ms]
+  Range (min … max):     2.7 ms …   3.3 ms    10 runs
+ 
+Benchmark 40: ./mandelbrot_omp spiral 16
+  Time (mean ± σ):       4.1 ms ±   0.6 ms    [User: 1.9 ms, System: 1.9 ms]
+  Range (min … max):     3.3 ms …   5.5 ms    10 runs
+ 
+Benchmark 41: ./mandelbrot_pth full 16
+  Time (mean ± σ):       3.2 ms ±   0.4 ms    [User: 1.2 ms, System: 1.6 ms]
+  Range (min … max):     2.8 ms …   3.9 ms    10 runs
+ 
+Benchmark 42: ./mandelbrot_omp full 16
+  Time (mean ± σ):       3.6 ms ±   0.1 ms    [User: 1.5 ms, System: 1.9 ms]
+  Range (min … max):     3.4 ms …   3.9 ms    10 runs
+ 
+Benchmark 43: ./mandelbrot_pth seahorse 16
+  Time (mean ± σ):       3.3 ms ±   0.4 ms    [User: 1.5 ms, System: 1.8 ms]
+  Range (min … max):     2.9 ms …   4.0 ms    10 runs
+ 
+Benchmark 44: ./mandelbrot_omp seahorse 16
+  Time (mean ± σ):       3.6 ms ±   0.2 ms    [User: 1.8 ms, System: 1.9 ms]
+  Range (min … max):     3.3 ms …   4.1 ms    10 runs
+ 
+Benchmark 45: ./mandelbrot_pth elephant 16
+  Time (mean ± σ):       3.3 ms ±   0.3 ms    [User: 1.5 ms, System: 1.7 ms]
+  Range (min … max):     3.0 ms …   3.9 ms    10 runs
+ 
+Benchmark 46: ./mandelbrot_omp elephant 16
+  Time (mean ± σ):       3.6 ms ±   0.2 ms    [User: 1.8 ms, System: 1.9 ms]
+  Range (min … max):     3.2 ms …   4.1 ms    10 runs
+ 
+Benchmark 47: ./mandelbrot_pth spiral 16
+  Time (mean ± σ):       3.5 ms ±   0.4 ms    [User: 1.7 ms, System: 1.9 ms]
+  Range (min … max):     3.1 ms …   4.1 ms    10 runs
+ 
+Benchmark 48: ./mandelbrot_omp spiral 16
+  Time (mean ± σ):       3.7 ms ±   0.3 ms    [User: 1.9 ms, System: 1.9 ms]
+  Range (min … max):     3.5 ms …   4.5 ms    10 runs
+ 
+Benchmark 49: ./mandelbrot_pth full 32
+  Time (mean ± σ):       3.0 ms ±   0.3 ms    [User: 1.1 ms, System: 0.8 ms]
+  Range (min … max):     2.5 ms …   3.6 ms    10 runs
+ 
+Benchmark 50: ./mandelbrot_omp full 32
+  Time (mean ± σ):       3.1 ms ±   0.3 ms    [User: 1.2 ms, System: 0.8 ms]
+  Range (min … max):     2.8 ms …   3.6 ms    10 runs
+ 
+Benchmark 51: ./mandelbrot_pth seahorse 32
+  Time (mean ± σ):       4.2 ms ±   0.4 ms    [User: 2.2 ms, System: 0.9 ms]
+  Range (min … max):     3.7 ms …   4.9 ms    10 runs
+ 
+Benchmark 52: ./mandelbrot_omp seahorse 32
+  Time (mean ± σ):       4.1 ms ±   0.2 ms    [User: 2.2 ms, System: 0.8 ms]
+  Range (min … max):     3.7 ms …   4.4 ms    10 runs
+ 
+Benchmark 53: ./mandelbrot_pth elephant 32
+  Time (mean ± σ):       4.2 ms ±   0.4 ms    [User: 2.2 ms, System: 0.9 ms]
+  Range (min … max):     3.8 ms …   5.1 ms    10 runs
+ 
+Benchmark 54: ./mandelbrot_omp elephant 32
+  Time (mean ± σ):       4.2 ms ±   0.4 ms    [User: 2.3 ms, System: 0.8 ms]
+  Range (min … max):     3.9 ms …   5.2 ms    10 runs
+ 
+Benchmark 55: ./mandelbrot_pth spiral 32
+  Time (mean ± σ):       4.3 ms ±   0.4 ms    [User: 2.3 ms, System: 0.9 ms]
+  Range (min … max):     3.8 ms …   5.0 ms    10 runs
+ 
+Benchmark 56: ./mandelbrot_omp spiral 32
+  Time (mean ± σ):       4.7 ms ±   0.5 ms    [User: 2.6 ms, System: 0.9 ms]
+  Range (min … max):     4.1 ms …   5.8 ms    10 runs
+ 
+Benchmark 57: ./mandelbrot_pth full 32
+  Time (mean ± σ):       2.8 ms ±   0.2 ms    [User: 1.1 ms, System: 0.8 ms]
+  Range (min … max):     2.5 ms …   3.3 ms    10 runs
+ 
+Benchmark 58: ./mandelbrot_omp full 32
+  Time (mean ± σ):       3.8 ms ±   0.7 ms    [User: 1.5 ms, System: 1.2 ms]
+  Range (min … max):     3.2 ms …   5.3 ms    10 runs
+ 
+Benchmark 59: ./mandelbrot_pth seahorse 32
+  Time (mean ± σ):       3.4 ms ±   0.3 ms    [User: 2.1 ms, System: 0.8 ms]
+  Range (min … max):     3.2 ms …   4.0 ms    10 runs
+ 
+Benchmark 60: ./mandelbrot_omp seahorse 32
+  Time (mean ± σ):       4.1 ms ±   0.3 ms    [User: 2.4 ms, System: 1.0 ms]
+  Range (min … max):     3.7 ms …   4.5 ms    10 runs
+ 
+Benchmark 61: ./mandelbrot_pth elephant 32
+  Time (mean ± σ):       3.4 ms ±   0.2 ms    [User: 2.0 ms, System: 0.9 ms]
+  Range (min … max):     3.2 ms …   3.9 ms    10 runs
+ 
+Benchmark 62: ./mandelbrot_omp elephant 32
+  Time (mean ± σ):       3.7 ms ±   0.3 ms    [User: 2.2 ms, System: 0.9 ms]
+  Range (min … max):     3.2 ms …   4.3 ms    10 runs
+ 
+Benchmark 63: ./mandelbrot_pth spiral 32
+  Time (mean ± σ):       3.6 ms ±   0.4 ms    [User: 2.3 ms, System: 0.9 ms]
+  Range (min … max):     3.1 ms …   4.2 ms    10 runs
+ 
+Benchmark 64: ./mandelbrot_omp spiral 32
+  Time (mean ± σ):       3.8 ms ±   0.3 ms    [User: 2.5 ms, System: 0.9 ms]
+  Range (min … max):     3.5 ms …   4.6 ms    10 runs
+ 
+Benchmark 65: ./mandelbrot_pth full 32
+  Time (mean ± σ):       2.8 ms ±   0.1 ms    [User: 1.1 ms, System: 0.9 ms]
+  Range (min … max):     2.7 ms …   3.1 ms    10 runs
+ 
+Benchmark 66: ./mandelbrot_omp full 32
+  Time (mean ± σ):       3.3 ms ±   0.3 ms    [User: 1.4 ms, System: 1.0 ms]
+  Range (min … max):     2.8 ms …   3.6 ms    10 runs
+ 
+Benchmark 67: ./mandelbrot_pth seahorse 32
+  Time (mean ± σ):       3.0 ms ±   0.2 ms    [User: 2.1 ms, System: 0.8 ms]
+  Range (min … max):     2.7 ms …   3.2 ms    10 runs
+ 
+Benchmark 68: ./mandelbrot_omp seahorse 32
+  Time (mean ± σ):       3.4 ms ±   0.2 ms    [User: 2.4 ms, System: 1.0 ms]
+  Range (min … max):     3.1 ms …   3.8 ms    10 runs
+ 
+Benchmark 69: ./mandelbrot_pth elephant 32
+  Time (mean ± σ):       3.2 ms ±   0.3 ms    [User: 2.2 ms, System: 0.9 ms]
+  Range (min … max):     2.9 ms …   3.9 ms    10 runs
+ 
+Benchmark 70: ./mandelbrot_omp elephant 32
+  Time (mean ± σ):       3.5 ms ±   0.2 ms    [User: 2.3 ms, System: 1.0 ms]
+  Range (min … max):     3.3 ms …   3.9 ms    10 runs
+ 
+Benchmark 71: ./mandelbrot_pth spiral 32
+  Time (mean ± σ):       3.1 ms ±   0.1 ms    [User: 2.3 ms, System: 0.9 ms]
+  Range (min … max):     2.8 ms …   3.3 ms    10 runs
+ 
+Benchmark 72: ./mandelbrot_omp spiral 32
+  Time (mean ± σ):       3.6 ms ±   0.2 ms    [User: 2.6 ms, System: 1.1 ms]
+  Range (min … max):     3.4 ms …   4.1 ms    10 runs
+ 
+Benchmark 73: ./mandelbrot_pth full 32
+  Time (mean ± σ):       2.9 ms ±   0.1 ms    [User: 1.2 ms, System: 1.0 ms]
+  Range (min … max):     2.7 ms …   3.0 ms    10 runs
+ 
+Benchmark 74: ./mandelbrot_omp full 32
+  Time (mean ± σ):       3.4 ms ±   0.2 ms    [User: 1.5 ms, System: 1.3 ms]
+  Range (min … max):     3.0 ms …   3.8 ms    10 runs
+ 
+Benchmark 75: ./mandelbrot_pth seahorse 32
+  Time (mean ± σ):       2.9 ms ±   0.2 ms    [User: 2.3 ms, System: 1.1 ms]
+  Range (min … max):     2.4 ms …   3.1 ms    10 runs
+ 
+Benchmark 76: ./mandelbrot_omp seahorse 32
+  Time (mean ± σ):       3.4 ms ±   0.1 ms    [User: 2.5 ms, System: 1.2 ms]
+  Range (min … max):     3.3 ms …   3.7 ms    10 runs
+ 
+Benchmark 77: ./mandelbrot_pth elephant 32
+  Time (mean ± σ):       3.2 ms ±   0.3 ms    [User: 2.3 ms, System: 1.1 ms]
+  Range (min … max):     2.5 ms …   3.7 ms    10 runs
+ 
+Benchmark 78: ./mandelbrot_omp elephant 32
+  Time (mean ± σ):       3.5 ms ±   0.2 ms    [User: 2.4 ms, System: 1.2 ms]
+  Range (min … max):     3.2 ms …   4.0 ms    10 runs
+ 
+Benchmark 79: ./mandelbrot_pth spiral 32
+  Time (mean ± σ):       3.1 ms ±   0.3 ms    [User: 2.5 ms, System: 1.1 ms]
+  Range (min … max):     2.6 ms …   3.5 ms    10 runs
+ 
+Benchmark 80: ./mandelbrot_omp spiral 32
+  Time (mean ± σ):       3.9 ms ±   0.7 ms    [User: 2.9 ms, System: 1.4 ms]
+  Range (min … max):     3.2 ms …   4.9 ms    10 runs
+ 
+Benchmark 81: ./mandelbrot_pth full 32
+  Time (mean ± σ):       2.9 ms ±   0.2 ms    [User: 1.3 ms, System: 1.3 ms]
+  Range (min … max):     2.8 ms …   3.3 ms    10 runs
+ 
+Benchmark 82: ./mandelbrot_omp full 32
+  Time (mean ± σ):       3.9 ms ±   0.4 ms    [User: 1.7 ms, System: 1.7 ms]
+  Range (min … max):     3.2 ms …   4.4 ms    10 runs
+ 
+Benchmark 83: ./mandelbrot_pth seahorse 32
+  Time (mean ± σ):       3.2 ms ±   0.3 ms    [User: 2.4 ms, System: 1.5 ms]
+  Range (min … max):     2.6 ms …   3.6 ms    10 runs
+ 
+Benchmark 84: ./mandelbrot_omp seahorse 32
+  Time (mean ± σ):       3.5 ms ±   0.1 ms    [User: 2.6 ms, System: 1.4 ms]
+  Range (min … max):     3.4 ms …   3.7 ms    10 runs
+ 
+Benchmark 85: ./mandelbrot_pth elephant 32
+  Time (mean ± σ):       3.1 ms ±   0.5 ms    [User: 2.4 ms, System: 1.4 ms]
+  Range (min … max):     2.7 ms …   4.1 ms    10 runs
+ 
+Benchmark 86: ./mandelbrot_omp elephant 32
+  Time (mean ± σ):       3.5 ms ±   0.3 ms    [User: 2.5 ms, System: 1.4 ms]
+  Range (min … max):     3.3 ms …   4.4 ms    10 runs
+ 
+Benchmark 87: ./mandelbrot_pth spiral 32
+  Time (mean ± σ):       3.5 ms ±   0.4 ms    [User: 2.9 ms, System: 1.5 ms]
+  Range (min … max):     2.8 ms …   4.1 ms    10 runs
+ 
+Benchmark 88: ./mandelbrot_omp spiral 32
+  Time (mean ± σ):       3.6 ms ±   0.2 ms    [User: 2.8 ms, System: 1.4 ms]
+  Range (min … max):     3.3 ms …   3.8 ms    10 runs
+ 
+Benchmark 89: ./mandelbrot_pth full 32
+  Time (mean ± σ):       3.4 ms ±   0.7 ms    [User: 1.4 ms, System: 1.8 ms]
+  Range (min … max):     3.0 ms …   5.4 ms    10 runs
+ 
+Benchmark 90: ./mandelbrot_omp full 32
+  Time (mean ± σ):       3.6 ms ±   0.1 ms    [User: 1.7 ms, System: 1.8 ms]
+  Range (min … max):     3.4 ms …   3.8 ms    10 runs
+ 
+Benchmark 91: ./mandelbrot_pth seahorse 32
+  Time (mean ± σ):       3.2 ms ±   0.1 ms    [User: 2.5 ms, System: 1.8 ms]
+  Range (min … max):     3.1 ms …   3.4 ms    10 runs
+ 
+Benchmark 92: ./mandelbrot_omp seahorse 32
+  Time (mean ± σ):       4.3 ms ±   0.4 ms    [User: 3.1 ms, System: 2.1 ms]
+  Range (min … max):     3.8 ms …   4.8 ms    10 runs
+ 
+Benchmark 93: ./mandelbrot_pth elephant 32
+  Time (mean ± σ):       3.2 ms ±   0.4 ms    [User: 2.5 ms, System: 1.8 ms]
+  Range (min … max):     2.9 ms …   4.0 ms    10 runs
+ 
+Benchmark 94: ./mandelbrot_omp elephant 32
+  Time (mean ± σ):       4.3 ms ±   0.4 ms    [User: 3.0 ms, System: 2.1 ms]
+  Range (min … max):     3.9 ms …   5.2 ms    10 runs
+ 
+Benchmark 95: ./mandelbrot_pth spiral 32
+  Time (mean ± σ):       3.6 ms ±   0.3 ms    [User: 2.8 ms, System: 2.0 ms]
+  Range (min … max):     3.1 ms …   4.2 ms    10 runs
+ 
+Benchmark 96: ./mandelbrot_omp spiral 32
+  Time (mean ± σ):       4.0 ms ±   0.3 ms    [User: 3.0 ms, System: 2.0 ms]
+  Range (min … max):     3.5 ms …   4.4 ms    10 runs
+ 
+Benchmark 97: ./mandelbrot_pth full 64
+  Time (mean ± σ):       3.4 ms ±   0.3 ms    [User: 1.6 ms, System: 0.8 ms]
+  Range (min … max):     3.0 ms …   4.0 ms    10 runs
+ 
+Benchmark 98: ./mandelbrot_omp full 64
+  Time (mean ± σ):       3.6 ms ±   0.2 ms    [User: 1.7 ms, System: 0.8 ms]
+  Range (min … max):     3.2 ms …   4.0 ms    10 runs
+ 
+Benchmark 99: ./mandelbrot_pth seahorse 64
+  Time (mean ± σ):       7.6 ms ±   0.3 ms    [User: 5.6 ms, System: 0.9 ms]
+  Range (min … max):     7.3 ms …   8.2 ms    10 runs
+ 
+Benchmark 100: ./mandelbrot_omp seahorse 64
+  Time (mean ± σ):       7.7 ms ±   0.4 ms    [User: 5.8 ms, System: 0.8 ms]
+  Range (min … max):     7.3 ms …   8.7 ms    10 runs
+ 
+Benchmark 101: ./mandelbrot_pth elephant 64
+  Time (mean ± σ):       7.2 ms ±   0.3 ms    [User: 5.3 ms, System: 0.8 ms]
+  Range (min … max):     6.9 ms …   8.0 ms    10 runs
+ 
+Benchmark 102: ./mandelbrot_omp elephant 64
+  Time (mean ± σ):       8.9 ms ±   1.1 ms    [User: 6.2 ms, System: 1.2 ms]
+  Range (min … max):     7.3 ms …  10.9 ms    10 runs
+ 
+Benchmark 103: ./mandelbrot_pth spiral 64
+  Time (mean ± σ):       8.2 ms ±   0.6 ms    [User: 6.2 ms, System: 0.9 ms]
+  Range (min … max):     7.8 ms …   9.8 ms    10 runs
+ 
+Benchmark 104: ./mandelbrot_omp spiral 64
+  Time (mean ± σ):       8.3 ms ±   0.3 ms    [User: 6.3 ms, System: 0.9 ms]
+  Range (min … max):     8.1 ms …   8.8 ms    10 runs
+ 
+Benchmark 105: ./mandelbrot_pth full 64
+  Time (mean ± σ):       3.4 ms ±   0.4 ms    [User: 1.7 ms, System: 1.0 ms]
+  Range (min … max):     2.9 ms …   4.0 ms    10 runs
+ 
+Benchmark 106: ./mandelbrot_omp full 64
+  Time (mean ± σ):       3.4 ms ±   0.3 ms    [User: 1.8 ms, System: 0.9 ms]
+  Range (min … max):     2.9 ms …   4.0 ms    10 runs
+ 
+Benchmark 107: ./mandelbrot_pth seahorse 64
+  Time (mean ± σ):       5.5 ms ±   0.3 ms    [User: 5.5 ms, System: 0.9 ms]
+  Range (min … max):     5.1 ms …   6.0 ms    10 runs
+ 
+Benchmark 108: ./mandelbrot_omp seahorse 64
+  Time (mean ± σ):       5.7 ms ±   0.2 ms    [User: 5.7 ms, System: 0.9 ms]
+  Range (min … max):     5.3 ms …   6.1 ms    10 runs
+ 
+Benchmark 109: ./mandelbrot_pth elephant 64
+  Time (mean ± σ):       5.3 ms ±   0.4 ms    [User: 5.4 ms, System: 1.0 ms]
+  Range (min … max):     4.8 ms …   5.9 ms    10 runs
+ 
+Benchmark 110: ./mandelbrot_omp elephant 64
+  Time (mean ± σ):       5.4 ms ±   0.3 ms    [User: 5.5 ms, System: 1.0 ms]
+  Range (min … max):     5.1 ms …   5.8 ms    10 runs
+ 
+Benchmark 111: ./mandelbrot_pth spiral 64
+  Time (mean ± σ):       6.1 ms ±   0.3 ms    [User: 6.6 ms, System: 0.9 ms]
+  Range (min … max):     5.7 ms …   6.7 ms    10 runs
+ 
+Benchmark 112: ./mandelbrot_omp spiral 64
+  Time (mean ± σ):       6.2 ms ±   0.5 ms    [User: 6.6 ms, System: 1.1 ms]
+  Range (min … max):     5.6 ms …   7.1 ms    10 runs
+ 
+Benchmark 113: ./mandelbrot_pth full 64
+  Time (mean ± σ):       3.1 ms ±   0.2 ms    [User: 1.7 ms, System: 0.9 ms]
+  Range (min … max):     2.9 ms …   3.5 ms    10 runs
+ 
+Benchmark 114: ./mandelbrot_omp full 64
+  Time (mean ± σ):       3.5 ms ±   0.1 ms    [User: 1.9 ms, System: 1.0 ms]
+  Range (min … max):     3.3 ms …   3.7 ms    10 runs
+ 
+Benchmark 115: ./mandelbrot_pth seahorse 64
+  Time (mean ± σ):       4.4 ms ±   0.4 ms    [User: 6.0 ms, System: 1.0 ms]
+  Range (min … max):     4.0 ms …   5.1 ms    10 runs
+ 
+Benchmark 116: ./mandelbrot_omp seahorse 64
+  Time (mean ± σ):       4.6 ms ±   0.2 ms    [User: 5.9 ms, System: 1.0 ms]
+  Range (min … max):     4.2 ms …   4.9 ms    10 runs
+ 
+Benchmark 117: ./mandelbrot_pth elephant 64
+  Time (mean ± σ):       4.2 ms ±   0.4 ms    [User: 5.6 ms, System: 0.9 ms]
+  Range (min … max):     3.7 ms …   5.1 ms    10 runs
+ 
+Benchmark 118: ./mandelbrot_omp elephant 64
+  Time (mean ± σ):       4.5 ms ±   0.2 ms    [User: 5.7 ms, System: 1.0 ms]
+  Range (min … max):     4.3 ms …   5.1 ms    10 runs
+ 
+Benchmark 119: ./mandelbrot_pth spiral 64
+  Time (mean ± σ):       4.3 ms ±   0.3 ms    [User: 6.5 ms, System: 0.9 ms]
+  Range (min … max):     4.0 ms …   4.9 ms    10 runs
+ 
+Benchmark 120: ./mandelbrot_omp spiral 64
+  Time (mean ± σ):       4.8 ms ±   0.4 ms    [User: 6.8 ms, System: 1.0 ms]
+  Range (min … max):     4.3 ms …   5.5 ms    10 runs
+ 
+Benchmark 121: ./mandelbrot_pth full 64
+  Time (mean ± σ):       3.1 ms ±   0.1 ms    [User: 1.7 ms, System: 1.0 ms]
+  Range (min … max):     2.9 ms …   3.3 ms    10 runs
+ 
+Benchmark 122: ./mandelbrot_omp full 64
+  Time (mean ± σ):       3.5 ms ±   0.2 ms    [User: 2.0 ms, System: 1.2 ms]
+  Range (min … max):     3.3 ms …   4.1 ms    10 runs
+ 
+Benchmark 123: ./mandelbrot_pth seahorse 64
+  Time (mean ± σ):       4.6 ms ±   0.6 ms    [User: 6.9 ms, System: 1.3 ms]
+  Range (min … max):     3.8 ms …   5.5 ms    10 runs
+ 
+Benchmark 124: ./mandelbrot_omp seahorse 64
+  Time (mean ± σ):       4.3 ms ±   0.6 ms    [User: 6.5 ms, System: 1.3 ms]
+  Range (min … max):     3.6 ms …   5.2 ms    10 runs
+ 
+Benchmark 125: ./mandelbrot_pth elephant 64
+  Time (mean ± σ):       3.8 ms ±   0.3 ms    [User: 5.9 ms, System: 1.1 ms]
+  Range (min … max):     3.4 ms …   4.3 ms    10 runs
+ 
+Benchmark 126: ./mandelbrot_omp elephant 64
+  Time (mean ± σ):       4.2 ms ±   0.3 ms    [User: 6.2 ms, System: 1.2 ms]
+  Range (min … max):     3.9 ms …   4.6 ms    10 runs
+ 
+Benchmark 127: ./mandelbrot_pth spiral 64
+  Time (mean ± σ):       3.7 ms ±   0.2 ms    [User: 7.0 ms, System: 1.0 ms]
+  Range (min … max):     3.4 ms …   4.1 ms    10 runs
+ 
+Benchmark 128: ./mandelbrot_omp spiral 64
+  Time (mean ± σ):       5.4 ms ±   1.0 ms    [User: 7.6 ms, System: 1.5 ms]
+  Range (min … max):     4.2 ms …   7.4 ms    10 runs
+ 
+Benchmark 129: ./mandelbrot_pth full 64
+  Time (mean ± σ):       3.4 ms ±   0.4 ms    [User: 2.1 ms, System: 1.5 ms]
+  Range (min … max):     2.9 ms …   4.3 ms    10 runs
+ 
+Benchmark 130: ./mandelbrot_omp full 64
+  Time (mean ± σ):       3.8 ms ±   0.2 ms    [User: 2.2 ms, System: 1.6 ms]
+  Range (min … max):     3.4 ms …   4.2 ms    10 runs
+ 
+Benchmark 131: ./mandelbrot_pth seahorse 64
+  Time (mean ± σ):       3.8 ms ±   0.2 ms    [User: 6.7 ms, System: 1.5 ms]
+  Range (min … max):     3.5 ms …   4.3 ms    10 runs
+ 
+Benchmark 132: ./mandelbrot_omp seahorse 64
+  Time (mean ± σ):       5.1 ms ±   0.5 ms    [User: 7.1 ms, System: 1.7 ms]
+  Range (min … max):     4.3 ms …   6.0 ms    10 runs
+ 
+Benchmark 133: ./mandelbrot_pth elephant 64
+  Time (mean ± σ):       4.2 ms ±   0.3 ms    [User: 6.6 ms, System: 1.6 ms]
+  Range (min … max):     3.6 ms …   4.6 ms    10 runs
+ 
+Benchmark 134: ./mandelbrot_omp elephant 64
+  Time (mean ± σ):       4.5 ms ±   0.2 ms    [User: 6.8 ms, System: 1.6 ms]
+  Range (min … max):     4.2 ms …   4.9 ms    10 runs
+ 
+Benchmark 135: ./mandelbrot_pth spiral 64
+  Time (mean ± σ):       4.6 ms ±   0.3 ms    [User: 8.0 ms, System: 1.7 ms]
+  Range (min … max):     4.2 ms …   5.1 ms    10 runs
+ 
+Benchmark 136: ./mandelbrot_omp spiral 64
+  Time (mean ± σ):       5.5 ms ±   0.6 ms    [User: 8.0 ms, System: 1.9 ms]
+  Range (min … max):     4.6 ms …   6.4 ms    10 runs
+ 
+Benchmark 137: ./mandelbrot_pth full 64
+  Time (mean ± σ):       3.9 ms ±   0.3 ms    [User: 2.3 ms, System: 2.2 ms]
+  Range (min … max):     3.5 ms …   4.5 ms    10 runs
+ 
+Benchmark 138: ./mandelbrot_omp full 64
+  Time (mean ± σ):       4.3 ms ±   0.1 ms    [User: 2.6 ms, System: 2.1 ms]
+  Range (min … max):     4.2 ms …   4.5 ms    10 runs
+ 
+Benchmark 139: ./mandelbrot_pth seahorse 64
+  Time (mean ± σ):       4.4 ms ±   0.2 ms    [User: 7.4 ms, System: 2.3 ms]
+  Range (min … max):     4.0 ms …   4.8 ms    10 runs
+ 
+Benchmark 140: ./mandelbrot_omp seahorse 64
+  Time (mean ± σ):       5.3 ms ±   0.4 ms    [User: 7.5 ms, System: 2.3 ms]
+  Range (min … max):     4.8 ms …   6.1 ms    10 runs
+ 
+Benchmark 141: ./mandelbrot_pth elephant 64
+  Time (mean ± σ):       4.2 ms ±   0.2 ms    [User: 7.1 ms, System: 2.3 ms]
+  Range (min … max):     4.0 ms …   4.5 ms    10 runs
+ 
+Benchmark 142: ./mandelbrot_omp elephant 64
+  Time (mean ± σ):       5.1 ms ±   0.3 ms    [User: 7.0 ms, System: 2.3 ms]
+  Range (min … max):     4.7 ms …   5.6 ms    10 runs
+ 
+Benchmark 143: ./mandelbrot_pth spiral 64
+  Time (mean ± σ):       4.3 ms ±   0.1 ms    [User: 8.2 ms, System: 2.2 ms]
+  Range (min … max):     4.2 ms …   4.6 ms    10 runs
+ 
+Benchmark 144: ./mandelbrot_omp spiral 64
+  Time (mean ± σ):       5.2 ms ±   0.1 ms    [User: 8.3 ms, System: 2.2 ms]
+  Range (min … max):     5.0 ms …   5.5 ms    10 runs
+ 
+Benchmark 145: ./mandelbrot_pth full 128
+  Time (mean ± σ):       6.3 ms ±   0.2 ms    [User: 4.0 ms, System: 1.0 ms]
+  Range (min … max):     6.0 ms …   6.7 ms    10 runs
+ 
+Benchmark 146: ./mandelbrot_omp full 128
+  Time (mean ± σ):       6.7 ms ±   0.4 ms    [User: 4.2 ms, System: 1.1 ms]
+  Range (min … max):     6.2 ms …   7.6 ms    10 runs
+ 
+Benchmark 147: ./mandelbrot_pth seahorse 128
+  Time (mean ± σ):      23.7 ms ±   0.6 ms    [User: 21.4 ms, System: 1.1 ms]
+  Range (min … max):    23.0 ms …  25.0 ms    10 runs
+ 
+Benchmark 148: ./mandelbrot_omp seahorse 128
+  Time (mean ± σ):      23.6 ms ±   0.9 ms    [User: 21.3 ms, System: 1.1 ms]
+  Range (min … max):    22.9 ms …  26.0 ms    10 runs
+ 
+Benchmark 149: ./mandelbrot_pth elephant 128
+  Time (mean ± σ):      21.5 ms ±   0.2 ms    [User: 19.4 ms, System: 0.9 ms]
+  Range (min … max):    21.3 ms …  21.9 ms    10 runs
+ 
+Benchmark 150: ./mandelbrot_omp elephant 128
+  Time (mean ± σ):      22.0 ms ±   0.5 ms    [User: 19.8 ms, System: 1.0 ms]
+  Range (min … max):    21.5 ms …  23.0 ms    10 runs
+ 
+Benchmark 151: ./mandelbrot_pth spiral 128
+  Time (mean ± σ):      26.5 ms ±   0.6 ms    [User: 24.2 ms, System: 1.0 ms]
+  Range (min … max):    25.9 ms …  27.6 ms    10 runs
+ 
+Benchmark 152: ./mandelbrot_omp spiral 128
+  Time (mean ± σ):      29.0 ms ±   5.9 ms    [User: 24.8 ms, System: 1.2 ms]
+  Range (min … max):    26.0 ms …  44.9 ms    10 runs
+ 
+Benchmark 153: ./mandelbrot_pth full 128
+  Time (mean ± σ):       4.5 ms ±   0.1 ms    [User: 3.9 ms, System: 0.9 ms]
+  Range (min … max):     4.4 ms …   4.6 ms    10 runs
+ 
+Benchmark 154: ./mandelbrot_omp full 128
+  Time (mean ± σ):       5.6 ms ±   0.4 ms    [User: 4.4 ms, System: 1.3 ms]
+  Range (min … max):     5.0 ms …   6.1 ms    10 runs
+ 
+Benchmark 155: ./mandelbrot_pth seahorse 128
+  Time (mean ± σ):      14.9 ms ±   0.2 ms    [User: 21.7 ms, System: 1.0 ms]
+  Range (min … max):    14.7 ms …  15.3 ms    10 runs
+ 
+Benchmark 156: ./mandelbrot_omp seahorse 128
+  Time (mean ± σ):      15.6 ms ±   0.3 ms    [User: 22.2 ms, System: 1.1 ms]
+  Range (min … max):    15.2 ms …  16.0 ms    10 runs
+ 
+Benchmark 157: ./mandelbrot_pth elephant 128
+  Time (mean ± σ):      13.6 ms ±   0.4 ms    [User: 20.9 ms, System: 1.2 ms]
+  Range (min … max):    13.0 ms …  14.4 ms    10 runs
+ 
+Benchmark 158: ./mandelbrot_omp elephant 128
+  Time (mean ± σ):      13.4 ms ±   0.1 ms    [User: 20.8 ms, System: 1.1 ms]
+  Range (min … max):    13.3 ms …  13.5 ms    10 runs
+ 
+Benchmark 159: ./mandelbrot_pth spiral 128
+  Time (mean ± σ):      16.5 ms ±   0.7 ms    [User: 25.0 ms, System: 1.1 ms]
+  Range (min … max):    15.8 ms …  18.0 ms    10 runs
+ 
+Benchmark 160: ./mandelbrot_omp spiral 128
+  Time (mean ± σ):      17.0 ms ±   0.2 ms    [User: 25.7 ms, System: 1.2 ms]
+  Range (min … max):    16.6 ms …  17.3 ms    10 runs
+ 
+Benchmark 161: ./mandelbrot_pth full 128
+  Time (mean ± σ):       4.9 ms ±   0.3 ms    [User: 4.3 ms, System: 1.1 ms]
+  Range (min … max):     4.5 ms …   5.3 ms    10 runs
+ 
+Benchmark 162: ./mandelbrot_omp full 128
+  Time (mean ± σ):       5.5 ms ±   0.3 ms    [User: 4.6 ms, System: 1.3 ms]
+  Range (min … max):     5.2 ms …   6.1 ms    10 runs
+ 
+Benchmark 163: ./mandelbrot_pth seahorse 128
+  Time (mean ± σ):       9.9 ms ±   0.4 ms    [User: 23.2 ms, System: 1.2 ms]
+  Range (min … max):     9.3 ms …  10.6 ms    10 runs
+ 
+Benchmark 164: ./mandelbrot_omp seahorse 128
+  Time (mean ± σ):       9.9 ms ±   0.2 ms    [User: 22.5 ms, System: 1.2 ms]
+  Range (min … max):     9.6 ms …  10.2 ms    10 runs
+ 
+Benchmark 165: ./mandelbrot_pth elephant 128
+  Time (mean ± σ):       9.6 ms ±   0.4 ms    [User: 22.0 ms, System: 1.3 ms]
+  Range (min … max):     9.2 ms …  10.5 ms    10 runs
+ 
+Benchmark 166: ./mandelbrot_omp elephant 128
+  Time (mean ± σ):      10.0 ms ±   0.3 ms    [User: 22.2 ms, System: 1.4 ms]
+  Range (min … max):     9.6 ms …  10.5 ms    10 runs
+ 
+Benchmark 167: ./mandelbrot_pth spiral 128
+  Time (mean ± σ):      10.6 ms ±   0.5 ms    [User: 26.7 ms, System: 1.2 ms]
+  Range (min … max):    10.1 ms …  11.5 ms    10 runs
+ 
+Benchmark 168: ./mandelbrot_omp spiral 128
+  Time (mean ± σ):      11.1 ms ±   0.6 ms    [User: 27.1 ms, System: 1.4 ms]
+  Range (min … max):    10.5 ms …  12.3 ms    10 runs
+ 
+Benchmark 169: ./mandelbrot_pth full 128
+  Time (mean ± σ):       4.7 ms ±   0.2 ms    [User: 4.5 ms, System: 1.3 ms]
+  Range (min … max):     4.3 ms …   5.1 ms    10 runs
+ 
+Benchmark 170: ./mandelbrot_omp full 128
+  Time (mean ± σ):       5.6 ms ±   0.3 ms    [User: 5.0 ms, System: 1.6 ms]
+  Range (min … max):     4.8 ms …   6.1 ms    10 runs
+ 
+Benchmark 171: ./mandelbrot_pth seahorse 128
+  Time (mean ± σ):       8.5 ms ±   0.9 ms    [User: 24.9 ms, System: 1.4 ms]
+  Range (min … max):     7.2 ms …   9.7 ms    10 runs
+ 
+Benchmark 172: ./mandelbrot_omp seahorse 128
+  Time (mean ± σ):       7.7 ms ±   0.7 ms    [User: 25.1 ms, System: 1.5 ms]
+  Range (min … max):     7.0 ms …   9.2 ms    10 runs
+ 
+Benchmark 173: ./mandelbrot_pth elephant 128
+  Time (mean ± σ):       6.8 ms ±   0.1 ms    [User: 23.8 ms, System: 1.2 ms]
+  Range (min … max):     6.7 ms …   7.1 ms    10 runs
+ 
+Benchmark 174: ./mandelbrot_omp elephant 128
+  Time (mean ± σ):       8.2 ms ±   0.9 ms    [User: 23.7 ms, System: 1.6 ms]
+  Range (min … max):     7.0 ms …   9.7 ms    10 runs
+ 
+Benchmark 175: ./mandelbrot_pth spiral 128
+  Time (mean ± σ):       7.5 ms ±   0.9 ms    [User: 28.5 ms, System: 1.3 ms]
+  Range (min … max):     7.0 ms …   9.9 ms    10 runs
+ 
+Benchmark 176: ./mandelbrot_omp spiral 128
+  Time (mean ± σ):       9.6 ms ±   0.8 ms    [User: 28.1 ms, System: 1.6 ms]
+  Range (min … max):     7.7 ms …  10.6 ms    10 runs
+ 
+Benchmark 177: ./mandelbrot_pth full 128
+  Time (mean ± σ):       4.6 ms ±   0.6 ms    [User: 4.9 ms, System: 1.7 ms]
+  Range (min … max):     4.2 ms …   6.1 ms    10 runs
+ 
+Benchmark 178: ./mandelbrot_omp full 128
+  Time (mean ± σ):       5.0 ms ±   0.1 ms    [User: 5.0 ms, System: 1.8 ms]
+  Range (min … max):     4.7 ms …   5.2 ms    10 runs
+ 
+Benchmark 179: ./mandelbrot_pth seahorse 128
+  Time (mean ± σ):       6.8 ms ±   0.2 ms    [User: 25.5 ms, System: 1.6 ms]
+  Range (min … max):     6.6 ms …   7.2 ms    10 runs
+ 
+Benchmark 180: ./mandelbrot_omp seahorse 128
+  Time (mean ± σ):       8.7 ms ±   0.7 ms    [User: 25.3 ms, System: 2.0 ms]
+  Range (min … max):     7.7 ms …  10.1 ms    10 runs
+ 
+Benchmark 181: ./mandelbrot_pth elephant 128
+  Time (mean ± σ):       7.4 ms ±   0.3 ms    [User: 24.9 ms, System: 1.8 ms]
+  Range (min … max):     7.0 ms …   7.9 ms    10 runs
+ 
+Benchmark 182: ./mandelbrot_omp elephant 128
+  Time (mean ± σ):       8.7 ms ±   0.6 ms    [User: 24.8 ms, System: 2.1 ms]
+  Range (min … max):     7.9 ms …   9.7 ms    10 runs
+ 
+Benchmark 183: ./mandelbrot_pth spiral 128
+  Time (mean ± σ):       8.3 ms ±   0.5 ms    [User: 29.7 ms, System: 2.0 ms]
+  Range (min … max):     7.7 ms …   9.4 ms    10 runs
+ 
+Benchmark 184: ./mandelbrot_omp spiral 128
+  Time (mean ± σ):       8.8 ms ±   0.6 ms    [User: 28.5 ms, System: 1.8 ms]
+  Range (min … max):     7.9 ms …   9.5 ms    10 runs
+ 
+Benchmark 185: ./mandelbrot_pth full 128
+  Time (mean ± σ):       4.4 ms ±   0.3 ms    [User: 5.2 ms, System: 2.5 ms]
+  Range (min … max):     4.0 ms …   4.9 ms    10 runs
+ 
+Benchmark 186: ./mandelbrot_omp full 128
+  Time (mean ± σ):       5.1 ms ±   0.3 ms    [User: 5.3 ms, System: 2.3 ms]
+  Range (min … max):     4.7 ms …   5.5 ms    10 runs
+ 
+Benchmark 187: ./mandelbrot_pth seahorse 128
+  Time (mean ± σ):       7.1 ms ±   0.3 ms    [User: 25.7 ms, System: 2.2 ms]
+  Range (min … max):     6.7 ms …   7.5 ms    10 runs
+ 
+Benchmark 188: ./mandelbrot_omp seahorse 128
+  Time (mean ± σ):       8.0 ms ±   0.4 ms    [User: 25.7 ms, System: 2.4 ms]
+  Range (min … max):     7.6 ms …   8.8 ms    10 runs
+ 
+Benchmark 189: ./mandelbrot_pth elephant 128
+  Time (mean ± σ):       7.2 ms ±   0.3 ms    [User: 24.6 ms, System: 2.4 ms]
+  Range (min … max):     6.9 ms …   7.8 ms    10 runs
+ 
+Benchmark 190: ./mandelbrot_omp elephant 128
+  Time (mean ± σ):       7.8 ms ±   0.5 ms    [User: 24.3 ms, System: 2.3 ms]
+  Range (min … max):     7.3 ms …   8.7 ms    10 runs
+ 
+Benchmark 191: ./mandelbrot_pth spiral 128
+  Time (mean ± σ):       7.7 ms ±   0.3 ms    [User: 29.2 ms, System: 2.3 ms]
+  Range (min … max):     7.2 ms …   8.0 ms    10 runs
+ 
+Benchmark 192: ./mandelbrot_omp spiral 128
+  Time (mean ± σ):       8.9 ms ±   0.3 ms    [User: 28.8 ms, System: 2.4 ms]
+  Range (min … max):     8.6 ms …   9.7 ms    10 runs
+ 
+Benchmark 193: ./mandelbrot_pth full 256
+  Time (mean ± σ):      16.2 ms ±   0.2 ms    [User: 13.7 ms, System: 1.1 ms]
+  Range (min … max):    15.9 ms …  16.5 ms    10 runs
+ 
+Benchmark 194: ./mandelbrot_omp full 256
+  Time (mean ± σ):      16.0 ms ±   0.3 ms    [User: 13.4 ms, System: 1.2 ms]
+  Range (min … max):    15.6 ms …  16.4 ms    10 runs
+ 
+Benchmark 195: ./mandelbrot_pth seahorse 256
+  Time (mean ± σ):      88.7 ms ±   1.4 ms    [User: 85.9 ms, System: 1.2 ms]
+  Range (min … max):    85.8 ms …  89.9 ms    10 runs
+ 
+Benchmark 196: ./mandelbrot_omp seahorse 256
+  Time (mean ± σ):      86.5 ms ±   1.5 ms    [User: 83.7 ms, System: 1.4 ms]
+  Range (min … max):    83.5 ms …  89.0 ms    10 runs
+ 
+Benchmark 197: ./mandelbrot_pth elephant 256
+  Time (mean ± σ):      79.2 ms ±   0.5 ms    [User: 76.7 ms, System: 1.1 ms]
+  Range (min … max):    78.5 ms …  80.0 ms    10 runs
+ 
+Benchmark 198: ./mandelbrot_omp elephant 256
+  Time (mean ± σ):      76.8 ms ±   0.7 ms    [User: 74.5 ms, System: 1.1 ms]
+  Range (min … max):    75.5 ms …  78.3 ms    10 runs
+ 
+Benchmark 199: ./mandelbrot_pth spiral 256
+  Time (mean ± σ):      88.8 ms ±   1.3 ms    [User: 86.6 ms, System: 1.0 ms]
+  Range (min … max):    86.3 ms …  90.5 ms    10 runs
+ 
+Benchmark 200: ./mandelbrot_omp spiral 256
+  Time (mean ± σ):      88.8 ms ±   1.1 ms    [User: 86.6 ms, System: 1.0 ms]
+  Range (min … max):    86.2 ms …  90.3 ms    10 runs
+ 
+Benchmark 201: ./mandelbrot_pth full 256
+  Time (mean ± σ):       8.4 ms ±   0.2 ms    [User: 11.7 ms, System: 1.0 ms]
+  Range (min … max):     8.1 ms …   8.8 ms    10 runs
+ 
+Benchmark 202: ./mandelbrot_omp full 256
+  Time (mean ± σ):       8.9 ms ±   0.2 ms    [User: 12.1 ms, System: 1.0 ms]
+  Range (min … max):     8.8 ms …   9.3 ms    10 runs
+ 
+Benchmark 203: ./mandelbrot_pth seahorse 256
+  Time (mean ± σ):      50.3 ms ±   0.6 ms    [User: 83.6 ms, System: 1.2 ms]
+  Range (min … max):    49.6 ms …  51.3 ms    10 runs
+ 
+Benchmark 204: ./mandelbrot_omp seahorse 256
+  Time (mean ± σ):      50.9 ms ±   0.3 ms    [User: 84.0 ms, System: 1.4 ms]
+  Range (min … max):    50.4 ms …  51.3 ms    10 runs
+ 
+Benchmark 205: ./mandelbrot_pth elephant 256
+  Time (mean ± σ):      42.5 ms ±   0.4 ms    [User: 79.0 ms, System: 1.1 ms]
+  Range (min … max):    42.1 ms …  43.3 ms    10 runs
+ 
+Benchmark 206: ./mandelbrot_omp elephant 256
+  Time (mean ± σ):      42.8 ms ±   0.3 ms    [User: 79.2 ms, System: 1.2 ms]
+  Range (min … max):    42.6 ms …  43.5 ms    10 runs
+ 
+Benchmark 207: ./mandelbrot_pth spiral 256
+  Time (mean ± σ):      53.5 ms ±   0.3 ms    [User: 95.1 ms, System: 1.2 ms]
+  Range (min … max):    53.1 ms …  54.0 ms    10 runs
+ 
+Benchmark 208: ./mandelbrot_omp spiral 256
+  Time (mean ± σ):      53.9 ms ±   0.6 ms    [User: 95.3 ms, System: 1.3 ms]
+  Range (min … max):    53.4 ms …  55.2 ms    10 runs
+ 
+Benchmark 209: ./mandelbrot_pth full 256
+  Time (mean ± σ):       9.2 ms ±   0.4 ms    [User: 13.4 ms, System: 1.2 ms]
+  Range (min … max):     8.9 ms …  10.2 ms    10 runs
+ 
+Benchmark 210: ./mandelbrot_omp full 256
+  Time (mean ± σ):       9.9 ms ±   0.4 ms    [User: 13.7 ms, System: 1.4 ms]
+  Range (min … max):     9.6 ms …  10.8 ms    10 runs
+ 
+Benchmark 211: ./mandelbrot_pth seahorse 256
+  Time (mean ± σ):      29.4 ms ±   0.6 ms    [User: 88.8 ms, System: 1.4 ms]
+  Range (min … max):    28.7 ms …  30.6 ms    10 runs
+ 
+Benchmark 212: ./mandelbrot_omp seahorse 256
+  Time (mean ± σ):      30.4 ms ±   0.7 ms    [User: 90.5 ms, System: 1.6 ms]
+  Range (min … max):    29.3 ms …  31.3 ms    10 runs
+ 
+Benchmark 213: ./mandelbrot_pth elephant 256
+  Time (mean ± σ):      30.8 ms ±   5.1 ms    [User: 88.2 ms, System: 1.6 ms]
+  Range (min … max):    28.0 ms …  45.1 ms    10 runs
+ 
+Benchmark 214: ./mandelbrot_omp elephant 256
+  Time (mean ± σ):      30.1 ms ±   0.5 ms    [User: 90.6 ms, System: 1.7 ms]
+  Range (min … max):    29.4 ms …  30.9 ms    10 runs
+ 
+Benchmark 215: ./mandelbrot_pth spiral 256
+  Time (mean ± σ):      33.6 ms ±   0.9 ms    [User: 109.7 ms, System: 1.5 ms]
+  Range (min … max):    32.0 ms …  34.8 ms    10 runs
+ 
+Benchmark 216: ./mandelbrot_omp spiral 256
+  Time (mean ± σ):      33.4 ms ±   0.6 ms    [User: 107.3 ms, System: 1.7 ms]
+  Range (min … max):    32.6 ms …  34.2 ms    10 runs
+ 
+Benchmark 217: ./mandelbrot_pth full 256
+  Time (mean ± σ):       8.8 ms ±   0.3 ms    [User: 14.8 ms, System: 1.5 ms]
+  Range (min … max):     8.5 ms …   9.4 ms    10 runs
+ 
+Benchmark 218: ./mandelbrot_omp full 256
+  Time (mean ± σ):       9.3 ms ±   0.2 ms    [User: 15.0 ms, System: 1.7 ms]
+  Range (min … max):     9.0 ms …   9.8 ms    10 runs
+ 
+Benchmark 219: ./mandelbrot_pth seahorse 256
+  Time (mean ± σ):      19.2 ms ±   1.4 ms    [User: 99.7 ms, System: 1.5 ms]
+  Range (min … max):    18.1 ms …  22.1 ms    10 runs
+ 
+Benchmark 220: ./mandelbrot_omp seahorse 256
+  Time (mean ± σ):      19.2 ms ±   0.8 ms    [User: 99.3 ms, System: 1.7 ms]
+  Range (min … max):    18.3 ms …  20.8 ms    10 runs
+ 
+Benchmark 221: ./mandelbrot_pth elephant 256
+  Time (mean ± σ):      20.2 ms ±   3.5 ms    [User: 94.4 ms, System: 1.8 ms]
+  Range (min … max):    17.5 ms …  27.7 ms    10 runs
+ 
+Benchmark 222: ./mandelbrot_omp elephant 256
+  Time (mean ± σ):      20.3 ms ±   1.9 ms    [User: 97.2 ms, System: 2.0 ms]
+  Range (min … max):    18.1 ms …  23.1 ms    10 runs
+ 
+Benchmark 223: ./mandelbrot_pth spiral 256
+  Time (mean ± σ):      24.3 ms ±   3.7 ms    [User: 117.2 ms, System: 1.9 ms]
+  Range (min … max):    19.6 ms …  28.9 ms    10 runs
+ 
+Benchmark 224: ./mandelbrot_omp spiral 256
+  Time (mean ± σ):      22.2 ms ±   2.5 ms    [User: 116.9 ms, System: 1.8 ms]
+  Range (min … max):    19.9 ms …  28.1 ms    10 runs
+ 
+Benchmark 225: ./mandelbrot_pth full 256
+  Time (mean ± σ):       7.4 ms ±   0.5 ms    [User: 16.3 ms, System: 1.9 ms]
+  Range (min … max):     7.0 ms …   8.8 ms    10 runs
+ 
+Benchmark 226: ./mandelbrot_omp full 256
+  Time (mean ± σ):       8.1 ms ±   0.8 ms    [User: 16.4 ms, System: 2.1 ms]
+  Range (min … max):     7.2 ms …   9.4 ms    10 runs
+ 
+Benchmark 227: ./mandelbrot_pth seahorse 256
+  Time (mean ± σ):      16.8 ms ±   0.4 ms    [User: 101.0 ms, System: 1.7 ms]
+  Range (min … max):    16.5 ms …  17.9 ms    10 runs
+ 
+Benchmark 228: ./mandelbrot_omp seahorse 256
+  Time (mean ± σ):      20.9 ms ±   2.2 ms    [User: 99.9 ms, System: 2.2 ms]
+  Range (min … max):    18.3 ms …  24.4 ms    10 runs
+ 
+Benchmark 229: ./mandelbrot_pth elephant 256
+  Time (mean ± σ):      18.2 ms ±   0.7 ms    [User: 94.7 ms, System: 1.8 ms]
+  Range (min … max):    17.5 ms …  19.7 ms    10 runs
+ 
+Benchmark 230: ./mandelbrot_omp elephant 256
+  Time (mean ± σ):      20.5 ms ±   1.1 ms    [User: 94.8 ms, System: 2.0 ms]
+  Range (min … max):    18.7 ms …  22.0 ms    10 runs
+ 
+Benchmark 231: ./mandelbrot_pth spiral 256
+  Time (mean ± σ):      20.8 ms ±   1.4 ms    [User: 118.2 ms, System: 1.9 ms]
+  Range (min … max):    19.4 ms …  24.1 ms    10 runs
+ 
+Benchmark 232: ./mandelbrot_omp spiral 256
+  Time (mean ± σ):      22.3 ms ±   1.9 ms    [User: 117.8 ms, System: 2.2 ms]
+  Range (min … max):    20.3 ms …  26.4 ms    10 runs
+ 
+Benchmark 233: ./mandelbrot_pth full 256
+  Time (mean ± σ):       6.2 ms ±   0.3 ms    [User: 17.1 ms, System: 2.6 ms]
+  Range (min … max):     5.9 ms …   6.6 ms    10 runs
+ 
+Benchmark 234: ./mandelbrot_omp full 256
+  Time (mean ± σ):       7.0 ms ±   0.2 ms    [User: 17.1 ms, System: 2.6 ms]
+  Range (min … max):     6.7 ms …   7.3 ms    10 runs
+ 
+Benchmark 235: ./mandelbrot_pth seahorse 256
+  Time (mean ± σ):      18.7 ms ±   1.1 ms    [User: 105.0 ms, System: 2.6 ms]
+  Range (min … max):    17.1 ms …  20.7 ms    10 runs
+ 
+Benchmark 236: ./mandelbrot_omp seahorse 256
+  Time (mean ± σ):      19.5 ms ±   0.7 ms    [User: 104.7 ms, System: 2.8 ms]
+  Range (min … max):    19.0 ms …  21.4 ms    10 runs
+ 
+Benchmark 237: ./mandelbrot_pth elephant 256
+  Time (mean ± σ):      18.6 ms ±   0.9 ms    [User: 99.2 ms, System: 2.6 ms]
+  Range (min … max):    17.4 ms …  19.9 ms    10 runs
+ 
+Benchmark 238: ./mandelbrot_omp elephant 256
+  Time (mean ± σ):      18.9 ms ±   1.0 ms    [User: 99.0 ms, System: 2.8 ms]
+  Range (min … max):    18.1 ms …  21.2 ms    10 runs
+ 
+Benchmark 239: ./mandelbrot_pth spiral 256
+  Time (mean ± σ):      20.8 ms ±   1.2 ms    [User: 119.0 ms, System: 2.8 ms]
+  Range (min … max):    19.3 ms …  23.0 ms    10 runs
+ 
+Benchmark 240: ./mandelbrot_omp spiral 256
+  Time (mean ± σ):      20.7 ms ±   1.2 ms    [User: 114.5 ms, System: 2.7 ms]
+  Range (min … max):    19.3 ms …  22.3 ms    10 runs
+ 
+Benchmark 241: ./mandelbrot_pth full 512
+  Time (mean ± σ):      53.3 ms ±   0.4 ms    [User: 50.7 ms, System: 1.2 ms]
+  Range (min … max):    52.8 ms …  53.9 ms    10 runs
+ 
+Benchmark 242: ./mandelbrot_omp full 512
+  Time (mean ± σ):      52.0 ms ±   0.6 ms    [User: 49.2 ms, System: 1.3 ms]
+  Range (min … max):    51.3 ms …  53.4 ms    10 runs
+ 
+Benchmark 243: ./mandelbrot_pth seahorse 512
+  Time (mean ± σ):     307.7 ms ±  14.8 ms    [User: 305.1 ms, System: 1.2 ms]
+  Range (min … max):   288.2 ms … 335.8 ms    10 runs
+ 
+Benchmark 244: ./mandelbrot_omp seahorse 512
+  Time (mean ± σ):     290.1 ms ±   6.1 ms    [User: 287.4 ms, System: 1.1 ms]
+  Range (min … max):   282.4 ms … 299.6 ms    10 runs
+ 
+Benchmark 245: ./mandelbrot_pth elephant 512
+  Time (mean ± σ):     269.8 ms ±   2.0 ms    [User: 267.4 ms, System: 1.0 ms]
+  Range (min … max):   267.0 ms … 273.9 ms    10 runs
+ 
+Benchmark 246: ./mandelbrot_omp elephant 512
+  Time (mean ± σ):     272.3 ms ±   4.8 ms    [User: 269.4 ms, System: 1.1 ms]
+  Range (min … max):   265.6 ms … 279.2 ms    10 runs
+ 
+Benchmark 247: ./mandelbrot_pth spiral 512
+  Time (mean ± σ):     325.9 ms ±   4.2 ms    [User: 323.5 ms, System: 1.1 ms]
+  Range (min … max):   319.9 ms … 332.3 ms    10 runs
+ 
+Benchmark 248: ./mandelbrot_omp spiral 512
+  Time (mean ± σ):     325.9 ms ±   4.3 ms    [User: 323.5 ms, System: 1.1 ms]
+  Range (min … max):   321.8 ms … 333.1 ms    10 runs
+ 
+Benchmark 249: ./mandelbrot_pth full 512
+  Time (mean ± σ):      24.3 ms ±   1.1 ms    [User: 43.0 ms, System: 1.0 ms]
+  Range (min … max):    23.1 ms …  26.1 ms    10 runs
+ 
+Benchmark 250: ./mandelbrot_omp full 512
+  Time (mean ± σ):      24.2 ms ±   0.4 ms    [User: 42.7 ms, System: 1.1 ms]
+  Range (min … max):    23.6 ms …  25.0 ms    10 runs
+ 
+Benchmark 251: ./mandelbrot_pth seahorse 512
+  Time (mean ± σ):     183.7 ms ±   0.5 ms    [User: 320.0 ms, System: 1.2 ms]
+  Range (min … max):   182.7 ms … 184.2 ms    10 runs
+ 
+Benchmark 252: ./mandelbrot_omp seahorse 512
+  Time (mean ± σ):     184.1 ms ±   0.7 ms    [User: 320.2 ms, System: 1.3 ms]
+  Range (min … max):   182.7 ms … 185.5 ms    10 runs
+ 
+Benchmark 253: ./mandelbrot_pth elephant 512
+  Time (mean ± σ):     157.8 ms ±   2.3 ms    [User: 309.4 ms, System: 1.2 ms]
+  Range (min … max):   153.7 ms … 159.7 ms    10 runs
+ 
+Benchmark 254: ./mandelbrot_omp elephant 512
+  Time (mean ± σ):     154.6 ms ±   0.5 ms    [User: 302.5 ms, System: 1.3 ms]
+  Range (min … max):   154.0 ms … 155.4 ms    10 runs
+ 
+Benchmark 255: ./mandelbrot_pth spiral 512
+  Time (mean ± σ):     205.9 ms ±   3.5 ms    [User: 380.8 ms, System: 1.4 ms]
+  Range (min … max):   203.0 ms … 211.4 ms    10 runs
+ 
+Benchmark 256: ./mandelbrot_omp spiral 512
+  Time (mean ± σ):     203.9 ms ±   0.4 ms    [User: 376.5 ms, System: 1.4 ms]
+  Range (min … max):   203.5 ms … 204.5 ms    10 runs
+ 
+Benchmark 257: ./mandelbrot_pth full 512
+  Time (mean ± σ):      25.9 ms ±   0.3 ms    [User: 49.2 ms, System: 1.2 ms]
+  Range (min … max):    25.6 ms …  26.6 ms    10 runs
+ 
+Benchmark 258: ./mandelbrot_omp full 512
+  Time (mean ± σ):      29.9 ms ±   6.6 ms    [User: 50.1 ms, System: 1.7 ms]
+  Range (min … max):    26.7 ms …  47.8 ms    10 runs
+ 
+Benchmark 259: ./mandelbrot_pth seahorse 512
+  Time (mean ± σ):     112.8 ms ±   2.0 ms    [User: 372.9 ms, System: 1.9 ms]
+  Range (min … max):   110.9 ms … 117.8 ms    10 runs
+ 
+Benchmark 260: ./mandelbrot_omp seahorse 512
+  Time (mean ± σ):     112.8 ms ±   1.2 ms    [User: 370.9 ms, System: 2.1 ms]
+  Range (min … max):   111.6 ms … 115.0 ms    10 runs
+ 
+Benchmark 261: ./mandelbrot_pth elephant 512
+  Time (mean ± σ):     105.4 ms ±   1.7 ms    [User: 353.8 ms, System: 1.8 ms]
+  Range (min … max):   103.2 ms … 108.3 ms    10 runs
+ 
+Benchmark 262: ./mandelbrot_omp elephant 512
+  Time (mean ± σ):     106.1 ms ±   2.6 ms    [User: 353.6 ms, System: 2.0 ms]
+  Range (min … max):   103.0 ms … 111.8 ms    10 runs
+ 
+Benchmark 263: ./mandelbrot_pth spiral 512
+  Time (mean ± σ):     124.5 ms ±   1.6 ms    [User: 443.5 ms, System: 2.1 ms]
+  Range (min … max):   122.6 ms … 126.7 ms    10 runs
+ 
+Benchmark 264: ./mandelbrot_omp spiral 512
+  Time (mean ± σ):     125.0 ms ±   2.2 ms    [User: 442.6 ms, System: 2.3 ms]
+  Range (min … max):   122.6 ms … 130.1 ms    10 runs
+ 
+Benchmark 265: ./mandelbrot_pth full 512
+  Time (mean ± σ):      25.6 ms ±   0.8 ms    [User: 59.6 ms, System: 1.8 ms]
+  Range (min … max):    24.9 ms …  27.1 ms    10 runs
+ 
+Benchmark 266: ./mandelbrot_omp full 512
+  Time (mean ± σ):      25.0 ms ±   0.4 ms    [User: 57.4 ms, System: 1.9 ms]
+  Range (min … max):    24.5 ms …  25.6 ms    10 runs
+ 
+Benchmark 267: ./mandelbrot_pth seahorse 512
+  Time (mean ± σ):      67.5 ms ±   3.7 ms    [User: 411.3 ms, System: 2.2 ms]
+  Range (min … max):    63.4 ms …  72.0 ms    10 runs
+ 
+Benchmark 268: ./mandelbrot_omp seahorse 512
+  Time (mean ± σ):      69.6 ms ±   3.9 ms    [User: 424.5 ms, System: 2.4 ms]
+  Range (min … max):    65.3 ms …  78.0 ms    10 runs
+ 
+Benchmark 269: ./mandelbrot_pth elephant 512
+  Time (mean ± σ):      71.2 ms ±   4.4 ms    [User: 415.4 ms, System: 2.5 ms]
+  Range (min … max):    66.4 ms …  78.7 ms    10 runs
+ 
+Benchmark 270: ./mandelbrot_omp elephant 512
+  Time (mean ± σ):      67.9 ms ±   3.5 ms    [User: 396.7 ms, System: 2.6 ms]
+  Range (min … max):    64.0 ms …  73.8 ms    10 runs
+ 
+Benchmark 271: ./mandelbrot_pth spiral 512
+  Time (mean ± σ):      77.9 ms ±   5.3 ms    [User: 492.3 ms, System: 2.5 ms]
+  Range (min … max):    72.7 ms …  86.6 ms    10 runs
+ 
+Benchmark 272: ./mandelbrot_omp spiral 512
+  Time (mean ± σ):      78.0 ms ±   6.0 ms    [User: 497.7 ms, System: 2.8 ms]
+  Range (min … max):    73.3 ms …  90.8 ms    10 runs
+ 
+Benchmark 273: ./mandelbrot_pth full 512
+  Time (mean ± σ):      18.2 ms ±   0.4 ms    [User: 64.3 ms, System: 2.1 ms]
+  Range (min … max):    17.8 ms …  18.9 ms    10 runs
+ 
+Benchmark 274: ./mandelbrot_omp full 512
+  Time (mean ± σ):      18.2 ms ±   0.8 ms    [User: 62.4 ms, System: 2.2 ms]
+  Range (min … max):    17.3 ms …  19.9 ms    10 runs
+ 
+Benchmark 275: ./mandelbrot_pth seahorse 512
+  Time (mean ± σ):      62.8 ms ±   2.6 ms    [User: 427.4 ms, System: 2.6 ms]
+  Range (min … max):    59.9 ms …  69.0 ms    10 runs
+ 
+Benchmark 276: ./mandelbrot_omp seahorse 512
+  Time (mean ± σ):      66.3 ms ±   1.8 ms    [User: 426.5 ms, System: 2.8 ms]
+  Range (min … max):    63.7 ms …  69.9 ms    10 runs
+ 
+Benchmark 277: ./mandelbrot_pth elephant 512
+  Time (mean ± σ):      64.3 ms ±   3.3 ms    [User: 414.0 ms, System: 2.7 ms]
+  Range (min … max):    59.5 ms …  70.2 ms    10 runs
+ 
+Benchmark 278: ./mandelbrot_omp elephant 512
+  Time (mean ± σ):      70.4 ms ±  12.9 ms    [User: 416.9 ms, System: 3.0 ms]
+  Range (min … max):    62.4 ms … 106.3 ms    10 runs
+ 
+Benchmark 279: ./mandelbrot_pth spiral 512
+  Time (mean ± σ):      74.5 ms ±   5.8 ms    [User: 503.9 ms, System: 3.1 ms]
+  Range (min … max):    69.0 ms …  83.7 ms    10 runs
+ 
+Benchmark 280: ./mandelbrot_omp spiral 512
+  Time (mean ± σ):      75.1 ms ±   4.9 ms    [User: 502.9 ms, System: 2.8 ms]
+  Range (min … max):    69.5 ms …  83.0 ms    10 runs
+ 
+Benchmark 281: ./mandelbrot_pth full 512
+  Time (mean ± σ):      13.8 ms ±   1.1 ms    [User: 67.3 ms, System: 2.8 ms]
+  Range (min … max):    12.7 ms …  15.4 ms    10 runs
+ 
+Benchmark 282: ./mandelbrot_omp full 512
+  Time (mean ± σ):      14.1 ms ±   0.7 ms    [User: 64.7 ms, System: 2.8 ms]
+  Range (min … max):    13.3 ms …  15.4 ms    10 runs
+ 
+Benchmark 283: ./mandelbrot_pth seahorse 512
+  Time (mean ± σ):      60.3 ms ±   1.1 ms    [User: 429.0 ms, System: 3.0 ms]
+  Range (min … max):    58.7 ms …  62.4 ms    10 runs
+ 
+Benchmark 284: ./mandelbrot_omp seahorse 512
+  Time (mean ± σ):      66.1 ms ±   2.5 ms    [User: 427.4 ms, System: 3.2 ms]
+  Range (min … max):    63.4 ms …  71.7 ms    10 runs
+ 
+Benchmark 285: ./mandelbrot_pth elephant 512
+  Time (mean ± σ):      61.6 ms ±   1.6 ms    [User: 421.0 ms, System: 3.3 ms]
+  Range (min … max):    59.9 ms …  65.0 ms    10 runs
+ 
+Benchmark 286: ./mandelbrot_omp elephant 512
+  Time (mean ± σ):      64.1 ms ±   3.7 ms    [User: 419.3 ms, System: 3.4 ms]
+  Range (min … max):    60.5 ms …  71.0 ms    10 runs
+ 
+Benchmark 287: ./mandelbrot_pth spiral 512
+  Time (mean ± σ):      71.9 ms ±   1.6 ms    [User: 505.9 ms, System: 3.3 ms]
+  Range (min … max):    70.4 ms …  75.7 ms    10 runs
+ 
+Benchmark 288: ./mandelbrot_omp spiral 512
+  Time (mean ± σ):      76.9 ms ±  10.7 ms    [User: 505.7 ms, System: 3.5 ms]
+  Range (min … max):    71.7 ms … 107.1 ms    10 runs
+ 
+Benchmark 289: ./mandelbrot_pth full 1024
+  Time (mean ± σ):     204.6 ms ±  11.0 ms    [User: 201.1 ms, System: 1.7 ms]
+  Range (min … max):   187.1 ms … 224.5 ms    10 runs
+ 
+Benchmark 290: ./mandelbrot_omp full 1024
+  Time (mean ± σ):     180.1 ms ±   7.1 ms    [User: 177.6 ms, System: 1.1 ms]
+  Range (min … max):   168.8 ms … 190.3 ms    10 runs
+ 
+Benchmark 291: ./mandelbrot_pth seahorse 1024
+  Time (mean ± σ):      1.144 s ±  0.033 s    [User: 1.140 s, System: 0.001 s]
+  Range (min … max):    1.121 s …  1.210 s    10 runs
+ 
+Benchmark 292: ./mandelbrot_omp seahorse 1024
+  Time (mean ± σ):      1.127 s ±  0.005 s    [User: 1.124 s, System: 0.001 s]
+  Range (min … max):    1.121 s …  1.135 s    10 runs
+ 
+Benchmark 293: ./mandelbrot_pth elephant 1024
+  Time (mean ± σ):      1.066 s ±  0.010 s    [User: 1.063 s, System: 0.001 s]
+  Range (min … max):    1.055 s …  1.086 s    10 runs
+ 
+Benchmark 294: ./mandelbrot_omp elephant 1024
+  Time (mean ± σ):      1.064 s ±  0.005 s    [User: 1.060 s, System: 0.002 s]
+  Range (min … max):    1.055 s …  1.071 s    10 runs
+ 
+Benchmark 295: ./mandelbrot_pth spiral 1024
+  Time (mean ± σ):      1.282 s ±  0.007 s    [User: 1.279 s, System: 0.001 s]
+  Range (min … max):    1.274 s …  1.299 s    10 runs
+ 
+Benchmark 296: ./mandelbrot_omp spiral 1024
+  Time (mean ± σ):      1.282 s ±  0.006 s    [User: 1.279 s, System: 0.002 s]
+  Range (min … max):    1.273 s …  1.292 s    10 runs
+ 
+Benchmark 297: ./mandelbrot_pth full 1024
+  Time (mean ± σ):      84.5 ms ±   1.0 ms    [User: 162.9 ms, System: 1.1 ms]
+  Range (min … max):    82.8 ms …  85.8 ms    10 runs
+ 
+Benchmark 298: ./mandelbrot_omp full 1024
+  Time (mean ± σ):      84.0 ms ±   0.8 ms    [User: 161.6 ms, System: 1.1 ms]
+  Range (min … max):    83.2 ms …  85.5 ms    10 runs
+ 
+Benchmark 299: ./mandelbrot_pth seahorse 1024
+  Time (mean ± σ):     694.0 ms ±  10.2 ms    [User: 1221.9 ms, System: 1.6 ms]
+  Range (min … max):   681.9 ms … 703.7 ms    10 runs
+ 
+Benchmark 300: ./mandelbrot_omp seahorse 1024
+  Time (mean ± σ):     701.8 ms ±  16.7 ms    [User: 1234.3 ms, System: 1.9 ms]
+  Range (min … max):   682.3 ms … 727.2 ms    10 runs
+ 
+Benchmark 301: ./mandelbrot_pth elephant 1024
+  Time (mean ± σ):     602.4 ms ±   7.2 ms    [User: 1196.9 ms, System: 1.8 ms]
+  Range (min … max):   588.1 ms … 606.6 ms    10 runs
+ 
+Benchmark 302: ./mandelbrot_omp elephant 1024
+  Time (mean ± σ):     619.6 ms ±  10.2 ms    [User: 1230.2 ms, System: 2.0 ms]
+  Range (min … max):   605.5 ms … 628.3 ms    10 runs
+ 
+Benchmark 303: ./mandelbrot_pth spiral 1024
+  Time (mean ± σ):     766.6 ms ±  12.1 ms    [User: 1433.1 ms, System: 1.9 ms]
+  Range (min … max):   752.9 ms … 780.1 ms    10 runs
+ 
+Benchmark 304: ./mandelbrot_omp spiral 1024
+  Time (mean ± σ):     778.3 ms ±  23.9 ms    [User: 1454.9 ms, System: 2.2 ms]
+  Range (min … max):   752.6 ms … 803.7 ms    10 runs
+ 
+Benchmark 305: ./mandelbrot_pth full 1024
+  Time (mean ± σ):      87.1 ms ±   1.2 ms    [User: 179.9 ms, System: 1.2 ms]
+  Range (min … max):    85.4 ms …  88.6 ms    10 runs
+ 
+Benchmark 306: ./mandelbrot_omp full 1024
+  Time (mean ± σ):      91.2 ms ±   1.4 ms    [User: 187.2 ms, System: 1.5 ms]
+  Range (min … max):    89.0 ms …  92.9 ms    10 runs
+ 
+Benchmark 307: ./mandelbrot_pth seahorse 1024
+  Time (mean ± σ):     432.0 ms ±   9.1 ms    [User: 1457.8 ms, System: 2.5 ms]
+  Range (min … max):   409.6 ms … 444.2 ms    10 runs
+ 
+Benchmark 308: ./mandelbrot_omp seahorse 1024
+  Time (mean ± σ):     449.5 ms ±   5.6 ms    [User: 1516.4 ms, System: 3.6 ms]
+  Range (min … max):   439.7 ms … 458.1 ms    10 runs
+ 
+Benchmark 309: ./mandelbrot_pth elephant 1024
+  Time (mean ± σ):     420.4 ms ±   3.6 ms    [User: 1448.5 ms, System: 3.2 ms]
+  Range (min … max):   416.1 ms … 426.4 ms    10 runs
+ 
+Benchmark 310: ./mandelbrot_omp elephant 1024
+  Time (mean ± σ):     404.3 ms ±   4.9 ms    [User: 1393.1 ms, System: 3.1 ms]
+  Range (min … max):   399.3 ms … 414.7 ms    10 runs
+ 
+Benchmark 311: ./mandelbrot_pth spiral 1024
+  Time (mean ± σ):     479.6 ms ±   4.7 ms    [User: 1742.3 ms, System: 3.3 ms]
+  Range (min … max):   472.4 ms … 489.1 ms    10 runs
+ 
+Benchmark 312: ./mandelbrot_omp spiral 1024
+  Time (mean ± σ):     480.5 ms ±   5.2 ms    [User: 1748.9 ms, System: 3.7 ms]
+  Range (min … max):   475.8 ms … 491.0 ms    10 runs
+ 
+Benchmark 313: ./mandelbrot_pth full 1024
+  Time (mean ± σ):      82.9 ms ±   1.1 ms    [User: 219.5 ms, System: 1.9 ms]
+  Range (min … max):    81.4 ms …  84.9 ms    10 runs
+ 
+Benchmark 314: ./mandelbrot_omp full 1024
+  Time (mean ± σ):      81.3 ms ±   1.7 ms    [User: 214.3 ms, System: 1.9 ms]
+  Range (min … max):    79.2 ms …  84.2 ms    10 runs
+ 
+Benchmark 315: ./mandelbrot_pth seahorse 1024
+  Time (mean ± σ):     267.1 ms ±  16.8 ms    [User: 1665.8 ms, System: 4.5 ms]
+  Range (min … max):   241.0 ms … 300.6 ms    10 runs
+ 
+Benchmark 316: ./mandelbrot_omp seahorse 1024
+  Time (mean ± σ):     276.1 ms ±  23.7 ms    [User: 1743.5 ms, System: 4.5 ms]
+  Range (min … max):   257.9 ms … 339.7 ms    10 runs
+ 
+Benchmark 317: ./mandelbrot_pth elephant 1024
+  Time (mean ± σ):     268.0 ms ±   9.2 ms    [User: 1693.1 ms, System: 4.4 ms]
+  Range (min … max):   256.7 ms … 286.2 ms    10 runs
+ 
+Benchmark 318: ./mandelbrot_omp elephant 1024
+  Time (mean ± σ):     260.8 ms ±  12.2 ms    [User: 1605.3 ms, System: 4.5 ms]
+  Range (min … max):   246.6 ms … 288.3 ms    10 runs
+ 
+Benchmark 319: ./mandelbrot_pth spiral 1024
+  Time (mean ± σ):     322.9 ms ±  31.8 ms    [User: 2050.8 ms, System: 7.1 ms]
+  Range (min … max):   294.8 ms … 398.2 ms    10 runs
+ 
+Benchmark 320: ./mandelbrot_omp spiral 1024
+  Time (mean ± σ):     285.8 ms ±  10.5 ms    [User: 1947.5 ms, System: 4.4 ms]
+  Range (min … max):   268.6 ms … 299.7 ms    10 runs
+ 
+Benchmark 321: ./mandelbrot_pth full 1024
+  Time (mean ± σ):      59.7 ms ±   1.3 ms    [User: 249.6 ms, System: 2.4 ms]
+  Range (min … max):    58.3 ms …  62.5 ms    10 runs
+ 
+Benchmark 322: ./mandelbrot_omp full 1024
+  Time (mean ± σ):      56.4 ms ±   1.3 ms    [User: 234.3 ms, System: 2.4 ms]
+  Range (min … max):    54.2 ms …  57.9 ms    10 runs
+ 
+Benchmark 323: ./mandelbrot_pth seahorse 1024
+  Time (mean ± σ):     242.2 ms ±   9.1 ms    [User: 1709.7 ms, System: 3.8 ms]
+  Range (min … max):   220.2 ms … 252.3 ms    10 runs
+ 
+Benchmark 324: ./mandelbrot_omp seahorse 1024
+  Time (mean ± σ):     247.2 ms ±   6.6 ms    [User: 1761.0 ms, System: 4.2 ms]
+  Range (min … max):   236.8 ms … 258.5 ms    10 runs
+ 
+Benchmark 325: ./mandelbrot_pth elephant 1024
+  Time (mean ± σ):     242.3 ms ±  20.9 ms    [User: 1634.0 ms, System: 4.0 ms]
+  Range (min … max):   217.9 ms … 294.3 ms    10 runs
+ 
+Benchmark 326: ./mandelbrot_omp elephant 1024
+  Time (mean ± σ):     239.8 ms ±   9.7 ms    [User: 1661.3 ms, System: 4.3 ms]
+  Range (min … max):   227.3 ms … 254.9 ms    10 runs
+ 
+Benchmark 327: ./mandelbrot_pth spiral 1024
+  Time (mean ± σ):     269.8 ms ±   8.7 ms    [User: 1958.0 ms, System: 4.2 ms]
+  Range (min … max):   257.5 ms … 285.8 ms    10 runs
+ 
+Benchmark 328: ./mandelbrot_omp spiral 1024
+  Time (mean ± σ):     274.4 ms ±   5.7 ms    [User: 2004.2 ms, System: 4.5 ms]
+  Range (min … max):   266.2 ms … 282.7 ms    10 runs
+ 
+Benchmark 329: ./mandelbrot_pth full 1024
+  Time (mean ± σ):      44.3 ms ±   3.0 ms    [User: 247.6 ms, System: 3.0 ms]
+  Range (min … max):    40.2 ms …  49.1 ms    10 runs
+ 
+Benchmark 330: ./mandelbrot_omp full 1024
+  Time (mean ± σ):      40.4 ms ±   2.3 ms    [User: 241.8 ms, System: 2.8 ms]
+  Range (min … max):    38.4 ms …  44.9 ms    10 runs
+ 
+Benchmark 331: ./mandelbrot_pth seahorse 1024
+  Time (mean ± σ):     221.4 ms ±   5.8 ms    [User: 1682.1 ms, System: 3.5 ms]
+  Range (min … max):   212.2 ms … 232.1 ms    10 runs
+ 
+Benchmark 332: ./mandelbrot_omp seahorse 1024
+  Time (mean ± σ):     230.4 ms ±   7.2 ms    [User: 1710.6 ms, System: 3.8 ms]
+  Range (min … max):   224.8 ms … 249.5 ms    10 runs
+ 
+Benchmark 333: ./mandelbrot_pth elephant 1024
+  Time (mean ± σ):     220.8 ms ±   5.3 ms    [User: 1624.9 ms, System: 3.8 ms]
+  Range (min … max):   212.6 ms … 229.0 ms    10 runs
+ 
+Benchmark 334: ./mandelbrot_omp elephant 1024
+  Time (mean ± σ):     219.0 ms ±   4.7 ms    [User: 1615.7 ms, System: 3.7 ms]
+  Range (min … max):   214.2 ms … 227.4 ms    10 runs
+ 
+Benchmark 335: ./mandelbrot_pth spiral 1024
+  Time (mean ± σ):     256.6 ms ±   2.5 ms    [User: 1948.3 ms, System: 3.9 ms]
+  Range (min … max):   253.1 ms … 261.5 ms    10 runs
+ 
+Benchmark 336: ./mandelbrot_omp spiral 1024
+  Time (mean ± σ):     257.8 ms ±   5.6 ms    [User: 1940.3 ms, System: 4.0 ms]
+  Range (min … max):   252.0 ms … 267.9 ms    10 runs
+ 
+Benchmark 337: ./mandelbrot_pth full 2048
+  Time (mean ± σ):     667.0 ms ±  61.2 ms    [User: 664.5 ms, System: 1.1 ms]
+  Range (min … max):   625.7 ms … 808.5 ms    10 runs
+ 
+Benchmark 338: ./mandelbrot_omp full 2048
+  Time (mean ± σ):     628.6 ms ±   4.8 ms    [User: 626.3 ms, System: 1.0 ms]
+  Range (min … max):   624.3 ms … 638.7 ms    10 runs
+ 
+Benchmark 339: ./mandelbrot_pth seahorse 2048
+  Time (mean ± σ):      4.471 s ±  0.027 s    [User: 4.466 s, System: 0.002 s]
+  Range (min … max):    4.445 s …  4.536 s    10 runs
+ 
+Benchmark 340: ./mandelbrot_omp seahorse 2048
+  Time (mean ± σ):      4.469 s ±  0.010 s    [User: 4.465 s, System: 0.002 s]
+  Range (min … max):    4.453 s …  4.484 s    10 runs
+ 
+Benchmark 341: ./mandelbrot_pth elephant 2048
+  Time (mean ± σ):      4.218 s ±  0.020 s    [User: 4.213 s, System: 0.002 s]
+  Range (min … max):    4.193 s …  4.241 s    10 runs
+ 
+Benchmark 342: ./mandelbrot_omp elephant 2048
+  Time (mean ± σ):      4.210 s ±  0.016 s    [User: 4.206 s, System: 0.002 s]
+  Range (min … max):    4.192 s …  4.250 s    10 runs
+ 
+Benchmark 343: ./mandelbrot_pth spiral 2048
+  Time (mean ± σ):      5.080 s ±  0.012 s    [User: 5.076 s, System: 0.002 s]
+  Range (min … max):    5.067 s …  5.101 s    10 runs
+ 
+Benchmark 344: ./mandelbrot_omp spiral 2048
+  Time (mean ± σ):      5.079 s ±  0.012 s    [User: 5.075 s, System: 0.002 s]
+  Range (min … max):    5.063 s …  5.101 s    10 runs
+ 
+Benchmark 345: ./mandelbrot_pth full 2048
+  Time (mean ± σ):     322.5 ms ±   2.2 ms    [User: 638.3 ms, System: 1.1 ms]
+  Range (min … max):   320.8 ms … 327.2 ms    10 runs
+ 
+Benchmark 346: ./mandelbrot_omp full 2048
+  Time (mean ± σ):     322.4 ms ±   0.9 ms    [User: 637.7 ms, System: 1.1 ms]
+  Range (min … max):   321.4 ms … 324.1 ms    10 runs
+ 
+Benchmark 347: ./mandelbrot_pth seahorse 2048
+  Time (mean ± σ):      2.573 s ±  0.008 s    [User: 4.556 s, System: 0.002 s]
+  Range (min … max):    2.561 s …  2.582 s    10 runs
+ 
+Benchmark 348: ./mandelbrot_omp seahorse 2048
+  Time (mean ± σ):      2.575 s ±  0.009 s    [User: 4.558 s, System: 0.002 s]
+  Range (min … max):    2.562 s …  2.591 s    10 runs
+ 
+Benchmark 349: ./mandelbrot_pth elephant 2048
+  Time (mean ± σ):      2.166 s ±  0.007 s    [User: 4.322 s, System: 0.002 s]
+  Range (min … max):    2.159 s …  2.177 s    10 runs
+ 
+Benchmark 350: ./mandelbrot_omp elephant 2048
+  Time (mean ± σ):      2.178 s ±  0.014 s    [User: 4.346 s, System: 0.002 s]
+  Range (min … max):    2.158 s …  2.196 s    10 runs
+ 
+Benchmark 351: ./mandelbrot_pth spiral 2048
+  Time (mean ± σ):      2.774 s ±  0.014 s    [User: 5.210 s, System: 0.002 s]
+  Range (min … max):    2.754 s …  2.797 s    10 runs
+ 
+Benchmark 352: ./mandelbrot_omp spiral 2048
+  Time (mean ± σ):      2.779 s ±  0.010 s    [User: 5.220 s, System: 0.002 s]
+  Range (min … max):    2.765 s …  2.799 s    10 runs
+ 
+Benchmark 353: ./mandelbrot_pth full 2048
+  Time (mean ± σ):     314.3 ms ±   5.4 ms    [User: 658.3 ms, System: 1.2 ms]
+  Range (min … max):   306.4 ms … 323.3 ms    10 runs
+ 
+Benchmark 354: ./mandelbrot_omp full 2048
+  Time (mean ± σ):     310.3 ms ±   4.8 ms    [User: 649.8 ms, System: 1.3 ms]
+  Range (min … max):   305.9 ms … 320.7 ms    10 runs
+ 
+Benchmark 355: ./mandelbrot_pth seahorse 2048
+  Time (mean ± σ):      1.504 s ±  0.052 s    [User: 5.111 s, System: 0.003 s]
+  Range (min … max):    1.423 s …  1.581 s    10 runs
+ 
+Benchmark 356: ./mandelbrot_omp seahorse 2048
+  Time (mean ± σ):      1.528 s ±  0.017 s    [User: 5.193 s, System: 0.004 s]
+  Range (min … max):    1.504 s …  1.561 s    10 runs
+ 
+Benchmark 357: ./mandelbrot_pth elephant 2048
+  Time (mean ± σ):      1.424 s ±  0.020 s    [User: 4.946 s, System: 0.003 s]
+  Range (min … max):    1.386 s …  1.447 s    10 runs
+ 
+Benchmark 358: ./mandelbrot_omp elephant 2048
+  Time (mean ± σ):      1.421 s ±  0.017 s    [User: 4.935 s, System: 0.003 s]
+  Range (min … max):    1.398 s …  1.457 s    10 runs
+ 
+Benchmark 359: ./mandelbrot_pth spiral 2048
+  Time (mean ± σ):      1.666 s ±  0.027 s    [User: 6.100 s, System: 0.004 s]
+  Range (min … max):    1.632 s …  1.709 s    10 runs
+ 
+Benchmark 360: ./mandelbrot_omp spiral 2048
+  Time (mean ± σ):      1.649 s ±  0.018 s    [User: 6.035 s, System: 0.004 s]
+  Range (min … max):    1.614 s …  1.679 s    10 runs
+ 
+Benchmark 361: ./mandelbrot_pth full 2048
+  Time (mean ± σ):     270.6 ms ±   5.2 ms    [User: 746.0 ms, System: 1.5 ms]
+  Range (min … max):   265.1 ms … 280.0 ms    10 runs
+ 
+Benchmark 362: ./mandelbrot_omp full 2048
+  Time (mean ± σ):     264.1 ms ±   4.8 ms    [User: 724.4 ms, System: 1.7 ms]
+  Range (min … max):   259.5 ms … 275.6 ms    10 runs
+ 
+Benchmark 363: ./mandelbrot_pth seahorse 2048
+  Time (mean ± σ):     992.6 ms ±  30.6 ms    [User: 6543.8 ms, System: 5.6 ms]
+  Range (min … max):   922.4 ms … 1018.1 ms    10 runs
+ 
+Benchmark 364: ./mandelbrot_omp seahorse 2048
+  Time (mean ± σ):     944.9 ms ±  27.5 ms    [User: 6307.5 ms, System: 5.5 ms]
+  Range (min … max):   898.5 ms … 987.5 ms    10 runs
+ 
+Benchmark 365: ./mandelbrot_pth elephant 2048
+  Time (mean ± σ):     920.2 ms ±  23.3 ms    [User: 6021.5 ms, System: 4.9 ms]
+  Range (min … max):   873.3 ms … 941.7 ms    10 runs
+ 
+Benchmark 366: ./mandelbrot_omp elephant 2048
+  Time (mean ± σ):     914.7 ms ±  23.4 ms    [User: 5967.9 ms, System: 5.1 ms]
+  Range (min … max):   878.7 ms … 938.5 ms    10 runs
+ 
+Benchmark 367: ./mandelbrot_pth spiral 2048
+  Time (mean ± σ):      1.054 s ±  0.036 s    [User: 7.443 s, System: 0.006 s]
+  Range (min … max):    0.979 s …  1.104 s    10 runs
+ 
+Benchmark 368: ./mandelbrot_omp spiral 2048
+  Time (mean ± σ):      1.050 s ±  0.022 s    [User: 7.361 s, System: 0.006 s]
+  Range (min … max):    1.018 s …  1.088 s    10 runs
+ 
+Benchmark 369: ./mandelbrot_pth full 2048
+  Time (mean ± σ):     194.3 ms ±   3.7 ms    [User: 864.7 ms, System: 2.2 ms]
+  Range (min … max):   190.2 ms … 202.6 ms    10 runs
+ 
+Benchmark 370: ./mandelbrot_omp full 2048
+  Time (mean ± σ):     194.5 ms ±   3.8 ms    [User: 850.2 ms, System: 2.3 ms]
+  Range (min … max):   190.6 ms … 203.1 ms    10 runs
+ 
+Benchmark 371: ./mandelbrot_pth seahorse 2048
+  Time (mean ± σ):     901.1 ms ±  32.3 ms    [User: 6663.1 ms, System: 6.7 ms]
+  Range (min … max):   838.2 ms … 936.3 ms    10 runs
+ 
+Benchmark 372: ./mandelbrot_omp seahorse 2048
+  Time (mean ± σ):     886.8 ms ±  33.8 ms    [User: 6623.8 ms, System: 7.2 ms]
+  Range (min … max):   846.3 ms … 939.6 ms    10 runs
+ 
+Benchmark 373: ./mandelbrot_pth elephant 2048
+  Time (mean ± σ):     861.2 ms ±  38.4 ms    [User: 6328.9 ms, System: 6.4 ms]
+  Range (min … max):   803.6 ms … 907.9 ms    10 runs
+ 
+Benchmark 374: ./mandelbrot_omp elephant 2048
+  Time (mean ± σ):     841.5 ms ±  31.2 ms    [User: 6188.9 ms, System: 6.4 ms]
+  Range (min … max):   800.8 ms … 878.7 ms    10 runs
+ 
+Benchmark 375: ./mandelbrot_pth spiral 2048
+  Time (mean ± σ):      1.022 s ±  0.040 s    [User: 7.734 s, System: 0.007 s]
+  Range (min … max):    0.946 s …  1.091 s    10 runs
+ 
+Benchmark 376: ./mandelbrot_omp spiral 2048
+  Time (mean ± σ):      1.003 s ±  0.045 s    [User: 7.542 s, System: 0.008 s]
+  Range (min … max):    0.930 s …  1.068 s    10 runs
+ 
+Benchmark 377: ./mandelbrot_pth full 2048
+  Time (mean ± σ):     147.2 ms ±   4.7 ms    [User: 955.1 ms, System: 3.1 ms]
+  Range (min … max):   142.5 ms … 155.3 ms    10 runs
+ 
+Benchmark 378: ./mandelbrot_omp full 2048
+  Time (mean ± σ):     150.6 ms ±  24.4 ms    [User: 924.0 ms, System: 3.1 ms]
+  Range (min … max):   138.6 ms … 219.6 ms    10 runs
+ 
+Benchmark 379: ./mandelbrot_pth seahorse 2048
+  Time (mean ± σ):     899.0 ms ±  10.1 ms    [User: 6784.2 ms, System: 10.7 ms]
+  Range (min … max):   879.4 ms … 914.1 ms    10 runs
+ 
+Benchmark 380: ./mandelbrot_omp seahorse 2048
+  Time (mean ± σ):     869.2 ms ±  20.7 ms    [User: 6679.9 ms, System: 7.0 ms]
+  Range (min … max):   836.4 ms … 890.5 ms    10 runs
+ 
+Benchmark 381: ./mandelbrot_pth elephant 2048
+  Time (mean ± σ):     845.6 ms ±  14.1 ms    [User: 6363.6 ms, System: 6.7 ms]
+  Range (min … max):   821.6 ms … 864.1 ms    10 runs
+ 
+Benchmark 382: ./mandelbrot_omp elephant 2048
+  Time (mean ± σ):     835.7 ms ±  18.1 ms    [User: 6319.6 ms, System: 7.0 ms]
+  Range (min … max):   800.1 ms … 857.4 ms    10 runs
+ 
+Benchmark 383: ./mandelbrot_pth spiral 2048
+  Time (mean ± σ):      1.012 s ±  0.021 s    [User: 7.740 s, System: 0.008 s]
+  Range (min … max):    0.963 s …  1.042 s    10 runs
+ 
+Benchmark 384: ./mandelbrot_omp spiral 2048
+  Time (mean ± σ):     989.3 ms ±  13.1 ms    [User: 7591.9 ms, System: 7.6 ms]
+  Range (min … max):   972.6 ms … 1004.8 ms    10 runs
+ 
+Benchmark 385: ./mandelbrot_pth full 4096
+  Time (mean ± σ):      2.514 s ±  0.068 s    [User: 2.510 s, System: 0.002 s]
+  Range (min … max):    2.480 s …  2.701 s    10 runs
+ 
+Benchmark 386: ./mandelbrot_omp full 4096
+  Time (mean ± σ):      2.486 s ±  0.007 s    [User: 2.483 s, System: 0.002 s]
+  Range (min … max):    2.477 s …  2.501 s    10 runs
+ 
+Benchmark 387: ./mandelbrot_pth seahorse 4096
+  Time (mean ± σ):     17.842 s ±  0.051 s    [User: 17.832 s, System: 0.005 s]
+  Range (min … max):   17.804 s … 17.970 s    10 runs
+ 
+Benchmark 388: ./mandelbrot_omp seahorse 4096
+  Time (mean ± σ):     17.848 s ±  0.038 s    [User: 17.837 s, System: 0.005 s]
+  Range (min … max):   17.807 s … 17.932 s    10 runs
+ 
+Benchmark 389: ./mandelbrot_pth elephant 4096
+  Time (mean ± σ):     16.808 s ±  0.035 s    [User: 16.798 s, System: 0.005 s]
+  Range (min … max):   16.779 s … 16.899 s    10 runs
+ 
+Benchmark 390: ./mandelbrot_omp elephant 4096
+  Time (mean ± σ):     16.836 s ±  0.083 s    [User: 16.827 s, System: 0.005 s]
+  Range (min … max):   16.775 s … 17.042 s    10 runs
+ 
+Benchmark 391: ./mandelbrot_pth spiral 4096
+  Time (mean ± σ):     20.289 s ±  0.018 s    [User: 20.278 s, System: 0.005 s]
+  Range (min … max):   20.269 s … 20.329 s    10 runs
+ 
+Benchmark 392: ./mandelbrot_omp spiral 4096
+  Time (mean ± σ):     20.304 s ±  0.040 s    [User: 20.293 s, System: 0.005 s]
+  Range (min … max):   20.259 s … 20.376 s    10 runs
+ 
+Benchmark 393: ./mandelbrot_pth full 4096
+  Time (mean ± σ):      1.296 s ±  0.018 s    [User: 2.582 s, System: 0.002 s]
+  Range (min … max):    1.272 s …  1.321 s    10 runs
+ 
+Benchmark 394: ./mandelbrot_omp full 4096
+  Time (mean ± σ):      1.313 s ±  0.013 s    [User: 2.615 s, System: 0.002 s]
+  Range (min … max):    1.292 s …  1.338 s    10 runs
+ 
+Benchmark 395: ./mandelbrot_pth seahorse 4096
+  Time (mean ± σ):     10.332 s ±  0.079 s    [User: 18.316 s, System: 0.006 s]
+  Range (min … max):   10.256 s … 10.529 s    10 runs
+ 
+Benchmark 396: ./mandelbrot_omp seahorse 4096
+  Time (mean ± σ):     10.297 s ±  0.035 s    [User: 18.244 s, System: 0.006 s]
+  Range (min … max):   10.257 s … 10.362 s    10 runs
+ 
+Benchmark 397: ./mandelbrot_pth elephant 4096
+  Time (mean ± σ):      8.688 s ±  0.066 s    [User: 17.357 s, System: 0.006 s]
+  Range (min … max):    8.621 s …  8.828 s    10 runs
+ 
+Benchmark 398: ./mandelbrot_omp elephant 4096
+  Time (mean ± σ):      8.805 s ±  0.093 s    [User: 17.583 s, System: 0.006 s]
+  Range (min … max):    8.691 s …  8.953 s    10 runs
+ 
+Benchmark 399: ./mandelbrot_pth spiral 4096
+  Time (mean ± σ):     11.236 s ±  0.074 s    [User: 21.108 s, System: 0.008 s]
+  Range (min … max):   11.134 s … 11.348 s    10 runs
+ 
+Benchmark 400: ./mandelbrot_omp spiral 4096
+  Time (mean ± σ):     11.193 s ±  0.079 s    [User: 21.015 s, System: 0.007 s]
+  Range (min … max):   11.078 s … 11.353 s    10 runs
+ 
+Benchmark 401: ./mandelbrot_pth full 4096
+  Time (mean ± σ):      1.284 s ±  0.026 s    [User: 2.699 s, System: 0.002 s]
+  Range (min … max):    1.230 s …  1.315 s    10 runs
+ 
+Benchmark 402: ./mandelbrot_omp full 4096
+  Time (mean ± σ):      1.275 s ±  0.025 s    [User: 2.680 s, System: 0.002 s]
+  Range (min … max):    1.241 s …  1.330 s    10 runs
+ 
+Benchmark 403: ./mandelbrot_pth seahorse 4096
+  Time (mean ± σ):      6.178 s ±  0.061 s    [User: 21.121 s, System: 0.011 s]
+  Range (min … max):    6.079 s …  6.262 s    10 runs
+ 
+Benchmark 404: ./mandelbrot_omp seahorse 4096
+  Time (mean ± σ):      6.255 s ±  0.054 s    [User: 21.403 s, System: 0.011 s]
+  Range (min … max):    6.193 s …  6.365 s    10 runs
+ 
+Benchmark 405: ./mandelbrot_pth elephant 4096
+  Time (mean ± σ):      5.871 s ±  0.159 s    [User: 20.462 s, System: 0.039 s]
+  Range (min … max):    5.758 s …  6.276 s    10 runs
+ 
+Benchmark 406: ./mandelbrot_omp elephant 4096
+  Time (mean ± σ):      5.945 s ±  0.275 s    [User: 20.581 s, System: 0.117 s]
+  Range (min … max):    5.743 s …  6.439 s    10 runs
+ 
+Benchmark 407: ./mandelbrot_pth spiral 4096
+  Time (mean ± σ):      6.721 s ±  0.048 s    [User: 24.694 s, System: 0.013 s]
+  Range (min … max):    6.659 s …  6.826 s    10 runs
+ 
+Benchmark 408: ./mandelbrot_omp spiral 4096
+  Time (mean ± σ):      6.739 s ±  0.059 s    [User: 24.750 s, System: 0.012 s]
+  Range (min … max):    6.681 s …  6.828 s    10 runs
+ 
+Benchmark 409: ./mandelbrot_pth full 4096
+  Time (mean ± σ):      1.066 s ±  0.017 s    [User: 2.966 s, System: 0.003 s]
+  Range (min … max):    1.035 s …  1.087 s    10 runs
+ 
+Benchmark 410: ./mandelbrot_omp full 4096
+  Time (mean ± σ):      1.085 s ±  0.023 s    [User: 2.999 s, System: 0.003 s]
+  Range (min … max):    1.051 s …  1.140 s    10 runs
+ 
+Benchmark 411: ./mandelbrot_pth seahorse 4096
+  Time (mean ± σ):      3.884 s ±  0.082 s    [User: 25.931 s, System: 0.015 s]
+  Range (min … max):    3.803 s …  4.040 s    10 runs
+ 
+Benchmark 412: ./mandelbrot_omp seahorse 4096
+  Time (mean ± σ):      3.730 s ±  0.076 s    [User: 25.416 s, System: 0.014 s]
+  Range (min … max):    3.666 s …  3.906 s    10 runs
+ 
+Benchmark 413: ./mandelbrot_pth elephant 4096
+  Time (mean ± σ):      3.661 s ±  0.068 s    [User: 24.356 s, System: 0.014 s]
+  Range (min … max):    3.576 s …  3.763 s    10 runs
+ 
+Benchmark 414: ./mandelbrot_omp elephant 4096
+  Time (mean ± σ):      3.602 s ±  0.039 s    [User: 24.017 s, System: 0.014 s]
+  Range (min … max):    3.541 s …  3.676 s    10 runs
+ 
+Benchmark 415: ./mandelbrot_pth spiral 4096
+  Time (mean ± σ):      4.156 s ±  0.046 s    [User: 30.123 s, System: 0.018 s]
+  Range (min … max):    4.110 s …  4.255 s    10 runs
+ 
+Benchmark 416: ./mandelbrot_omp spiral 4096
+  Time (mean ± σ):      4.109 s ±  0.075 s    [User: 29.581 s, System: 0.017 s]
+  Range (min … max):    4.047 s …  4.244 s    10 runs
+ 
+Benchmark 417: ./mandelbrot_pth full 4096
+  Time (mean ± σ):     764.9 ms ±  12.5 ms    [User: 3423.2 ms, System: 3.8 ms]
+  Range (min … max):   746.5 ms … 790.8 ms    10 runs
+ 
+Benchmark 418: ./mandelbrot_omp full 4096
+  Time (mean ± σ):     759.0 ms ±  18.8 ms    [User: 3406.8 ms, System: 3.9 ms]
+  Range (min … max):   725.1 ms … 793.0 ms    10 runs
+ 
+Benchmark 419: ./mandelbrot_pth seahorse 4096
+  Time (mean ± σ):      3.542 s ±  0.084 s    [User: 26.887 s, System: 0.020 s]
+  Range (min … max):    3.446 s …  3.688 s    10 runs
+ 
+Benchmark 420: ./mandelbrot_omp seahorse 4096
+  Time (mean ± σ):      3.479 s ±  0.087 s    [User: 26.474 s, System: 0.019 s]
+  Range (min … max):    3.393 s …  3.667 s    10 runs
+ 
+Benchmark 421: ./mandelbrot_pth elephant 4096
+  Time (mean ± σ):      3.362 s ±  0.068 s    [User: 25.347 s, System: 0.018 s]
+  Range (min … max):    3.272 s …  3.499 s    10 runs
+ 
+Benchmark 422: ./mandelbrot_omp elephant 4096
+  Time (mean ± σ):      3.313 s ±  0.061 s    [User: 24.861 s, System: 0.019 s]
+  Range (min … max):    3.261 s …  3.464 s    10 runs
+ 
+Benchmark 423: ./mandelbrot_pth spiral 4096
+  Time (mean ± σ):      3.951 s ±  0.065 s    [User: 30.839 s, System: 0.023 s]
+  Range (min … max):    3.889 s …  4.097 s    10 runs
+ 
+Benchmark 424: ./mandelbrot_omp spiral 4096
+  Time (mean ± σ):      3.902 s ±  0.073 s    [User: 30.343 s, System: 0.023 s]
+  Range (min … max):    3.791 s …  4.020 s    10 runs
+ 
+Benchmark 425: ./mandelbrot_pth full 4096
+  Time (mean ± σ):     575.8 ms ±  17.1 ms    [User: 3777.7 ms, System: 5.3 ms]
+  Range (min … max):   538.8 ms … 596.6 ms    10 runs
+ 
+Benchmark 426: ./mandelbrot_omp full 4096
+  Time (mean ± σ):     567.8 ms ±  17.6 ms    [User: 3761.3 ms, System: 5.2 ms]
+  Range (min … max):   539.1 ms … 600.1 ms    10 runs
+ 
+Benchmark 427: ./mandelbrot_pth seahorse 4096
+  Time (mean ± σ):      3.494 s ±  0.045 s    [User: 27.195 s, System: 0.020 s]
+  Range (min … max):    3.462 s …  3.594 s    10 runs
+ 
+Benchmark 428: ./mandelbrot_omp seahorse 4096
+  Time (mean ± σ):      3.436 s ±  0.053 s    [User: 26.712 s, System: 0.020 s]
+  Range (min … max):    3.337 s …  3.506 s    10 runs
+ 
+Benchmark 429: ./mandelbrot_pth elephant 4096
+  Time (mean ± σ):      3.310 s ±  0.054 s    [User: 25.527 s, System: 0.019 s]
+  Range (min … max):    3.233 s …  3.394 s    10 runs
+ 
+Benchmark 430: ./mandelbrot_omp elephant 4096
+  Time (mean ± σ):      3.262 s ±  0.049 s    [User: 25.084 s, System: 0.018 s]
+  Range (min … max):    3.204 s …  3.364 s    10 runs
+ 
+Benchmark 431: ./mandelbrot_pth spiral 4096
+  Time (mean ± σ):      3.938 s ±  0.058 s    [User: 30.877 s, System: 0.022 s]
+  Range (min … max):    3.852 s …  4.024 s    10 runs
+ 
+Benchmark 432: ./mandelbrot_omp spiral 4096
+  Time (mean ± σ):      3.873 s ±  0.046 s    [User: 30.341 s, System: 0.022 s]
+  Range (min … max):    3.803 s …  3.963 s    10 runs
+ 
+Benchmark 433: ./mandelbrot_pth full 8192
+  Time (mean ± σ):      9.935 s ±  0.075 s    [User: 9.928 s, System: 0.003 s]
+  Range (min … max):    9.893 s … 10.142 s    10 runs
+ 
+Benchmark 434: ./mandelbrot_omp full 8192
+  Time (mean ± σ):      9.905 s ±  0.017 s    [User: 9.898 s, System: 0.003 s]
+  Range (min … max):    9.886 s …  9.936 s    10 runs
+ 
+Benchmark 435: ./mandelbrot_pth seahorse 8192
+  Time (mean ± σ):     71.246 s ±  0.032 s    [User: 71.212 s, System: 0.016 s]
+  Range (min … max):   71.188 s … 71.312 s    10 runs
+ 
+Benchmark 436: ./mandelbrot_omp seahorse 8192
+  Time (mean ± σ):     71.350 s ±  0.187 s    [User: 71.315 s, System: 0.017 s]
+  Range (min … max):   71.258 s … 71.863 s    10 runs
+ 
+Benchmark 437: ./mandelbrot_pth elephant 8192
+  Time (mean ± σ):     67.297 s ±  0.346 s    [User: 67.257 s, System: 0.018 s]
+  Range (min … max):   67.127 s … 68.271 s    10 runs
+ 
+Benchmark 438: ./mandelbrot_omp elephant 8192
+  Time (mean ± σ):     67.124 s ±  0.049 s    [User: 67.094 s, System: 0.014 s]
+  Range (min … max):   67.060 s … 67.244 s    10 runs
+ 
+Benchmark 439: ./mandelbrot_pth spiral 8192
+  Time (mean ± σ):     81.072 s ±  0.053 s    [User: 81.036 s, System: 0.017 s]
+  Range (min … max):   81.016 s … 81.180 s    10 runs
+ 
+Benchmark 440: ./mandelbrot_omp spiral 8192
+  Time (mean ± σ):     81.146 s ±  0.055 s    [User: 81.107 s, System: 0.018 s]
+  Range (min … max):   81.084 s … 81.230 s    10 runs
+ 
+Benchmark 441: ./mandelbrot_pth full 8192
+  Time (mean ± σ):      5.127 s ±  0.030 s    [User: 10.237 s, System: 0.004 s]
+  Range (min … max):    5.089 s …  5.168 s    10 runs
+ 
+Benchmark 442: ./mandelbrot_omp full 8192
+  Time (mean ± σ):      5.159 s ±  0.027 s    [User: 10.302 s, System: 0.004 s]
+  Range (min … max):    5.107 s …  5.210 s    10 runs
+ 
+Benchmark 443: ./mandelbrot_pth seahorse 8192
+  Time (mean ± σ):     41.229 s ±  0.221 s    [User: 73.072 s, System: 0.021 s]
+  Range (min … max):   41.052 s … 41.669 s    10 runs
+ 
+Benchmark 444: ./mandelbrot_omp seahorse 8192
+  Time (mean ± σ):     41.055 s ±  0.054 s    [User: 72.731 s, System: 0.021 s]
+  Range (min … max):   41.000 s … 41.180 s    10 runs
+ 
+Benchmark 445: ./mandelbrot_pth elephant 8192
+  Time (mean ± σ):     34.873 s ±  0.316 s    [User: 69.692 s, System: 0.021 s]
+  Range (min … max):   34.420 s … 35.290 s    10 runs
+ 
+Benchmark 446: ./mandelbrot_omp elephant 8192
+  Time (mean ± σ):     35.187 s ±  0.095 s    [User: 70.323 s, System: 0.019 s]
+  Range (min … max):   35.057 s … 35.391 s    10 runs
+ 
+Benchmark 447: ./mandelbrot_pth spiral 8192
+  Time (mean ± σ):     44.499 s ±  0.257 s    [User: 83.691 s, System: 0.022 s]
+  Range (min … max):   44.238 s … 45.080 s    10 runs
+ 
+Benchmark 448: ./mandelbrot_omp spiral 8192
+  Time (mean ± σ):     44.382 s ±  0.198 s    [User: 83.450 s, System: 0.023 s]
+  Range (min … max):   44.060 s … 44.783 s    10 runs
+ 
+Benchmark 449: ./mandelbrot_pth full 8192
+  Time (mean ± σ):      4.929 s ±  0.036 s    [User: 10.399 s, System: 0.004 s]
+  Range (min … max):    4.860 s …  4.964 s    10 runs
+ 
+Benchmark 450: ./mandelbrot_omp full 8192
+  Time (mean ± σ):      5.003 s ±  0.042 s    [User: 10.543 s, System: 0.004 s]
+  Range (min … max):    4.941 s …  5.050 s    10 runs
+ 
+Benchmark 451: ./mandelbrot_pth seahorse 8192
+  Time (mean ± σ):     24.473 s ±  0.072 s    [User: 84.538 s, System: 0.036 s]
+  Range (min … max):   24.299 s … 24.588 s    10 runs
+ 
+Benchmark 452: ./mandelbrot_omp seahorse 8192
+  Time (mean ± σ):     24.531 s ±  0.072 s    [User: 84.760 s, System: 0.037 s]
+  Range (min … max):   24.409 s … 24.671 s    10 runs
+ 
+Benchmark 453: ./mandelbrot_pth elephant 8192
+  Time (mean ± σ):     22.833 s ±  0.134 s    [User: 80.571 s, System: 0.037 s]
+  Range (min … max):   22.609 s … 23.009 s    10 runs
+ 
+Benchmark 454: ./mandelbrot_omp elephant 8192
+  Time (mean ± σ):     22.825 s ±  0.134 s    [User: 80.563 s, System: 0.039 s]
+  Range (min … max):   22.734 s … 23.177 s    10 runs
+ 
+Benchmark 455: ./mandelbrot_pth spiral 8192
+  Time (mean ± σ):     26.622 s ±  0.107 s    [User: 98.306 s, System: 0.044 s]
+  Range (min … max):   26.376 s … 26.734 s    10 runs
+ 
+Benchmark 456: ./mandelbrot_omp spiral 8192
+  Time (mean ± σ):     26.943 s ±  0.336 s    [User: 99.560 s, System: 0.046 s]
+  Range (min … max):   26.662 s … 27.690 s    10 runs
+ 
+Benchmark 457: ./mandelbrot_pth full 8192
+  Time (mean ± σ):      4.240 s ±  0.076 s    [User: 11.848 s, System: 0.006 s]
+  Range (min … max):    4.142 s …  4.403 s    10 runs
+ 
+Benchmark 458: ./mandelbrot_omp full 8192
+  Time (mean ± σ):      4.234 s ±  0.051 s    [User: 11.797 s, System: 0.006 s]
+  Range (min … max):    4.171 s …  4.324 s    10 runs
+ 
+Benchmark 459: ./mandelbrot_pth seahorse 8192
+  Time (mean ± σ):     15.233 s ±  0.183 s    [User: 103.697 s, System: 0.057 s]
+  Range (min … max):   15.042 s … 15.658 s    10 runs
+ 
+Benchmark 460: ./mandelbrot_omp seahorse 8192
+  Time (mean ± σ):     14.894 s ±  0.091 s    [User: 103.144 s, System: 0.052 s]
+  Range (min … max):   14.728 s … 15.042 s    10 runs
+ 
+Benchmark 461: ./mandelbrot_pth elephant 8192
+  Time (mean ± σ):     14.489 s ±  0.187 s    [User: 98.576 s, System: 0.049 s]
+  Range (min … max):   14.128 s … 14.765 s    10 runs
+ 
+Benchmark 462: ./mandelbrot_omp elephant 8192
+  Time (mean ± σ):     14.254 s ±  0.173 s    [User: 96.730 s, System: 0.048 s]
+  Range (min … max):   14.018 s … 14.638 s    10 runs
+ 
+Benchmark 463: ./mandelbrot_pth spiral 8192
+  Time (mean ± σ):     16.714 s ±  0.634 s    [User: 120.068 s, System: 0.087 s]
+  Range (min … max):   16.308 s … 18.246 s    10 runs
+ 
+Benchmark 464: ./mandelbrot_omp spiral 8192
+  Time (mean ± σ):     16.263 s ±  0.249 s    [User: 118.517 s, System: 0.059 s]
+  Range (min … max):   16.016 s … 16.819 s    10 runs
+ 
+Benchmark 465: ./mandelbrot_pth full 8192
+  Time (mean ± σ):      3.004 s ±  0.036 s    [User: 13.491 s, System: 0.009 s]
+  Range (min … max):    2.959 s …  3.072 s    10 runs
+ 
+Benchmark 466: ./mandelbrot_omp full 8192
+  Time (mean ± σ):      2.984 s ±  0.035 s    [User: 13.383 s, System: 0.008 s]
+  Range (min … max):    2.939 s …  3.029 s    10 runs
+ 
+Benchmark 467: ./mandelbrot_pth seahorse 8192
+  Time (mean ± σ):     13.882 s ±  0.169 s    [User: 106.654 s, System: 0.069 s]
+  Range (min … max):   13.799 s … 14.359 s    10 runs
+ 
+Benchmark 468: ./mandelbrot_omp seahorse 8192
+  Time (mean ± σ):     13.617 s ±  0.099 s    [User: 105.048 s, System: 0.069 s]
+  Range (min … max):   13.543 s … 13.864 s    10 runs
+ 
+Benchmark 469: ./mandelbrot_pth elephant 8192
+  Time (mean ± σ):     13.263 s ±  0.101 s    [User: 100.995 s, System: 0.070 s]
+  Range (min … max):   13.177 s … 13.470 s    10 runs
+ 
+Benchmark 470: ./mandelbrot_omp elephant 8192
+  Time (mean ± σ):     13.095 s ±  0.172 s    [User: 99.315 s, System: 0.068 s]
+  Range (min … max):   12.959 s … 13.501 s    10 runs
+ 
+Benchmark 471: ./mandelbrot_pth spiral 8192
+  Time (mean ± σ):     15.649 s ±  0.097 s    [User: 123.204 s, System: 0.087 s]
+  Range (min … max):   15.584 s … 15.915 s    10 runs
+ 
+Benchmark 472: ./mandelbrot_omp spiral 8192
+  Time (mean ± σ):     15.355 s ±  0.129 s    [User: 120.644 s, System: 0.083 s]
+  Range (min … max):   15.271 s … 15.712 s    10 runs
+ 
+Benchmark 473: ./mandelbrot_pth full 8192
+  Time (mean ± σ):      2.268 s ±  0.053 s    [User: 15.213 s, System: 0.013 s]
+  Range (min … max):    2.226 s …  2.375 s    10 runs
+ 
+Benchmark 474: ./mandelbrot_omp full 8192
+  Time (mean ± σ):      2.233 s ±  0.034 s    [User: 15.019 s, System: 0.012 s]
+  Range (min … max):    2.183 s …  2.291 s    10 runs
+ 
+Benchmark 475: ./mandelbrot_pth seahorse 8192
+  Time (mean ± σ):     13.735 s ±  0.077 s    [User: 107.891 s, System: 0.073 s]
+  Range (min … max):   13.660 s … 13.917 s    10 runs
+ 
+Benchmark 476: ./mandelbrot_omp seahorse 8192
+  Time (mean ± σ):     13.542 s ±  0.098 s    [User: 106.340 s, System: 0.073 s]
+  Range (min … max):   13.440 s … 13.686 s    10 runs
+ 
+Benchmark 477: ./mandelbrot_pth elephant 8192
+  Time (mean ± σ):     13.175 s ±  0.127 s    [User: 102.094 s, System: 0.069 s]
+  Range (min … max):   13.040 s … 13.429 s    10 runs
+ 
+Benchmark 478: ./mandelbrot_omp elephant 8192
+  Time (mean ± σ):     12.887 s ±  0.079 s    [User: 100.239 s, System: 0.066 s]
+  Range (min … max):   12.806 s … 13.072 s    10 runs
+ 
+Benchmark 479: ./mandelbrot_pth spiral 8192
+  Time (mean ± σ):     15.618 s ±  0.133 s    [User: 123.027 s, System: 0.082 s]
+  Range (min … max):   15.487 s … 15.889 s    10 runs
+ 
+Benchmark 480: ./mandelbrot_omp spiral 8192
+  Time (mean ± σ):     15.348 s ±  0.099 s    [User: 121.287 s, System: 0.079 s]
+  Range (min … max):   15.241 s … 15.556 s    10 runs
+ 
+Summary
+  './mandelbrot_pth full 16' ran
+    1.02 ± 0.17 times faster than './mandelbrot_pth full 16'
+    1.03 ± 0.17 times faster than './mandelbrot_pth full 16'
+    1.03 ± 0.17 times faster than './mandelbrot_pth seahorse 16'
+    1.04 ± 0.15 times faster than './mandelbrot_pth full 32'
+    1.04 ± 0.16 times faster than './mandelbrot_pth seahorse 16'
+    1.04 ± 0.17 times faster than './mandelbrot_pth full 32'
+    1.04 ± 0.18 times faster than './mandelbrot_pth full 16'
+    1.05 ± 0.15 times faster than './mandelbrot_pth full 32'
+    1.05 ± 0.17 times faster than './mandelbrot_pth elephant 16'
+    1.06 ± 0.15 times faster than './mandelbrot_pth full 16'
+    1.06 ± 0.16 times faster than './mandelbrot_pth seahorse 16'
+    1.06 ± 0.17 times faster than './mandelbrot_pth seahorse 32'
+    1.06 ± 0.17 times faster than './mandelbrot_pth spiral 16'
+    1.07 ± 0.23 times faster than './mandelbrot_pth spiral 16'
+    1.07 ± 0.18 times faster than './mandelbrot_pth spiral 16'
+    1.08 ± 0.18 times faster than './mandelbrot_pth seahorse 16'
+    1.08 ± 0.16 times faster than './mandelbrot_pth full 32'
+    1.09 ± 0.19 times faster than './mandelbrot_pth elephant 16'
+    1.09 ± 0.18 times faster than './mandelbrot_pth elephant 16'
+    1.10 ± 0.19 times faster than './mandelbrot_pth elephant 16'
+    1.11 ± 0.20 times faster than './mandelbrot_pth full 32'
+    1.11 ± 0.17 times faster than './mandelbrot_pth spiral 16'
+    1.11 ± 0.26 times faster than './mandelbrot_omp full 16'
+    1.11 ± 0.17 times faster than './mandelbrot_pth seahorse 32'
+    1.13 ± 0.16 times faster than './mandelbrot_pth full 64'
+    1.13 ± 0.17 times faster than './mandelbrot_omp full 16'
+    1.13 ± 0.18 times faster than './mandelbrot_pth seahorse 16'
+    1.13 ± 0.23 times faster than './mandelbrot_pth elephant 32'
+    1.14 ± 0.19 times faster than './mandelbrot_pth spiral 32'
+    1.15 ± 0.17 times faster than './mandelbrot_pth spiral 32'
+    1.15 ± 0.19 times faster than './mandelbrot_omp full 32'
+    1.16 ± 0.21 times faster than './mandelbrot_omp elephant 16'
+    1.16 ± 0.17 times faster than './mandelbrot_pth full 64'
+    1.16 ± 0.19 times faster than './mandelbrot_omp full 16'
+    1.16 ± 0.19 times faster than './mandelbrot_omp elephant 16'
+    1.17 ± 0.20 times faster than './mandelbrot_pth elephant 32'
+    1.17 ± 0.19 times faster than './mandelbrot_pth seahorse 32'
+    1.17 ± 0.18 times faster than './mandelbrot_omp elephant 16'
+    1.17 ± 0.18 times faster than './mandelbrot_omp seahorse 16'
+    1.17 ± 0.20 times faster than './mandelbrot_omp spiral 16'
+    1.18 ± 0.20 times faster than './mandelbrot_omp seahorse 16'
+    1.18 ± 0.19 times faster than './mandelbrot_omp seahorse 16'
+    1.18 ± 0.18 times faster than './mandelbrot_omp seahorse 16'
+    1.18 ± 0.21 times faster than './mandelbrot_pth full 16'
+    1.19 ± 0.20 times faster than './mandelbrot_pth elephant 32'
+    1.19 ± 0.19 times faster than './mandelbrot_omp full 16'
+    1.19 ± 0.18 times faster than './mandelbrot_omp elephant 16'
+    1.20 ± 0.20 times faster than './mandelbrot_omp full 16'
+    1.20 ± 0.17 times faster than './mandelbrot_pth seahorse 32'
+    1.20 ± 0.23 times faster than './mandelbrot_pth elephant 32'
+    1.20 ± 0.18 times faster than './mandelbrot_omp spiral 16'
+    1.21 ± 0.19 times faster than './mandelbrot_pth elephant 16'
+    1.21 ± 0.20 times faster than './mandelbrot_omp full 32'
+    1.21 ± 0.18 times faster than './mandelbrot_omp spiral 16'
+    1.21 ± 0.20 times faster than './mandelbrot_omp spiral 16'
+    1.22 ± 0.22 times faster than './mandelbrot_pth seahorse 16'
+    1.24 ± 0.23 times faster than './mandelbrot_pth full 64'
+    1.24 ± 0.21 times faster than './mandelbrot_pth full 64'
+    1.25 ± 0.19 times faster than './mandelbrot_omp seahorse 16'
+    1.25 ± 0.21 times faster than './mandelbrot_omp full 64'
+    1.25 ± 0.22 times faster than './mandelbrot_pth full 64'
+    1.26 ± 0.19 times faster than './mandelbrot_omp full 32'
+    1.26 ± 0.18 times faster than './mandelbrot_omp seahorse 32'
+    1.26 ± 0.19 times faster than './mandelbrot_pth elephant 32'
+    1.26 ± 0.19 times faster than './mandelbrot_omp elephant 16'
+    1.27 ± 0.32 times faster than './mandelbrot_pth full 32'
+    1.27 ± 0.20 times faster than './mandelbrot_pth seahorse 32'
+    1.27 ± 0.20 times faster than './mandelbrot_omp seahorse 32'
+    1.28 ± 0.24 times faster than './mandelbrot_pth spiral 32'
+    1.28 ± 0.20 times faster than './mandelbrot_omp elephant 32'
+    1.28 ± 0.19 times faster than './mandelbrot_omp full 64'
+    1.29 ± 0.19 times faster than './mandelbrot_omp seahorse 32'
+    1.29 ± 0.20 times faster than './mandelbrot_omp full 64'
+    1.30 ± 0.25 times faster than './mandelbrot_pth spiral 16'
+    1.31 ± 0.22 times faster than './mandelbrot_omp elephant 32'
+    1.31 ± 0.20 times faster than './mandelbrot_omp elephant 32'
+    1.31 ± 0.21 times faster than './mandelbrot_pth spiral 32'
+    1.32 ± 0.19 times faster than './mandelbrot_omp spiral 32'
+    1.32 ± 0.19 times faster than './mandelbrot_omp full 32'
+    1.32 ± 0.20 times faster than './mandelbrot_omp spiral 32'
+    1.33 ± 0.23 times faster than './mandelbrot_pth spiral 32'
+    1.33 ± 0.19 times faster than './mandelbrot_omp full 16'
+    1.34 ± 0.21 times faster than './mandelbrot_omp full 64'
+    1.34 ± 0.21 times faster than './mandelbrot_omp seahorse 16'
+    1.34 ± 0.21 times faster than './mandelbrot_omp elephant 16'
+    1.37 ± 0.20 times faster than './mandelbrot_pth spiral 64'
+    1.37 ± 0.23 times faster than './mandelbrot_omp elephant 32'
+    1.37 ± 0.22 times faster than './mandelbrot_omp spiral 16'
+    1.40 ± 0.21 times faster than './mandelbrot_omp full 64'
+    1.40 ± 0.22 times faster than './mandelbrot_pth elephant 64'
+    1.41 ± 0.31 times faster than './mandelbrot_omp full 32'
+    1.42 ± 0.24 times faster than './mandelbrot_omp spiral 32'
+    1.42 ± 0.21 times faster than './mandelbrot_pth seahorse 64'
+    1.43 ± 0.24 times faster than './mandelbrot_omp full 32'
+    1.43 ± 0.24 times faster than './mandelbrot_pth full 64'
+    1.44 ± 0.32 times faster than './mandelbrot_omp spiral 32'
+    1.47 ± 0.24 times faster than './mandelbrot_omp spiral 32'
+    1.51 ± 0.24 times faster than './mandelbrot_omp seahorse 32'
+    1.51 ± 0.23 times faster than './mandelbrot_omp seahorse 32'
+    1.53 ± 0.32 times faster than './mandelbrot_omp spiral 16'
+    1.53 ± 0.24 times faster than './mandelbrot_omp elephant 64'
+    1.54 ± 0.25 times faster than './mandelbrot_pth elephant 64'
+    1.54 ± 0.26 times faster than './mandelbrot_omp elephant 32'
+    1.55 ± 0.22 times faster than './mandelbrot_pth elephant 64'
+    1.55 ± 0.27 times faster than './mandelbrot_pth elephant 64'
+    1.56 ± 0.27 times faster than './mandelbrot_pth seahorse 32'
+    1.56 ± 0.26 times faster than './mandelbrot_pth elephant 32'
+    1.58 ± 1.23 times faster than './mandelbrot_pth spiral 16'
+    1.58 ± 0.27 times faster than './mandelbrot_omp seahorse 32'
+    1.58 ± 0.26 times faster than './mandelbrot_omp elephant 32'
+    1.58 ± 0.26 times faster than './mandelbrot_pth spiral 32'
+    1.59 ± 0.25 times faster than './mandelbrot_pth spiral 64'
+    1.59 ± 0.31 times faster than './mandelbrot_omp seahorse 64'
+    1.59 ± 0.22 times faster than './mandelbrot_omp full 64'
+    1.59 ± 0.23 times faster than './mandelbrot_pth spiral 64'
+    1.61 ± 0.24 times faster than './mandelbrot_pth seahorse 64'
+    1.62 ± 0.31 times faster than './mandelbrot_pth elephant 16'
+    1.63 ± 0.27 times faster than './mandelbrot_pth seahorse 64'
+    1.63 ± 0.25 times faster than './mandelbrot_pth full 128'
+    1.67 ± 0.25 times faster than './mandelbrot_omp elephant 64'
+    1.67 ± 0.24 times faster than './mandelbrot_pth full 128'
+    1.68 ± 0.24 times faster than './mandelbrot_omp elephant 64'
+    1.69 ± 0.31 times faster than './mandelbrot_pth full 128'
+    1.69 ± 0.25 times faster than './mandelbrot_omp seahorse 64'
+    1.70 ± 0.26 times faster than './mandelbrot_pth spiral 64'
+    1.70 ± 0.32 times faster than './mandelbrot_pth seahorse 64'
+    1.72 ± 0.31 times faster than './mandelbrot_omp spiral 32'
+    1.72 ± 0.25 times faster than './mandelbrot_pth full 128'
+    1.76 ± 0.28 times faster than './mandelbrot_omp spiral 64'
+    1.80 ± 0.27 times faster than './mandelbrot_pth full 128'
+    1.83 ± 0.26 times faster than './mandelbrot_omp full 128'
+    1.87 ± 0.33 times faster than './mandelbrot_omp seahorse 64'
+    1.87 ± 0.28 times faster than './mandelbrot_omp elephant 64'
+    1.89 ± 0.29 times faster than './mandelbrot_omp full 128'
+    1.90 ± 0.27 times faster than './mandelbrot_omp spiral 64'
+    1.94 ± 0.30 times faster than './mandelbrot_pth elephant 64'
+    1.94 ± 0.31 times faster than './mandelbrot_omp seahorse 64'
+    1.98 ± 0.29 times faster than './mandelbrot_omp elephant 64'
+    1.99 ± 0.46 times faster than './mandelbrot_omp spiral 64'
+    2.01 ± 0.30 times faster than './mandelbrot_pth seahorse 64'
+    2.02 ± 0.36 times faster than './mandelbrot_omp spiral 64'
+    2.02 ± 0.31 times faster than './mandelbrot_omp full 128'
+    2.05 ± 0.32 times faster than './mandelbrot_omp full 128'
+    2.06 ± 0.31 times faster than './mandelbrot_omp full 128'
+    2.10 ± 0.31 times faster than './mandelbrot_omp seahorse 64'
+    2.24 ± 0.34 times faster than './mandelbrot_pth spiral 64'
+    2.29 ± 0.37 times faster than './mandelbrot_omp spiral 64'
+    2.30 ± 0.34 times faster than './mandelbrot_pth full 256'
+    2.32 ± 0.33 times faster than './mandelbrot_pth full 128'
+    2.45 ± 0.38 times faster than './mandelbrot_omp full 128'
+    2.51 ± 0.35 times faster than './mandelbrot_pth elephant 128'
+    2.51 ± 0.36 times faster than './mandelbrot_pth seahorse 128'
+    2.58 ± 0.37 times faster than './mandelbrot_omp full 256'
+    2.62 ± 0.38 times faster than './mandelbrot_pth seahorse 128'
+    2.64 ± 0.38 times faster than './mandelbrot_pth elephant 128'
+    2.64 ± 0.39 times faster than './mandelbrot_pth elephant 64'
+    2.73 ± 0.39 times faster than './mandelbrot_pth elephant 128'
+    2.73 ± 0.43 times faster than './mandelbrot_pth full 256'
+    2.78 ± 0.52 times faster than './mandelbrot_pth spiral 128'
+    2.80 ± 0.40 times faster than './mandelbrot_pth seahorse 64'
+    2.82 ± 0.41 times faster than './mandelbrot_pth spiral 128'
+    2.83 ± 0.47 times faster than './mandelbrot_omp seahorse 128'
+    2.84 ± 0.43 times faster than './mandelbrot_omp seahorse 64'
+    2.86 ± 0.45 times faster than './mandelbrot_omp elephant 128'
+    2.95 ± 0.44 times faster than './mandelbrot_omp seahorse 128'
+    2.98 ± 0.51 times faster than './mandelbrot_omp full 256'
+    3.02 ± 0.53 times faster than './mandelbrot_omp elephant 128'
+    3.02 ± 0.48 times faster than './mandelbrot_pth spiral 64'
+    3.06 ± 0.46 times faster than './mandelbrot_pth spiral 128'
+    3.06 ± 0.44 times faster than './mandelbrot_omp spiral 64'
+    3.11 ± 0.44 times faster than './mandelbrot_pth full 256'
+    3.12 ± 0.54 times faster than './mandelbrot_pth seahorse 128'
+    3.19 ± 0.51 times faster than './mandelbrot_omp seahorse 128'
+    3.21 ± 0.51 times faster than './mandelbrot_omp elephant 128'
+    3.24 ± 0.50 times faster than './mandelbrot_omp spiral 128'
+    3.26 ± 0.47 times faster than './mandelbrot_pth full 256'
+    3.28 ± 0.62 times faster than './mandelbrot_omp elephant 64'
+    3.28 ± 0.46 times faster than './mandelbrot_omp full 256'
+    3.29 ± 0.47 times faster than './mandelbrot_omp spiral 128'
+    3.40 ± 0.50 times faster than './mandelbrot_pth full 256'
+    3.44 ± 0.49 times faster than './mandelbrot_omp full 256'
+    3.53 ± 0.51 times faster than './mandelbrot_pth elephant 128'
+    3.55 ± 0.58 times faster than './mandelbrot_omp spiral 128'
+    3.65 ± 0.53 times faster than './mandelbrot_omp full 256'
+    3.66 ± 0.53 times faster than './mandelbrot_pth seahorse 128'
+    3.66 ± 0.52 times faster than './mandelbrot_omp seahorse 128'
+    3.68 ± 0.53 times faster than './mandelbrot_omp elephant 128'
+    3.91 ± 0.58 times faster than './mandelbrot_pth spiral 128'
+    4.09 ± 0.61 times faster than './mandelbrot_omp spiral 128'
+    4.95 ± 0.69 times faster than './mandelbrot_omp elephant 128'
+    5.03 ± 0.72 times faster than './mandelbrot_pth elephant 128'
+    5.09 ± 0.81 times faster than './mandelbrot_pth full 512'
+    5.19 ± 0.77 times faster than './mandelbrot_omp full 512'
+    5.49 ± 0.77 times faster than './mandelbrot_pth seahorse 128'
+    5.74 ± 0.81 times faster than './mandelbrot_omp seahorse 128'
+    5.90 ± 0.83 times faster than './mandelbrot_omp full 256'
+    5.96 ± 0.84 times faster than './mandelbrot_pth full 256'
+    6.07 ± 0.89 times faster than './mandelbrot_pth spiral 128'
+    6.21 ± 0.88 times faster than './mandelbrot_pth seahorse 256'
+    6.25 ± 0.88 times faster than './mandelbrot_omp spiral 128'
+    6.69 ± 0.97 times faster than './mandelbrot_pth elephant 256'
+    6.71 ± 0.98 times faster than './mandelbrot_omp full 512'
+    6.72 ± 0.95 times faster than './mandelbrot_pth full 512'
+    6.86 ± 1.01 times faster than './mandelbrot_pth elephant 256'
+    6.89 ± 1.05 times faster than './mandelbrot_pth seahorse 256'
+    6.98 ± 1.04 times faster than './mandelbrot_omp elephant 256'
+    7.07 ± 1.12 times faster than './mandelbrot_pth seahorse 256'
+    7.09 ± 1.03 times faster than './mandelbrot_omp seahorse 256'
+    7.19 ± 1.04 times faster than './mandelbrot_omp seahorse 256'
+    7.46 ± 1.67 times faster than './mandelbrot_pth elephant 256'
+    7.49 ± 1.26 times faster than './mandelbrot_omp elephant 256'
+    7.54 ± 1.14 times faster than './mandelbrot_omp elephant 256'
+    7.64 ± 1.16 times faster than './mandelbrot_omp spiral 256'
+    7.65 ± 1.18 times faster than './mandelbrot_pth spiral 256'
+    7.65 ± 1.16 times faster than './mandelbrot_pth spiral 256'
+    7.70 ± 1.35 times faster than './mandelbrot_omp seahorse 256'
+    7.92 ± 1.11 times faster than './mandelbrot_pth elephant 128'
+    8.12 ± 1.15 times faster than './mandelbrot_omp elephant 128'
+    8.20 ± 1.48 times faster than './mandelbrot_omp spiral 256'
+    8.23 ± 1.35 times faster than './mandelbrot_omp spiral 256'
+    8.69 ± 1.26 times faster than './mandelbrot_omp seahorse 128'
+    8.75 ± 1.24 times faster than './mandelbrot_pth seahorse 128'
+    8.93 ± 1.26 times faster than './mandelbrot_omp full 512'
+    8.94 ± 1.32 times faster than './mandelbrot_pth full 512'
+    8.97 ± 1.86 times faster than './mandelbrot_pth spiral 256'
+    9.22 ± 1.30 times faster than './mandelbrot_omp full 512'
+    9.45 ± 1.36 times faster than './mandelbrot_pth full 512'
+    9.54 ± 1.34 times faster than './mandelbrot_pth full 512'
+    9.75 ± 1.39 times faster than './mandelbrot_pth spiral 128'
+   10.69 ± 2.63 times faster than './mandelbrot_omp spiral 128'
+   10.84 ± 1.53 times faster than './mandelbrot_pth seahorse 256'
+   11.01 ± 2.87 times faster than './mandelbrot_omp full 512'
+   11.09 ± 1.56 times faster than './mandelbrot_omp elephant 256'
+   11.20 ± 1.59 times faster than './mandelbrot_omp seahorse 256'
+   11.34 ± 2.47 times faster than './mandelbrot_pth elephant 256'
+   12.31 ± 1.74 times faster than './mandelbrot_omp spiral 256'
+   12.38 ± 1.76 times faster than './mandelbrot_pth spiral 256'
+   14.89 ± 2.25 times faster than './mandelbrot_omp full 1024'
+   15.68 ± 2.20 times faster than './mandelbrot_pth elephant 256'
+   15.79 ± 2.21 times faster than './mandelbrot_omp elephant 256'
+   16.34 ± 2.53 times faster than './mandelbrot_pth full 1024'
+   18.53 ± 2.60 times faster than './mandelbrot_pth seahorse 256'
+   18.74 ± 2.63 times faster than './mandelbrot_omp seahorse 256'
+   19.15 ± 2.69 times faster than './mandelbrot_omp full 512'
+   19.64 ± 2.75 times faster than './mandelbrot_pth full 512'
+   19.73 ± 2.77 times faster than './mandelbrot_pth spiral 256'
+   19.87 ± 2.79 times faster than './mandelbrot_omp spiral 256'
+   20.78 ± 2.95 times faster than './mandelbrot_omp full 1024'
+   22.00 ± 3.12 times faster than './mandelbrot_pth full 1024'
+   22.23 ± 3.14 times faster than './mandelbrot_pth seahorse 512'
+   22.70 ± 3.23 times faster than './mandelbrot_pth elephant 512'
+   23.14 ± 3.38 times faster than './mandelbrot_pth seahorse 512'
+   23.63 ± 3.58 times faster than './mandelbrot_omp elephant 512'
+   23.70 ± 3.53 times faster than './mandelbrot_pth elephant 512'
+   24.36 ± 3.54 times faster than './mandelbrot_omp seahorse 512'
+   24.42 ± 3.48 times faster than './mandelbrot_omp seahorse 512'
+   24.87 ± 3.74 times faster than './mandelbrot_pth seahorse 512'
+   25.03 ± 3.73 times faster than './mandelbrot_omp elephant 512'
+   25.66 ± 3.88 times faster than './mandelbrot_omp seahorse 512'
+   25.93 ± 5.98 times faster than './mandelbrot_omp elephant 512'
+   26.24 ± 4.02 times faster than './mandelbrot_pth elephant 512'
+   26.49 ± 3.76 times faster than './mandelbrot_pth spiral 512'
+   27.45 ± 4.39 times faster than './mandelbrot_pth spiral 512'
+   27.68 ± 4.28 times faster than './mandelbrot_omp spiral 512'
+   28.30 ± 3.97 times faster than './mandelbrot_omp elephant 256'
+   28.33 ± 5.59 times faster than './mandelbrot_omp spiral 512'
+   28.71 ± 4.47 times faster than './mandelbrot_pth spiral 512'
+   28.74 ± 4.59 times faster than './mandelbrot_omp spiral 512'
+   29.17 ± 4.09 times faster than './mandelbrot_pth elephant 256'
+   29.95 ± 4.24 times faster than './mandelbrot_omp full 1024'
+   30.54 ± 4.29 times faster than './mandelbrot_pth full 1024'
+   30.97 ± 4.35 times faster than './mandelbrot_omp full 1024'
+   31.13 ± 4.38 times faster than './mandelbrot_pth full 1024'
+   31.89 ± 4.50 times faster than './mandelbrot_omp seahorse 256'
+   32.10 ± 4.52 times faster than './mandelbrot_pth full 1024'
+   32.67 ± 4.60 times faster than './mandelbrot_pth seahorse 256'
+   32.71 ± 4.61 times faster than './mandelbrot_pth spiral 256'
+   32.73 ± 4.60 times faster than './mandelbrot_omp spiral 256'
+   33.62 ± 4.73 times faster than './mandelbrot_omp full 1024'
+   38.84 ± 5.48 times faster than './mandelbrot_pth elephant 512'
+   39.09 ± 5.56 times faster than './mandelbrot_omp elephant 512'
+   41.56 ± 5.87 times faster than './mandelbrot_pth seahorse 512'
+   41.56 ± 5.84 times faster than './mandelbrot_omp seahorse 512'
+   45.89 ± 6.45 times faster than './mandelbrot_pth spiral 512'
+   46.06 ± 6.50 times faster than './mandelbrot_omp spiral 512'
+   54.25 ± 7.79 times faster than './mandelbrot_pth full 2048'
+   55.50 ± 11.88 times faster than './mandelbrot_omp full 2048'
+   56.96 ± 7.98 times faster than './mandelbrot_omp elephant 512'
+   58.16 ± 8.19 times faster than './mandelbrot_pth elephant 512'
+   66.37 ± 9.66 times faster than './mandelbrot_omp full 1024'
+   67.68 ± 9.48 times faster than './mandelbrot_pth seahorse 512'
+   67.83 ± 9.50 times faster than './mandelbrot_omp seahorse 512'
+   71.60 ± 10.12 times faster than './mandelbrot_pth full 2048'
+   71.68 ± 10.13 times faster than './mandelbrot_omp full 2048'
+   75.15 ± 10.53 times faster than './mandelbrot_omp spiral 512'
+   75.41 ± 11.31 times faster than './mandelbrot_pth full 1024'
+   75.86 ± 10.70 times faster than './mandelbrot_pth spiral 512'
+   80.69 ± 11.43 times faster than './mandelbrot_omp elephant 1024'
+   81.38 ± 11.56 times faster than './mandelbrot_pth elephant 1024'
+   81.59 ± 11.62 times faster than './mandelbrot_pth seahorse 1024'
+   84.91 ± 12.18 times faster than './mandelbrot_omp seahorse 1024'
+   88.37 ± 12.88 times faster than './mandelbrot_omp elephant 1024'
+   89.25 ± 12.94 times faster than './mandelbrot_pth seahorse 1024'
+   89.30 ± 14.68 times faster than './mandelbrot_pth elephant 1024'
+   91.11 ± 12.99 times faster than './mandelbrot_omp seahorse 1024'
+   94.55 ± 13.27 times faster than './mandelbrot_pth spiral 1024'
+   95.01 ± 13.47 times faster than './mandelbrot_omp spiral 1024'
+   96.12 ± 14.19 times faster than './mandelbrot_omp elephant 1024'
+   97.32 ± 13.74 times faster than './mandelbrot_omp full 2048'
+   98.44 ± 15.11 times faster than './mandelbrot_pth seahorse 1024'
+   98.75 ± 14.24 times faster than './mandelbrot_pth elephant 1024'
+   99.41 ± 13.94 times faster than './mandelbrot_pth elephant 512'
+   99.42 ± 14.29 times faster than './mandelbrot_pth spiral 1024'
+   99.72 ± 14.10 times faster than './mandelbrot_pth full 2048'
+  100.34 ± 14.16 times faster than './mandelbrot_omp elephant 512'
+  101.11 ± 14.32 times faster than './mandelbrot_omp spiral 1024'
+  101.74 ± 16.72 times faster than './mandelbrot_omp seahorse 1024'
+  105.32 ± 15.25 times faster than './mandelbrot_omp spiral 1024'
+  106.91 ± 15.14 times faster than './mandelbrot_omp seahorse 512'
+  113.38 ± 16.79 times faster than './mandelbrot_pth seahorse 512'
+  114.36 ± 16.11 times faster than './mandelbrot_omp full 2048'
+  115.83 ± 16.34 times faster than './mandelbrot_pth full 2048'
+  118.81 ± 16.64 times faster than './mandelbrot_omp full 2048'
+  118.85 ± 16.66 times faster than './mandelbrot_pth full 2048'
+  118.99 ± 20.37 times faster than './mandelbrot_pth spiral 1024'
+  120.10 ± 16.89 times faster than './mandelbrot_pth spiral 512'
+  120.10 ± 16.89 times faster than './mandelbrot_omp spiral 512'
+  149.00 ± 20.94 times faster than './mandelbrot_omp elephant 1024'
+  154.92 ± 21.74 times faster than './mandelbrot_pth elephant 1024'
+  159.21 ± 22.55 times faster than './mandelbrot_pth seahorse 1024'
+  165.65 ± 23.29 times faster than './mandelbrot_omp seahorse 1024'
+  176.73 ± 24.81 times faster than './mandelbrot_pth spiral 1024'
+  177.08 ± 24.87 times faster than './mandelbrot_omp spiral 1024'
+  209.24 ± 30.01 times faster than './mandelbrot_omp full 4096'
+  212.19 ± 30.38 times faster than './mandelbrot_pth full 4096'
+  221.99 ± 31.20 times faster than './mandelbrot_pth elephant 1024'
+  228.32 ± 32.19 times faster than './mandelbrot_omp elephant 1024'
+  231.65 ± 32.49 times faster than './mandelbrot_omp full 2048'
+  245.80 ± 41.14 times faster than './mandelbrot_pth full 2048'
+  255.75 ± 36.01 times faster than './mandelbrot_pth seahorse 1024'
+  258.63 ± 36.74 times faster than './mandelbrot_omp seahorse 1024'
+  279.68 ± 39.77 times faster than './mandelbrot_omp full 4096'
+  281.87 ± 39.74 times faster than './mandelbrot_pth full 4096'
+  282.49 ± 39.81 times faster than './mandelbrot_pth spiral 1024'
+  286.82 ± 41.12 times faster than './mandelbrot_omp spiral 1024'
+  307.96 ± 43.64 times faster than './mandelbrot_omp elephant 2048'
+  310.09 ± 44.92 times faster than './mandelbrot_omp elephant 2048'
+  311.59 ± 43.94 times faster than './mandelbrot_pth elephant 2048'
+  317.38 ± 46.65 times faster than './mandelbrot_pth elephant 2048'
+  320.29 ± 45.50 times faster than './mandelbrot_omp seahorse 2048'
+  326.80 ± 47.42 times faster than './mandelbrot_omp seahorse 2048'
+  331.29 ± 46.54 times faster than './mandelbrot_pth seahorse 2048'
+  332.08 ± 48.00 times faster than './mandelbrot_pth seahorse 2048'
+  337.09 ± 47.98 times faster than './mandelbrot_omp elephant 2048'
+  339.11 ± 48.26 times faster than './mandelbrot_pth elephant 2048'
+  348.20 ± 49.80 times faster than './mandelbrot_omp seahorse 2048'
+  364.57 ± 51.28 times faster than './mandelbrot_omp spiral 2048'
+  365.78 ± 52.45 times faster than './mandelbrot_pth seahorse 2048'
+  369.48 ± 54.31 times faster than './mandelbrot_omp spiral 2048'
+  373.10 ± 52.83 times faster than './mandelbrot_pth spiral 2048'
+  376.68 ± 54.78 times faster than './mandelbrot_pth spiral 2048'
+  386.80 ± 54.76 times faster than './mandelbrot_omp spiral 2048'
+  388.51 ± 55.98 times faster than './mandelbrot_pth spiral 2048'
+  391.94 ± 54.92 times faster than './mandelbrot_omp elephant 1024'
+  392.75 ± 55.37 times faster than './mandelbrot_pth full 4096'
+  393.00 ± 55.15 times faster than './mandelbrot_pth elephant 1024'
+  399.78 ± 56.65 times faster than './mandelbrot_omp full 4096'
+  415.47 ± 58.21 times faster than './mandelbrot_omp seahorse 1024'
+  421.45 ± 60.25 times faster than './mandelbrot_pth seahorse 1024'
+  470.01 ± 66.48 times faster than './mandelbrot_omp full 4096'
+  472.39 ± 66.20 times faster than './mandelbrot_pth spiral 1024'
+  472.53 ± 66.21 times faster than './mandelbrot_omp spiral 1024'
+  473.09 ± 66.94 times faster than './mandelbrot_pth full 4096'
+  477.64 ± 67.22 times faster than './mandelbrot_pth full 4096'
+  483.79 ± 67.93 times faster than './mandelbrot_omp full 4096'
+  523.75 ± 73.62 times faster than './mandelbrot_omp elephant 2048'
+  524.84 ± 73.86 times faster than './mandelbrot_pth elephant 2048'
+  554.30 ± 79.96 times faster than './mandelbrot_pth seahorse 2048'
+  563.06 ± 79.11 times faster than './mandelbrot_omp seahorse 2048'
+  607.70 ± 85.37 times faster than './mandelbrot_omp spiral 2048'
+  614.08 ± 86.56 times faster than './mandelbrot_pth spiral 2048'
+  798.13 ± 111.80 times faster than './mandelbrot_pth elephant 2048'
+  802.52 ± 112.50 times faster than './mandelbrot_omp elephant 2048'
+  823.03 ± 115.93 times faster than './mandelbrot_omp full 8192'
+  835.84 ± 118.70 times faster than './mandelbrot_pth full 8192'
+  916.29 ± 128.34 times faster than './mandelbrot_omp full 4096'
+  926.33 ± 132.12 times faster than './mandelbrot_pth full 4096'
+  948.21 ± 132.82 times faster than './mandelbrot_pth seahorse 2048'
+  949.04 ± 132.94 times faster than './mandelbrot_omp seahorse 2048'
+ 1022.28 ± 143.25 times faster than './mandelbrot_pth spiral 2048'
+ 1024.21 ± 143.47 times faster than './mandelbrot_omp spiral 2048'
+ 1099.59 ± 154.52 times faster than './mandelbrot_omp full 8192'
+ 1106.93 ± 155.57 times faster than './mandelbrot_pth full 8192'
+ 1202.25 ± 169.31 times faster than './mandelbrot_omp elephant 4096'
+ 1219.83 ± 171.99 times faster than './mandelbrot_pth elephant 4096'
+ 1220.69 ± 172.41 times faster than './mandelbrot_omp elephant 4096'
+ 1238.90 ± 175.30 times faster than './mandelbrot_pth elephant 4096'
+ 1266.01 ± 178.36 times faster than './mandelbrot_omp seahorse 4096'
+ 1282.14 ± 182.40 times faster than './mandelbrot_omp seahorse 4096'
+ 1287.53 ± 181.06 times faster than './mandelbrot_pth seahorse 4096'
+ 1305.37 ± 185.41 times faster than './mandelbrot_pth seahorse 4096'
+ 1327.30 ± 186.41 times faster than './mandelbrot_omp elephant 4096'
+ 1349.27 ± 190.63 times faster than './mandelbrot_pth elephant 4096'
+ 1374.71 ± 194.55 times faster than './mandelbrot_omp seahorse 4096'
+ 1427.30 ± 200.59 times faster than './mandelbrot_omp spiral 4096'
+ 1431.24 ± 202.67 times faster than './mandelbrot_pth seahorse 4096'
+ 1438.02 ± 203.17 times faster than './mandelbrot_omp spiral 4096'
+ 1451.26 ± 204.35 times faster than './mandelbrot_pth spiral 4096'
+ 1455.84 ± 205.28 times faster than './mandelbrot_pth spiral 4096'
+ 1514.30 ± 213.87 times faster than './mandelbrot_omp spiral 4096'
+ 1531.56 ± 215.15 times faster than './mandelbrot_pth spiral 4096'
+ 1551.56 ± 217.36 times faster than './mandelbrot_omp elephant 2048'
+ 1554.28 ± 217.78 times faster than './mandelbrot_pth elephant 2048'
+ 1560.37 ± 219.32 times faster than './mandelbrot_omp full 8192'
+ 1562.62 ± 220.60 times faster than './mandelbrot_pth full 8192'
+ 1647.02 ± 230.67 times faster than './mandelbrot_omp seahorse 2048'
+ 1647.42 ± 230.91 times faster than './mandelbrot_pth seahorse 2048'
+ 1816.49 ± 254.72 times faster than './mandelbrot_pth full 8192'
+ 1843.61 ± 258.63 times faster than './mandelbrot_omp full 8192'
+ 1871.58 ± 262.13 times faster than './mandelbrot_omp spiral 2048'
+ 1872.18 ± 262.21 times faster than './mandelbrot_pth spiral 2048'
+ 1889.42 ± 264.82 times faster than './mandelbrot_pth full 8192'
+ 1901.26 ± 266.42 times faster than './mandelbrot_omp full 8192'
+ 2163.39 ± 308.53 times faster than './mandelbrot_pth elephant 4096'
+ 2190.88 ± 323.12 times faster than './mandelbrot_omp elephant 4096'
+ 2276.66 ± 319.61 times faster than './mandelbrot_pth seahorse 4096'
+ 2304.93 ± 323.38 times faster than './mandelbrot_omp seahorse 4096'
+ 2476.76 ± 347.28 times faster than './mandelbrot_pth spiral 4096'
+ 2483.31 ± 348.42 times faster than './mandelbrot_omp spiral 4096'
+ 3201.52 ± 448.99 times faster than './mandelbrot_pth elephant 4096'
+ 3244.60 ± 455.65 times faster than './mandelbrot_omp elephant 4096'
+ 3649.93 ± 511.16 times faster than './mandelbrot_omp full 8192'
+ 3660.95 ± 513.40 times faster than './mandelbrot_pth full 8192'
+ 3794.36 ± 531.51 times faster than './mandelbrot_omp seahorse 4096'
+ 3807.57 ± 533.98 times faster than './mandelbrot_pth seahorse 4096'
+ 4124.62 ± 578.33 times faster than './mandelbrot_omp spiral 4096'
+ 4140.61 ± 580.48 times faster than './mandelbrot_pth spiral 4096'
+ 4748.84 ± 665.64 times faster than './mandelbrot_omp elephant 8192'
+ 4825.53 ± 678.70 times faster than './mandelbrot_omp elephant 8192'
+ 4855.03 ± 681.49 times faster than './mandelbrot_pth elephant 8192'
+ 4887.47 ± 685.43 times faster than './mandelbrot_pth elephant 8192'
+ 4990.27 ± 699.74 times faster than './mandelbrot_omp seahorse 8192'
+ 5017.89 ± 703.63 times faster than './mandelbrot_omp seahorse 8192'
+ 5061.46 ± 709.36 times faster than './mandelbrot_pth seahorse 8192'
+ 5115.81 ± 719.11 times faster than './mandelbrot_pth seahorse 8192'
+ 5252.67 ± 738.32 times faster than './mandelbrot_omp elephant 8192'
+ 5339.33 ± 750.86 times faster than './mandelbrot_pth elephant 8192'
+ 5488.68 ± 769.34 times faster than './mandelbrot_omp seahorse 8192'
+ 5613.52 ± 788.98 times faster than './mandelbrot_pth seahorse 8192'
+ 5655.94 ± 792.88 times faster than './mandelbrot_omp spiral 8192'
+ 5658.53 ± 793.82 times faster than './mandelbrot_omp spiral 8192'
+ 5755.49 ± 807.46 times faster than './mandelbrot_pth spiral 8192'
+ 5766.75 ± 808.35 times faster than './mandelbrot_pth spiral 8192'
+ 5993.13 ± 844.27 times faster than './mandelbrot_omp spiral 8192'
+ 6159.15 ± 893.63 times faster than './mandelbrot_pth spiral 8192'
+ 6193.87 ± 867.46 times faster than './mandelbrot_pth elephant 4096'
+ 6204.38 ± 869.38 times faster than './mandelbrot_omp elephant 4096'
+ 6575.00 ± 920.93 times faster than './mandelbrot_pth seahorse 4096'
+ 6577.04 ± 921.13 times faster than './mandelbrot_omp seahorse 4096'
+ 7476.72 ± 1047.03 times faster than './mandelbrot_pth spiral 4096'
+ 7482.09 ± 1047.87 times faster than './mandelbrot_omp spiral 4096'
+ 8411.29 ± 1178.92 times faster than './mandelbrot_omp elephant 8192'
+ 8414.32 ± 1179.34 times faster than './mandelbrot_pth elephant 8192'
+ 9018.59 ± 1263.21 times faster than './mandelbrot_pth seahorse 8192'
+ 9039.93 ± 1266.20 times faster than './mandelbrot_omp seahorse 8192'
+ 9810.33 ± 1374.37 times faster than './mandelbrot_pth spiral 8192'
+ 9928.85 ± 1395.90 times faster than './mandelbrot_omp spiral 8192'
+12850.85 ± 1803.34 times faster than './mandelbrot_pth elephant 8192'
+12966.59 ± 1816.13 times faster than './mandelbrot_omp elephant 8192'
+15129.09 ± 2118.72 times faster than './mandelbrot_omp seahorse 8192'
+15193.23 ± 2129.17 times faster than './mandelbrot_pth seahorse 8192'
+16355.15 ± 2291.48 times faster than './mandelbrot_omp spiral 8192'
+16398.41 ± 2298.32 times faster than './mandelbrot_pth spiral 8192'
+24735.73 ± 3463.95 times faster than './mandelbrot_omp elephant 8192'
+24799.38 ± 3475.16 times faster than './mandelbrot_pth elephant 8192'
+26254.79 ± 3676.64 times faster than './mandelbrot_pth seahorse 8192'
+26293.13 ± 3682.64 times faster than './mandelbrot_omp seahorse 8192'
+29875.79 ± 4183.74 times faster than './mandelbrot_pth spiral 8192'
+29902.78 ± 4187.52 times faster than './mandelbrot_omp spiral 8192'
