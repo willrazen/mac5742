@@ -447,7 +447,7 @@ com comentários `START CHANGES` e `END CHANGES` em cada arquivo .c
 | Execuções                 | 10                                      | idem       |
 
 *Resultados:*
-- Dados estão em [dados.csv](ep1/out/20220718004929/dados.csv)
+- Dados estão em [data.csv](ep1/out/20220718004929/data.csv)
 - Análises constam após gráficos abaixo
     - Faixa ao redor de cada linha é o intervalo de confiança para nível de 
 confiança de 95%
