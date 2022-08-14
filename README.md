@@ -15,7 +15,7 @@ Para melhor visualização e acessar todos os arquivos, visite https://github.co
 - [Mini EP5](#mini-ep5)
 - [Mini EP6](#mini-ep6)
 - [Mini EP7](#mini-ep7) (WIP)
-- [EP1](#ep1) (WIP)
+- [EP1](#ep1)
 - [Seminário](#seminário)
 
 
